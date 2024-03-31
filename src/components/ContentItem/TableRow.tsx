@@ -1,0 +1,51 @@
+import { useState } from "react";
+
+type TableRowProps = {
+  row: string[] | null;
+};
+const TableRow = ({ row }: TableRowProps) => {
+  const [copied, setCopied] = useState(false);
+
+  const hasClassName = (row?.at(0) as string)?.length > 0;
+  const onClickHandler = () => {
+    if (!hasClassName) return;
+    if (!copied) navigator.clipboard.writeText(row?.at(0) as string);
+    setCopied(true);
+    setTimeout(() => setCopied(false), 1000);
+  };
+  return (
+    <tr
+      className={`group cursor-pointer ${hasClassName && "hover:bg-gray-200"}`}
+      onClick={onClickHandler}
+    >
+      <td className="whitespace-nowrap border-b border-gray-300 p-2 font-mono text-xs text-purple-700 ">
+        {row?.at(0) ? `.${row?.at(0)}` : ""}
+      </td>
+      <td className="border-b border-gray-300 p-2 font-mono text-xs text-blue-700">
+        {row?.at(1)}
+      </td>
+      <td className="border-b border-gray-300 p-2 font-mono text-xs text-gray-500">
+        {row?.at(2)}
+      </td>
+      <td className="border-b border-gray-300 p-2 font-mono text-xs">
+        {row?.at(3) ? (
+          <div
+            className={`h-4 w-4 border`}
+            style={{ backgroundColor: `${row?.at(3)}` }}
+          ></div>
+        ) : null}
+      </td>
+      <td className="relative cursor-pointer border-b border-gray-300 p-2 font-mono text-xs text-blue-600 opacity-0 group-hover:opacity-100">
+        {hasClassName ? (
+          <span
+            className={`absolute right-0 top-1/3 -translate-y-1/2 ${copied && "text-red-600"}`}
+          >
+            {copied ? `copied` : `copy`}
+          </span>
+        ) : null}
+      </td>
+    </tr>
+  );
+};
+
+export default TableRow;

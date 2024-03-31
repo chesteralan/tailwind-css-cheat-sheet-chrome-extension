@@ -9243,424 +9243,508 @@
         "description": "Sets color for borders.",
         "table": [
           [
-            "transparent",
             "border-transparent",
-            "border-color: transparent;"
+            "transparent",
+            "border-color: transparent;",
+            "transparent"
           ],
           [
-            "current color",
             "border-current",
-            "border-color: currentColor;"
+            "current color",
+            "border-color: currentColor;",
+            "currentColor"
           ],
           [
-            "rgb(0, 0, 0)",
             "border-black",
-            "border-color: #000000;"
+            "rgb(0, 0, 0)",
+            "border-color: #000000;",
+            "#000000"
           ],
           [
-            "rgb(255, 255, 255)",
             "border-white",
-            "border-color: #ffffff;"
+            "rgb(255, 255, 255)",
+            "border-color: #ffffff;",
+            "#ffffff"
           ],
           [
-            "rgb(249, 250, 251)",
             "border-gray-50",
-            "border-color: #F9FAFB;"
+            "rgb(249, 250, 251)",
+            "border-color: #F9FAFB;",
+            "#F9FAFB"
           ],
           [
-            "rgb(243, 244, 246)",
             "border-gray-100",
-            "border-color: #F3F4F6;"
+            "rgb(243, 244, 246)",
+            "border-color: #F3F4F6;",
+            "#F3F4F6"
           ],
           [
-            "rgb(229, 231, 235)",
             "border-gray-200",
-            "border-color: #E5E7EB;"
+            "rgb(229, 231, 235)",
+            "border-color: #E5E7EB;",
+            "#E5E7EB"
           ],
           [
-            "rgb(209, 213, 219)",
             "border-gray-300",
-            "border-color: #D1D5DB;"
+            "rgb(209, 213, 219)",
+            "border-color: #D1D5DB;",
+            "#D1D5DB"
           ],
           [
-            "rgb(156, 163, 175)",
             "border-gray-400",
-            "border-color: #9CA3AF;"
+            "rgb(156, 163, 175)",
+            "border-color: #9CA3AF;",
+            "#9CA3AF"
           ],
           [
-            "rgb(107, 114, 128)",
             "border-gray-500",
-            "border-color: #6B7280;"
+            "rgb(107, 114, 128)",
+            "border-color: #6B7280;",
+            "#6B7280"
           ],
           [
-            "rgb(75, 85, 99)",
             "border-gray-600",
-            "border-color: #4B5563;"
+            "rgb(75, 85, 99)",
+            "border-color: #4B5563;",
+            "#4B5563"
           ],
           [
-            "rgb(55, 65, 81)",
             "border-gray-700",
-            "border-color: #374151;"
+            "rgb(55, 65, 81)",
+            "border-color: #374151;",
+            "#374151"
           ],
           [
-            "rgb(31, 41, 55)",
             "border-gray-800",
-            "border-color: #1F2937;"
+            "rgb(31, 41, 55)",
+            "border-color: #1F2937;",
+            "#1F2937"
           ],
           [
-            "rgb(17, 24, 39)",
             "border-gray-900",
-            "border-color: #111827;"
+            "rgb(17, 24, 39)",
+            "border-color: #111827;",
+            "#111827"
           ],
           [
-            "rgb(254, 242, 242)",
             "border-red-50",
-            "border-color: #FEF2F2;"
+            "rgb(254, 242, 242)",
+            "border-color: #FEF2F2;",
+            "#FEF2F2"
           ],
           [
-            "rgb(254, 226, 226)",
             "border-red-100",
-            "border-color: #FEE2E2;"
+            "rgb(254, 226, 226)",
+            "border-color: #FEE2E2;",
+            "#FEE2E2"
           ],
           [
-            "rgb(254, 202, 202)",
             "border-red-200",
-            "border-color: #FECACA;"
+            "rgb(254, 202, 202)",
+            "border-color: #FECACA;",
+            "#FECACA"
           ],
           [
-            "rgb(252, 165, 165)",
             "border-red-300",
-            "border-color: #FCA5A5;"
+            "rgb(252, 165, 165)",
+            "border-color: #FCA5A5;",
+            "#FCA5A5"
           ],
           [
-            "rgb(248, 113, 113)",
             "border-red-400",
-            "border-color: #F87171;"
+            "rgb(248, 113, 113)",
+            "border-color: #F87171;",
+            "#F87171"
           ],
           [
-            "rgb(239, 68, 68)",
             "border-red-500",
-            "border-color: #EF4444;"
+            "rgb(239, 68, 68)",
+            "border-color: #EF4444;",
+            "#EF4444"
           ],
           [
-            "rgb(220, 38, 38)",
             "border-red-600",
-            "border-color: #DC2626;"
+            "rgb(220, 38, 38)",
+            "border-color: #DC2626;",
+            "#DC2626"
           ],
           [
-            "rgb(185, 28, 28)",
             "border-red-700",
-            "border-color: #B91C1C;"
+            "rgb(185, 28, 28)",
+            "border-color: #B91C1C;",
+            "#B91C1C"
           ],
           [
-            "rgb(153, 27, 27)",
             "border-red-800",
-            "border-color: #991B1B;"
+            "rgb(153, 27, 27)",
+            "border-color: #991B1B;",
+            "#991B1B"
           ],
           [
-            "rgb(127, 29, 29)",
             "border-red-900",
-            "border-color: #7F1D1D;"
+            "rgb(127, 29, 29)",
+            "border-color: #7F1D1D;",
+            "#7F1D1D"
           ],
           [
-            "rgb(255, 251, 235)",
             "border-yellow-50",
-            "border-color: #FFFBEB;"
+            "rgb(255, 251, 235)",
+            "border-color: #FFFBEB;",
+            "#FFFBEB"
           ],
           [
-            "rgb(254, 243, 199)",
             "border-yellow-100",
-            "border-color: #FEF3C7;"
+            "rgb(254, 243, 199)",
+            "border-color: #FEF3C7;",
+            "#FEF3C7"
           ],
           [
-            "rgb(253, 230, 138)",
             "border-yellow-200",
-            "border-color: #FDE68A;"
+            "rgb(253, 230, 138)",
+            "border-color: #FDE68A;",
+            "#FDE68A"
           ],
           [
-            "rgb(252, 211, 77)",
             "border-yellow-300",
-            "border-color: #FCD34D;"
+            "rgb(252, 211, 77)",
+            "border-color: #FCD34D;",
+            "#FCD34D"
           ],
           [
-            "rgb(251, 191, 36)",
             "border-yellow-400",
-            "border-color: #FBBF24;"
+            "rgb(251, 191, 36)",
+            "border-color: #FBBF24;",
+            "#FBBF24"
           ],
           [
-            "rgb(245, 158, 11)",
             "border-yellow-500",
-            "border-color: #F59E0B;"
+            "rgb(245, 158, 11)",
+            "border-color: #F59E0B;",
+            "#F59E0B"
           ],
           [
-            "rgb(217, 119, 6)",
             "border-yellow-600",
-            "border-color: #D97706;"
+            "rgb(217, 119, 6)",
+            "border-color: #D97706;",
+            "#D97706"
           ],
           [
-            "rgb(180, 83, 9)",
             "border-yellow-700",
-            "border-color: #B45309;"
+            "rgb(180, 83, 9)",
+            "border-color: #B45309;",
+            "#B45309"
           ],
           [
-            "rgb(146, 64, 14)",
             "border-yellow-800",
-            "border-color: #92400E;"
+            "rgb(146, 64, 14)",
+            "border-color: #92400E;",
+            "#92400E"
           ],
           [
-            "rgb(120, 53, 15)",
             "border-yellow-900",
-            "border-color: #78350F;"
+            "rgb(120, 53, 15)",
+            "border-color: #78350F;",
+            "#78350F"
           ],
           [
-            "rgb(236, 253, 245)",
             "border-green-50",
-            "border-color: #ECFDF5;"
+            "rgb(236, 253, 245)",
+            "border-color: #ECFDF5;",
+            "#ECFDF5"
           ],
           [
-            "rgb(209, 250, 229)",
             "border-green-100",
-            "border-color: #D1FAE5;"
+            "rgb(209, 250, 229)",
+            "border-color: #D1FAE5;",
+            "#D1FAE5"
           ],
           [
-            "rgb(167, 243, 208)",
             "border-green-200",
-            "border-color: #A7F3D0;"
+            "rgb(167, 243, 208)",
+            "border-color: #A7F3D0;",
+            "#A7F3D0"
           ],
           [
-            "rgb(110, 231, 183)",
             "border-green-300",
-            "border-color: #6EE7B7;"
+            "rgb(110, 231, 183)",
+            "border-color: #6EE7B7;",
+            "#6EE7B7"
           ],
           [
-            "rgb(52, 211, 153)",
             "border-green-400",
-            "border-color: #34D399;"
+            "rgb(52, 211, 153)",
+            "border-color: #34D399;",
+            "#34D399"
           ],
           [
-            "rgb(16, 185, 129)",
             "border-green-500",
-            "border-color: #10B981;"
+            "rgb(16, 185, 129)",
+            "border-color: #10B981;",
+            "#10B981"
           ],
           [
-            "rgb(5, 150, 105)",
             "border-green-600",
-            "border-color: #059669;"
+            "rgb(5, 150, 105)",
+            "border-color: #059669;",
+            "#059669"
           ],
           [
-            "rgb(4, 120, 87)",
             "border-green-700",
-            "border-color: #047857;"
+            "rgb(4, 120, 87)",
+            "border-color: #047857;",
+            "#047857"
           ],
           [
-            "rgb(6, 95, 70)",
             "border-green-800",
-            "border-color: #065F46;"
+            "rgb(6, 95, 70)",
+            "border-color: #065F46;",
+            "#065F46"
           ],
           [
-            "rgb(6, 78, 59)",
             "border-green-900",
-            "border-color: #064E3B;"
+            "rgb(6, 78, 59)",
+            "border-color: #064E3B;",
+            "#064E3B"
           ],
           [
-            "rgb(239, 246, 255)",
             "border-blue-50",
-            "border-color: #EFF6FF;"
+            "rgb(239, 246, 255)",
+            "border-color: #EFF6FF;",
+            "#EFF6FF"
           ],
           [
-            "rgb(219, 234, 254)",
             "border-blue-100",
-            "border-color: #DBEAFE;"
+            "rgb(219, 234, 254)",
+            "border-color: #DBEAFE;",
+            "#DBEAFE"
           ],
           [
-            "rgb(191, 219, 254)",
             "border-blue-200",
-            "border-color: #BFDBFE;"
+            "rgb(191, 219, 254)",
+            "border-color: #BFDBFE;",
+            "#BFDBFE"
           ],
           [
-            "rgb(147, 197, 253)",
             "border-blue-300",
-            "border-color: #93C5FD;"
+            "rgb(147, 197, 253)",
+            "border-color: #93C5FD;",
+            "#93C5FD"
           ],
           [
-            "rgb(96, 165, 250)",
             "border-blue-400",
-            "border-color: #60A5FA;"
+            "rgb(96, 165, 250)",
+            "border-color: #60A5FA;",
+            "#60A5FA"
           ],
           [
-            "rgb(59, 130, 246)",
             "border-blue-500",
-            "border-color: #3B82F6;"
+            "rgb(59, 130, 246)",
+            "border-color: #3B82F6;",
+            "#3B82F6"
           ],
           [
-            "rgb(37, 99, 235)",
             "border-blue-600",
-            "border-color: #2563EB;"
+            "rgb(37, 99, 235)",
+            "border-color: #2563EB;",
+            "#2563EB"
           ],
           [
-            "rgb(29, 78, 216)",
             "border-blue-700",
-            "border-color: #1D4ED8;"
+            "rgb(29, 78, 216)",
+            "border-color: #1D4ED8;",
+            "#1D4ED8"
           ],
           [
-            "rgb(30, 64, 175)",
             "border-blue-800",
-            "border-color: #1E40AF;"
+            "rgb(30, 64, 175)",
+            "border-color: #1E40AF;",
+            "#1E40AF"
           ],
           [
-            "rgb(30, 58, 138)",
             "border-blue-900",
-            "border-color: #1E3A8A;"
+            "rgb(30, 58, 138)",
+            "border-color: #1E3A8A;",
+            "#1E3A8A"
           ],
           [
-            "rgb(238, 242, 255)",
             "border-indigo-50",
-            "border-color: #EEF2FF;"
+            "rgb(238, 242, 255)",
+            "border-color: #EEF2FF;",
+            "#EEF2FF"
           ],
           [
-            "rgb(224, 231, 255)",
             "border-indigo-100",
-            "border-color: #E0E7FF;"
+            "rgb(224, 231, 255)",
+            "border-color: #E0E7FF;",
+            "#E0E7FF"
           ],
           [
-            "rgb(199, 210, 254)",
             "border-indigo-200",
-            "border-color: #C7D2FE;"
+            "rgb(199, 210, 254)",
+            "border-color: #C7D2FE;",
+            "#C7D2FE"
           ],
           [
-            "rgb(165, 180, 252)",
             "border-indigo-300",
-            "border-color: #A5B4FC;"
+            "rgb(165, 180, 252)",
+            "border-color: #A5B4FC;",
+            "#A5B4FC"
           ],
           [
-            "rgb(129, 140, 248)",
             "border-indigo-400",
-            "border-color: #818CF8;"
+            "rgb(129, 140, 248)",
+            "border-color: #818CF8;",
+            "#818CF8"
           ],
           [
-            "rgb(99, 102, 241)",
             "border-indigo-500",
-            "border-color: #6366F1;"
+            "rgb(99, 102, 241)",
+            "border-color: #6366F1;",
+            "#6366F1"
           ],
           [
-            "rgb(79, 70, 229)",
             "border-indigo-600",
-            "border-color: #4F46E5;"
+            "rgb(79, 70, 229)",
+            "border-color: #4F46E5;",
+            "#4F46E5"
           ],
           [
-            "rgb(67, 56, 202)",
             "border-indigo-700",
-            "border-color: #4338CA;"
+            "rgb(67, 56, 202)",
+            "border-color: #4338CA;",
+            "#4338CA"
           ],
           [
-            "rgb(55, 48, 163)",
             "border-indigo-800",
-            "border-color: #3730A3;"
+            "rgb(55, 48, 163)",
+            "border-color: #3730A3;",
+            "#3730A3"
           ],
           [
-            "rgb(49, 46, 129)",
             "border-indigo-900",
-            "border-color: #312E81;"
+            "rgb(49, 46, 129)",
+            "border-color: #312E81;",
+            "#312E81"
           ],
           [
-            "rgb(245, 243, 255)",
             "border-purple-50",
-            "border-color: #F5F3FF;"
+            "rgb(245, 243, 255)",
+            "border-color: #F5F3FF;",
+            "#F5F3FF"
           ],
           [
-            "rgb(237, 233, 254)",
             "border-purple-100",
-            "border-color: #EDE9FE;"
+            "rgb(237, 233, 254)",
+            "border-color: #EDE9FE;",
+            "#EDE9FE"
           ],
           [
-            "rgb(221, 214, 254)",
             "border-purple-200",
-            "border-color: #DDD6FE;"
+            "rgb(221, 214, 254)",
+            "border-color: #DDD6FE;",
+            "#DDD6FE"
           ],
           [
-            "rgb(196, 181, 253)",
             "border-purple-300",
-            "border-color: #C4B5FD;"
+            "rgb(196, 181, 253)",
+            "border-color: #C4B5FD;",
+            "#C4B5FD"
           ],
           [
-            "rgb(167, 139, 250)",
             "border-purple-400",
-            "border-color: #A78BFA;"
+            "rgb(167, 139, 250)",
+            "border-color: #A78BFA;",
+            "#A78BFA"
           ],
           [
-            "rgb(139, 92, 246)",
             "border-purple-500",
-            "border-color: #8B5CF6;"
+            "rgb(139, 92, 246)",
+            "border-color: #8B5CF6;",
+            "#8B5CF6"
           ],
           [
-            "rgb(124, 58, 237)",
             "border-purple-600",
-            "border-color: #7C3AED;"
+            "rgb(124, 58, 237)",
+            "border-color: #7C3AED;",
+            "#7C3AED"
           ],
           [
-            "rgb(109, 40, 217)",
             "border-purple-700",
-            "border-color: #6D28D9;"
+            "rgb(109, 40, 217)",
+            "border-color: #6D28D9;",
+            "#6D28D9"
           ],
           [
-            "rgb(91, 33, 182)",
             "border-purple-800",
-            "border-color: #5B21B6;"
+            "rgb(91, 33, 182)",
+            "border-color: #5B21B6;",
+            "#5B21B6"
           ],
           [
-            "rgb(76, 29, 149)",
             "border-purple-900",
-            "border-color: #4C1D95;"
+            "rgb(76, 29, 149)",
+            "border-color: #4C1D95;",
+            "#4C1D95"
           ],
           [
-            "rgb(253, 242, 248)",
             "border-pink-50",
-            "border-color: #FDF2F8;"
+            "rgb(253, 242, 248)",
+            "border-color: #FDF2F8;",
+            "#FDF2F8"
           ],
           [
-            "rgb(252, 231, 243)",
             "border-pink-100",
-            "border-color: #FCE7F3;"
+            "rgb(252, 231, 243)",
+            "border-color: #FCE7F3;",
+            "#FCE7F3"
           ],
           [
-            "rgb(251, 207, 232)",
             "border-pink-200",
-            "border-color: #FBCFE8;"
+            "rgb(251, 207, 232)",
+            "border-color: #FBCFE8;",
+            "#FBCFE8"
           ],
           [
-            "rgb(249, 168, 212)",
             "border-pink-300",
-            "border-color: #F9A8D4;"
+            "rgb(249, 168, 212)",
+            "border-color: #F9A8D4;",
+            "#F9A8D4"
           ],
           [
-            "rgb(244, 114, 182)",
             "border-pink-400",
-            "border-color: #F472B6;"
+            "rgb(244, 114, 182)",
+            "border-color: #F472B6;",
+            "#F472B6"
           ],
           [
-            "rgb(236, 72, 153)",
             "border-pink-500",
-            "border-color: #EC4899;"
+            "rgb(236, 72, 153)",
+            "border-color: #EC4899;",
+            "#EC4899"
           ],
           [
-            "rgb(219, 39, 119)",
             "border-pink-600",
-            "border-color: #DB2777;"
+            "rgb(219, 39, 119)",
+            "border-color: #DB2777;",
+            "#DB2777"
           ],
           [
-            "rgb(190, 24, 93)",
             "border-pink-700",
-            "border-color: #BE185D;"
+            "rgb(190, 24, 93)",
+            "border-color: #BE185D;",
+            "#BE185D"
           ],
           [
-            "rgb(157, 23, 77)",
             "border-pink-800",
-            "border-color: #9D174D;"
+            "rgb(157, 23, 77)",
+            "border-color: #9D174D;",
+            "#9D174D"
           ],
           [
-            "rgb(131, 24, 67)",
             "border-pink-900",
-            "border-color: #831843;"
+            "rgb(131, 24, 67)",
+            "border-color: #831843;",
+            "#831843"
           ]
         ]
       },
@@ -9819,424 +9903,508 @@
         "description": "Controls the border color between elements.",
         "table": [
           [
-            "transparent",
             "divide-transparent",
-            "border-color: transparent;"
+            "transparent",
+            "border-color: transparent;",
+            "transparent"
           ],
           [
-            "current color",
             "divide-current",
-            "border-color: currentColor;"
+            "current color",
+            "border-color: currentColor;",
+            "currentColor"
           ],
           [
-            "rgb(0, 0, 0)",
             "divide-black",
-            "border-color: #000000;"
+            "rgb(0, 0, 0)",
+            "border-color: #000000;",
+            "#000000"
           ],
           [
-            "rgb(255, 255, 255)",
             "divide-white",
-            "border-color: #ffffff;"
+            "rgb(255, 255, 255)",
+            "border-color: #ffffff;",
+            "#ffffff"
           ],
           [
-            "rgb(249, 250, 251)",
             "divide-gray-50",
-            "border-color: #F9FAFB;"
+            "rgb(249, 250, 251)",
+            "border-color: #F9FAFB;",
+            "#F9FAFB"
           ],
           [
-            "rgb(243, 244, 246)",
             "divide-gray-100",
-            "border-color: #F3F4F6;"
+            "rgb(243, 244, 246)",
+            "border-color: #F3F4F6;",
+            "#F3F4F6"
           ],
           [
-            "rgb(229, 231, 235)",
             "divide-gray-200",
-            "border-color: #E5E7EB;"
+            "rgb(229, 231, 235)",
+            "border-color: #E5E7EB;",
+            "#E5E7EB"
           ],
           [
-            "rgb(209, 213, 219)",
             "divide-gray-300",
-            "border-color: #D1D5DB;"
+            "rgb(209, 213, 219)",
+            "border-color: #D1D5DB;",
+            "#D1D5DB"
           ],
           [
-            "rgb(156, 163, 175)",
             "divide-gray-400",
-            "border-color: #9CA3AF;"
+            "rgb(156, 163, 175)",
+            "border-color: #9CA3AF;",
+            "#9CA3AF"
           ],
           [
-            "rgb(107, 114, 128)",
             "divide-gray-500",
-            "border-color: #6B7280;"
+            "rgb(107, 114, 128)",
+            "border-color: #6B7280;",
+            "#6B7280"
           ],
           [
-            "rgb(75, 85, 99)",
             "divide-gray-600",
-            "border-color: #4B5563;"
+            "rgb(75, 85, 99)",
+            "border-color: #4B5563;",
+            "#4B5563"
           ],
           [
-            "rgb(55, 65, 81)",
             "divide-gray-700",
-            "border-color: #374151;"
+            "rgb(55, 65, 81)",
+            "border-color: #374151;",
+            "#374151"
           ],
           [
-            "rgb(31, 41, 55)",
             "divide-gray-800",
-            "border-color: #1F2937;"
+            "rgb(31, 41, 55)",
+            "border-color: #1F2937;",
+            "#1F2937"
           ],
           [
-            "rgb(17, 24, 39)",
             "divide-gray-900",
-            "border-color: #111827;"
+            "rgb(17, 24, 39)",
+            "border-color: #111827;",
+            "#111827"
           ],
           [
-            "rgb(254, 242, 242)",
             "divide-red-50",
-            "border-color: #FEF2F2;"
+            "rgb(254, 242, 242)",
+            "border-color: #FEF2F2;",
+            "#FEF2F2"
           ],
           [
-            "rgb(254, 226, 226)",
             "divide-red-100",
-            "border-color: #FEE2E2;"
+            "rgb(254, 226, 226)",
+            "border-color: #FEE2E2;",
+            "#FEE2E2"
           ],
           [
-            "rgb(254, 202, 202)",
             "divide-red-200",
-            "border-color: #FECACA;"
+            "rgb(254, 202, 202)",
+            "border-color: #FECACA;",
+            "#FECACA"
           ],
           [
-            "rgb(252, 165, 165)",
             "divide-red-300",
-            "border-color: #FCA5A5;"
+            "rgb(252, 165, 165)",
+            "border-color: #FCA5A5;",
+            "#FCA5A5"
           ],
           [
-            "rgb(248, 113, 113)",
             "divide-red-400",
-            "border-color: #F87171;"
+            "rgb(248, 113, 113)",
+            "border-color: #F87171;",
+            "#F87171"
           ],
           [
-            "rgb(239, 68, 68)",
             "divide-red-500",
-            "border-color: #EF4444;"
+            "rgb(239, 68, 68)",
+            "border-color: #EF4444;",
+            "#EF4444"
           ],
           [
-            "rgb(220, 38, 38)",
             "divide-red-600",
-            "border-color: #DC2626;"
+            "rgb(220, 38, 38)",
+            "border-color: #DC2626;",
+            "#DC2626"
           ],
           [
-            "rgb(185, 28, 28)",
             "divide-red-700",
-            "border-color: #B91C1C;"
+            "rgb(185, 28, 28)",
+            "border-color: #B91C1C;",
+            "#B91C1C"
           ],
           [
-            "rgb(153, 27, 27)",
             "divide-red-800",
-            "border-color: #991B1B;"
+            "rgb(153, 27, 27)",
+            "border-color: #991B1B;",
+            "#991B1B"
           ],
           [
-            "rgb(127, 29, 29)",
             "divide-red-900",
-            "border-color: #7F1D1D;"
+            "rgb(127, 29, 29)",
+            "border-color: #7F1D1D;",
+            "#7F1D1D"
           ],
           [
-            "rgb(255, 251, 235)",
             "divide-yellow-50",
-            "border-color: #FFFBEB;"
+            "rgb(255, 251, 235)",
+            "border-color: #FFFBEB;",
+            "#FFFBEB"
           ],
           [
-            "rgb(254, 243, 199)",
             "divide-yellow-100",
-            "border-color: #FEF3C7;"
+            "rgb(254, 243, 199)",
+            "border-color: #FEF3C7;",
+            "#FEF3C7"
           ],
           [
-            "rgb(253, 230, 138)",
             "divide-yellow-200",
-            "border-color: #FDE68A;"
+            "rgb(253, 230, 138)",
+            "border-color: #FDE68A;",
+            "#FDE68A"
           ],
           [
-            "rgb(252, 211, 77)",
             "divide-yellow-300",
-            "border-color: #FCD34D;"
+            "rgb(252, 211, 77)",
+            "border-color: #FCD34D;",
+            "#FCD34D"
           ],
           [
-            "rgb(251, 191, 36)",
             "divide-yellow-400",
-            "border-color: #FBBF24;"
+            "rgb(251, 191, 36)",
+            "border-color: #FBBF24;",
+            "#FBBF24"
           ],
           [
-            "rgb(245, 158, 11)",
             "divide-yellow-500",
-            "border-color: #F59E0B;"
+            "rgb(245, 158, 11)",
+            "border-color: #F59E0B;",
+            "#F59E0B"
           ],
           [
-            "rgb(217, 119, 6)",
             "divide-yellow-600",
-            "border-color: #D97706;"
+            "rgb(217, 119, 6)",
+            "border-color: #D97706;",
+            "#D97706"
           ],
           [
-            "rgb(180, 83, 9)",
             "divide-yellow-700",
-            "border-color: #B45309;"
+            "rgb(180, 83, 9)",
+            "border-color: #B45309;",
+            "#B45309"
           ],
           [
-            "rgb(146, 64, 14)",
             "divide-yellow-800",
-            "border-color: #92400E;"
+            "rgb(146, 64, 14)",
+            "border-color: #92400E;",
+            "#92400E"
           ],
           [
-            "rgb(120, 53, 15)",
             "divide-yellow-900",
-            "border-color: #78350F;"
+            "rgb(120, 53, 15)",
+            "border-color: #78350F;",
+            "#78350F"
           ],
           [
-            "rgb(236, 253, 245)",
             "divide-green-50",
-            "border-color: #ECFDF5;"
+            "rgb(236, 253, 245)",
+            "border-color: #ECFDF5;",
+            "#ECFDF5"
           ],
           [
-            "rgb(209, 250, 229)",
             "divide-green-100",
-            "border-color: #D1FAE5;"
+            "rgb(209, 250, 229)",
+            "border-color: #D1FAE5;",
+            "#D1FAE5"
           ],
           [
-            "rgb(167, 243, 208)",
             "divide-green-200",
-            "border-color: #A7F3D0;"
+            "rgb(167, 243, 208)",
+            "border-color: #A7F3D0;",
+            "#A7F3D0"
           ],
           [
-            "rgb(110, 231, 183)",
             "divide-green-300",
-            "border-color: #6EE7B7;"
+            "rgb(110, 231, 183)",
+            "border-color: #6EE7B7;",
+            "#6EE7B7"
           ],
           [
-            "rgb(52, 211, 153)",
             "divide-green-400",
-            "border-color: #34D399;"
+            "rgb(52, 211, 153)",
+            "border-color: #34D399;",
+            "#34D399"
           ],
           [
-            "rgb(16, 185, 129)",
             "divide-green-500",
-            "border-color: #10B981;"
+            "rgb(16, 185, 129)",
+            "border-color: #10B981;",
+            "#10B981"
           ],
           [
-            "rgb(5, 150, 105)",
             "divide-green-600",
-            "border-color: #059669;"
+            "rgb(5, 150, 105)",
+            "border-color: #059669;",
+            "#059669"
           ],
           [
-            "rgb(4, 120, 87)",
             "divide-green-700",
-            "border-color: #047857;"
+            "rgb(4, 120, 87)",
+            "border-color: #047857;",
+            "#047857"
           ],
           [
-            "rgb(6, 95, 70)",
             "divide-green-800",
-            "border-color: #065F46;"
+            "rgb(6, 95, 70)",
+            "border-color: #065F46;",
+            "#065F46"
           ],
           [
-            "rgb(6, 78, 59)",
             "divide-green-900",
-            "border-color: #064E3B;"
+            "rgb(6, 78, 59)",
+            "border-color: #064E3B;",
+            "#064E3B"
           ],
           [
-            "rgb(239, 246, 255)",
             "divide-blue-50",
-            "border-color: #EFF6FF;"
+            "rgb(239, 246, 255)",
+            "border-color: #EFF6FF;",
+            "#EFF6FF"
           ],
           [
-            "rgb(219, 234, 254)",
             "divide-blue-100",
-            "border-color: #DBEAFE;"
+            "rgb(219, 234, 254)",
+            "border-color: #DBEAFE;",
+            "#DBEAFE"
           ],
           [
-            "rgb(191, 219, 254)",
             "divide-blue-200",
-            "border-color: #BFDBFE;"
+            "rgb(191, 219, 254)",
+            "border-color: #BFDBFE;",
+            "#BFDBFE"
           ],
           [
-            "rgb(147, 197, 253)",
             "divide-blue-300",
-            "border-color: #93C5FD;"
+            "rgb(147, 197, 253)",
+            "border-color: #93C5FD;",
+            "#93C5FD"
           ],
           [
-            "rgb(96, 165, 250)",
             "divide-blue-400",
-            "border-color: #60A5FA;"
+            "rgb(96, 165, 250)",
+            "border-color: #60A5FA;",
+            "#60A5FA"
           ],
           [
-            "rgb(59, 130, 246)",
             "divide-blue-500",
-            "border-color: #3B82F6;"
+            "rgb(59, 130, 246)",
+            "border-color: #3B82F6;",
+            "#3B82F6"
           ],
           [
-            "rgb(37, 99, 235)",
             "divide-blue-600",
-            "border-color: #2563EB;"
+            "rgb(37, 99, 235)",
+            "border-color: #2563EB;",
+            "#2563EB"
           ],
           [
-            "rgb(29, 78, 216)",
             "divide-blue-700",
-            "border-color: #1D4ED8;"
+            "rgb(29, 78, 216)",
+            "border-color: #1D4ED8;",
+            "#1D4ED8"
           ],
           [
-            "rgb(30, 64, 175)",
             "divide-blue-800",
-            "border-color: #1E40AF;"
+            "rgb(30, 64, 175)",
+            "border-color: #1E40AF;",
+            "#1E40AF"
           ],
           [
-            "rgb(30, 58, 138)",
             "divide-blue-900",
-            "border-color: #1E3A8A;"
+            "rgb(30, 58, 138)",
+            "border-color: #1E3A8A;",
+            "#1E3A8A"
           ],
           [
-            "rgb(238, 242, 255)",
             "divide-indigo-50",
-            "border-color: #EEF2FF;"
+            "rgb(238, 242, 255)",
+            "border-color: #EEF2FF;",
+            "#EEF2FF"
           ],
           [
-            "rgb(224, 231, 255)",
             "divide-indigo-100",
-            "border-color: #E0E7FF;"
+            "rgb(224, 231, 255)",
+            "border-color: #E0E7FF;",
+            "#E0E7FF"
           ],
           [
-            "rgb(199, 210, 254)",
             "divide-indigo-200",
-            "border-color: #C7D2FE;"
+            "rgb(199, 210, 254)",
+            "border-color: #C7D2FE;",
+            "#C7D2FE"
           ],
           [
-            "rgb(165, 180, 252)",
             "divide-indigo-300",
-            "border-color: #A5B4FC;"
+            "rgb(165, 180, 252)",
+            "border-color: #A5B4FC;",
+            "#A5B4FC"
           ],
           [
-            "rgb(129, 140, 248)",
             "divide-indigo-400",
-            "border-color: #818CF8;"
+            "rgb(129, 140, 248)",
+            "border-color: #818CF8;",
+            "#818CF8"
           ],
           [
-            "rgb(99, 102, 241)",
             "divide-indigo-500",
-            "border-color: #6366F1;"
+            "rgb(99, 102, 241)",
+            "border-color: #6366F1;",
+            "#6366F1"
           ],
           [
-            "rgb(79, 70, 229)",
             "divide-indigo-600",
-            "border-color: #4F46E5;"
+            "rgb(79, 70, 229)",
+            "border-color: #4F46E5;",
+            "#4F46E5"
           ],
           [
-            "rgb(67, 56, 202)",
             "divide-indigo-700",
-            "border-color: #4338CA;"
+            "rgb(67, 56, 202)",
+            "border-color: #4338CA;",
+            "#4338CA"
           ],
           [
-            "rgb(55, 48, 163)",
             "divide-indigo-800",
-            "border-color: #3730A3;"
+            "rgb(55, 48, 163)",
+            "border-color: #3730A3;",
+            "#3730A3"
           ],
           [
-            "rgb(49, 46, 129)",
             "divide-indigo-900",
-            "border-color: #312E81;"
+            "rgb(49, 46, 129)",
+            "border-color: #312E81;",
+            "#312E81"
           ],
           [
-            "rgb(245, 243, 255)",
             "divide-purple-50",
-            "border-color: #F5F3FF;"
+            "rgb(245, 243, 255)",
+            "border-color: #F5F3FF;",
+            "#F5F3FF"
           ],
           [
-            "rgb(237, 233, 254)",
             "divide-purple-100",
-            "border-color: #EDE9FE;"
+            "rgb(237, 233, 254)",
+            "border-color: #EDE9FE;",
+            "#EDE9FE"
           ],
           [
-            "rgb(221, 214, 254)",
             "divide-purple-200",
-            "border-color: #DDD6FE;"
+            "rgb(221, 214, 254)",
+            "border-color: #DDD6FE;",
+            "#DDD6FE"
           ],
           [
-            "rgb(196, 181, 253)",
             "divide-purple-300",
-            "border-color: #C4B5FD;"
+            "rgb(196, 181, 253)",
+            "border-color: #C4B5FD;",
+            "#C4B5FD"
           ],
           [
-            "rgb(167, 139, 250)",
             "divide-purple-400",
-            "border-color: #A78BFA;"
+            "rgb(167, 139, 250)",
+            "border-color: #A78BFA;",
+            "#A78BFA"
           ],
           [
-            "rgb(139, 92, 246)",
             "divide-purple-500",
-            "border-color: #8B5CF6;"
+            "rgb(139, 92, 246)",
+            "border-color: #8B5CF6;",
+            "#8B5CF6"
           ],
           [
-            "rgb(124, 58, 237)",
             "divide-purple-600",
-            "border-color: #7C3AED;"
+            "rgb(124, 58, 237)",
+            "border-color: #7C3AED;",
+            "#7C3AED"
           ],
           [
-            "rgb(109, 40, 217)",
             "divide-purple-700",
-            "border-color: #6D28D9;"
+            "rgb(109, 40, 217)",
+            "border-color: #6D28D9;",
+            "#6D28D9"
           ],
           [
-            "rgb(91, 33, 182)",
             "divide-purple-800",
-            "border-color: #5B21B6;"
+            "rgb(91, 33, 182)",
+            "border-color: #5B21B6;",
+            "#5B21B6"
           ],
           [
-            "rgb(76, 29, 149)",
             "divide-purple-900",
-            "border-color: #4C1D95;"
+            "rgb(76, 29, 149)",
+            "border-color: #4C1D95;",
+            "#4C1D95"
           ],
           [
-            "rgb(253, 242, 248)",
             "divide-pink-50",
-            "border-color: #FDF2F8;"
+            "rgb(253, 242, 248)",
+            "border-color: #FDF2F8;",
+            "#FDF2F8"
           ],
           [
-            "rgb(252, 231, 243)",
             "divide-pink-100",
-            "border-color: #FCE7F3;"
+            "rgb(252, 231, 243)",
+            "border-color: #FCE7F3;",
+            "#FCE7F3"
           ],
           [
-            "rgb(251, 207, 232)",
             "divide-pink-200",
-            "border-color: #FBCFE8;"
+            "rgb(251, 207, 232)",
+            "border-color: #FBCFE8;",
+            "#FBCFE8"
           ],
           [
-            "rgb(249, 168, 212)",
             "divide-pink-300",
-            "border-color: #F9A8D4;"
+            "rgb(249, 168, 212)",
+            "border-color: #F9A8D4;",
+            "#F9A8D4"
           ],
           [
-            "rgb(244, 114, 182)",
             "divide-pink-400",
-            "border-color: #F472B6;"
+            "rgb(244, 114, 182)",
+            "border-color: #F472B6;",
+            "#F472B6"
           ],
           [
-            "rgb(236, 72, 153)",
             "divide-pink-500",
-            "border-color: #EC4899;"
+            "rgb(236, 72, 153)",
+            "border-color: #EC4899;",
+            "#EC4899"
           ],
           [
-            "rgb(219, 39, 119)",
             "divide-pink-600",
-            "border-color: #DB2777;"
+            "rgb(219, 39, 119)",
+            "border-color: #DB2777;",
+            "#DB2777"
           ],
           [
-            "rgb(190, 24, 93)",
             "divide-pink-700",
-            "border-color: #BE185D;"
+            "rgb(190, 24, 93)",
+            "border-color: #BE185D;",
+            "#BE185D"
           ],
           [
-            "rgb(157, 23, 77)",
             "divide-pink-800",
-            "border-color: #9D174D;"
+            "rgb(157, 23, 77)",
+            "border-color: #9D174D;",
+            "#9D174D"
           ],
           [
-            "rgb(131, 24, 67)",
             "divide-pink-900",
-            "border-color: #831843;"
+            "rgb(131, 24, 67)",
+            "border-color: #831843;",
+            "#831843"
           ]
         ]
       },
@@ -10452,424 +10620,508 @@
         "description": "Utilities for setting the color of outline rings.",
         "table": [
           [
-            "transparent",
             "ring-transparent",
-            "--ring-color: transparent;"
+            "transparent",
+            "--ring-color: transparent;",
+            "transparent"
           ],
           [
-            "current color",
             "ring-current",
-            "--ring-color: currentColor;"
+            "current color",
+            "--ring-color: currentColor;",
+            "currentColor"
           ],
           [
-            "rgb(0, 0, 0)",
             "ring-black",
-            "--ring-color: #000000;"
+            "rgb(0, 0, 0)",
+            "--ring-color: #000000;",
+            "#000000"
           ],
           [
-            "rgb(255, 255, 255)",
             "ring-white",
-            "--ring-color: #ffffff;"
+            "rgb(255, 255, 255)",
+            "--ring-color: #ffffff;",
+            "#ffffff"
           ],
           [
-            "rgb(249, 250, 251)",
             "ring-gray-50",
-            "--ring-color: #F9FAFB;"
+            "rgb(249, 250, 251)",
+            "--ring-color: #F9FAFB;",
+            "#F9FAFB"
           ],
           [
-            "rgb(243, 244, 246)",
             "ring-gray-100",
-            "--ring-color: #F3F4F6;"
+            "rgb(243, 244, 246)",
+            "--ring-color: #F3F4F6;",
+            "#F3F4F6"
           ],
           [
-            "rgb(229, 231, 235)",
             "ring-gray-200",
-            "--ring-color: #E5E7EB;"
+            "rgb(229, 231, 235)",
+            "--ring-color: #E5E7EB;",
+            "#E5E7EB"
           ],
           [
-            "rgb(209, 213, 219)",
             "ring-gray-300",
-            "--ring-color: #D1D5DB;"
+            "rgb(209, 213, 219)",
+            "--ring-color: #D1D5DB;",
+            "#D1D5DB"
           ],
           [
-            "rgb(156, 163, 175)",
             "ring-gray-400",
-            "--ring-color: #9CA3AF;"
+            "rgb(156, 163, 175)",
+            "--ring-color: #9CA3AF;",
+            "#9CA3AF"
           ],
           [
-            "rgb(107, 114, 128)",
             "ring-gray-500",
-            "--ring-color: #6B7280;"
+            "rgb(107, 114, 128)",
+            "--ring-color: #6B7280;",
+            "#6B7280"
           ],
           [
-            "rgb(75, 85, 99)",
             "ring-gray-600",
-            "--ring-color: #4B5563;"
+            "rgb(75, 85, 99)",
+            "--ring-color: #4B5563;",
+            "#4B5563"
           ],
           [
-            "rgb(55, 65, 81)",
             "ring-gray-700",
-            "--ring-color: #374151;"
+            "rgb(55, 65, 81)",
+            "--ring-color: #374151;",
+            "#374151"
           ],
           [
-            "rgb(31, 41, 55)",
             "ring-gray-800",
-            "--ring-color: #1F2937;"
+            "rgb(31, 41, 55)",
+            "--ring-color: #1F2937;",
+            "#1F2937"
           ],
           [
-            "rgb(17, 24, 39)",
             "ring-gray-900",
-            "--ring-color: #111827;"
+            "rgb(17, 24, 39)",
+            "--ring-color: #111827;",
+            "#111827"
           ],
           [
-            "rgb(254, 242, 242)",
             "ring-red-50",
-            "--ring-color: #FEF2F2;"
+            "rgb(254, 242, 242)",
+            "--ring-color: #FEF2F2;",
+            "#FEF2F2"
           ],
           [
-            "rgb(254, 226, 226)",
             "ring-red-100",
-            "--ring-color: #FEE2E2;"
+            "rgb(254, 226, 226)",
+            "--ring-color: #FEE2E2;",
+            "#FEE2E2"
           ],
           [
-            "rgb(254, 202, 202)",
             "ring-red-200",
-            "--ring-color: #FECACA;"
+            "rgb(254, 202, 202)",
+            "--ring-color: #FECACA;",
+            "#FECACA"
           ],
           [
-            "rgb(252, 165, 165)",
             "ring-red-300",
-            "--ring-color: #FCA5A5;"
+            "rgb(252, 165, 165)",
+            "--ring-color: #FCA5A5;",
+            "#FCA5A5"
           ],
           [
-            "rgb(248, 113, 113)",
             "ring-red-400",
-            "--ring-color: #F87171;"
+            "rgb(248, 113, 113)",
+            "--ring-color: #F87171;",
+            "#F87171"
           ],
           [
-            "rgb(239, 68, 68)",
             "ring-red-500",
-            "--ring-color: #EF4444;"
+            "rgb(239, 68, 68)",
+            "--ring-color: #EF4444;",
+            "#EF4444"
           ],
           [
-            "rgb(220, 38, 38)",
             "ring-red-600",
-            "--ring-color: #DC2626;"
+            "rgb(220, 38, 38)",
+            "--ring-color: #DC2626;",
+            "#DC2626"
           ],
           [
-            "rgb(185, 28, 28)",
             "ring-red-700",
-            "--ring-color: #B91C1C;"
+            "rgb(185, 28, 28)",
+            "--ring-color: #B91C1C;",
+            "#B91C1C"
           ],
           [
-            "rgb(153, 27, 27)",
             "ring-red-800",
-            "--ring-color: #991B1B;"
+            "rgb(153, 27, 27)",
+            "--ring-color: #991B1B;",
+            "#991B1B"
           ],
           [
-            "rgb(127, 29, 29)",
             "ring-red-900",
-            "--ring-color: #7F1D1D;"
+            "rgb(127, 29, 29)",
+            "--ring-color: #7F1D1D;",
+            "#7F1D1D"
           ],
           [
-            "rgb(255, 251, 235)",
             "ring-yellow-50",
-            "--ring-color: #FFFBEB;"
+            "rgb(255, 251, 235)",
+            "--ring-color: #FFFBEB;",
+            "#FFFBEB"
           ],
           [
-            "rgb(254, 243, 199)",
             "ring-yellow-100",
-            "--ring-color: #FEF3C7;"
+            "rgb(254, 243, 199)",
+            "--ring-color: #FEF3C7;",
+            "#FEF3C7"
           ],
           [
-            "rgb(253, 230, 138)",
             "ring-yellow-200",
-            "--ring-color: #FDE68A;"
+            "rgb(253, 230, 138)",
+            "--ring-color: #FDE68A;",
+            "#FDE68A"
           ],
           [
-            "rgb(252, 211, 77)",
             "ring-yellow-300",
-            "--ring-color: #FCD34D;"
+            "rgb(252, 211, 77)",
+            "--ring-color: #FCD34D;",
+            "#FCD34D"
           ],
           [
-            "rgb(251, 191, 36)",
             "ring-yellow-400",
-            "--ring-color: #FBBF24;"
+            "rgb(251, 191, 36)",
+            "--ring-color: #FBBF24;",
+            "#FBBF24"
           ],
           [
-            "rgb(245, 158, 11)",
             "ring-yellow-500",
-            "--ring-color: #F59E0B;"
+            "rgb(245, 158, 11)",
+            "--ring-color: #F59E0B;",
+            "#F59E0B"
           ],
           [
-            "rgb(217, 119, 6)",
             "ring-yellow-600",
-            "--ring-color: #D97706;"
+            "rgb(217, 119, 6)",
+            "--ring-color: #D97706;",
+            "#D97706"
           ],
           [
-            "rgb(180, 83, 9)",
             "ring-yellow-700",
-            "--ring-color: #B45309;"
+            "rgb(180, 83, 9)",
+            "--ring-color: #B45309;",
+            "#B45309"
           ],
           [
-            "rgb(146, 64, 14)",
             "ring-yellow-800",
-            "--ring-color: #92400E;"
+            "rgb(146, 64, 14)",
+            "--ring-color: #92400E;",
+            "#92400E"
           ],
           [
-            "rgb(120, 53, 15)",
             "ring-yellow-900",
-            "--ring-color: #78350F;"
+            "rgb(120, 53, 15)",
+            "--ring-color: #78350F;",
+            "#78350F"
           ],
           [
-            "rgb(236, 253, 245)",
             "ring-green-50",
-            "--ring-color: #ECFDF5;"
+            "rgb(236, 253, 245)",
+            "--ring-color: #ECFDF5;",
+            "#ECFDF5"
           ],
           [
-            "rgb(209, 250, 229)",
             "ring-green-100",
-            "--ring-color: #D1FAE5;"
+            "rgb(209, 250, 229)",
+            "--ring-color: #D1FAE5;",
+            "#D1FAE5"
           ],
           [
-            "rgb(167, 243, 208)",
             "ring-green-200",
-            "--ring-color: #A7F3D0;"
+            "rgb(167, 243, 208)",
+            "--ring-color: #A7F3D0;",
+            "#A7F3D0"
           ],
           [
-            "rgb(110, 231, 183)",
             "ring-green-300",
-            "--ring-color: #6EE7B7;"
+            "rgb(110, 231, 183)",
+            "--ring-color: #6EE7B7;",
+            "#6EE7B7"
           ],
           [
-            "rgb(52, 211, 153)",
             "ring-green-400",
-            "--ring-color: #34D399;"
+            "rgb(52, 211, 153)",
+            "--ring-color: #34D399;",
+            "#34D399"
           ],
           [
-            "rgb(16, 185, 129)",
             "ring-green-500",
-            "--ring-color: #10B981;"
+            "rgb(16, 185, 129)",
+            "--ring-color: #10B981;",
+            "#10B981"
           ],
           [
-            "rgb(5, 150, 105)",
             "ring-green-600",
-            "--ring-color: #059669;"
+            "rgb(5, 150, 105)",
+            "--ring-color: #059669;",
+            "#059669"
           ],
           [
-            "rgb(4, 120, 87)",
             "ring-green-700",
-            "--ring-color: #047857;"
+            "rgb(4, 120, 87)",
+            "--ring-color: #047857;",
+            "#047857"
           ],
           [
-            "rgb(6, 95, 70)",
             "ring-green-800",
-            "--ring-color: #065F46;"
+            "rgb(6, 95, 70)",
+            "--ring-color: #065F46;",
+            "#065F46"
           ],
           [
-            "rgb(6, 78, 59)",
             "ring-green-900",
-            "--ring-color: #064E3B;"
+            "rgb(6, 78, 59)",
+            "--ring-color: #064E3B;",
+            "#064E3B"
           ],
           [
-            "rgb(239, 246, 255)",
             "ring-blue-50",
-            "--ring-color: #EFF6FF;"
+            "rgb(239, 246, 255)",
+            "--ring-color: #EFF6FF;",
+            "#EFF6FF"
           ],
           [
-            "rgb(219, 234, 254)",
             "ring-blue-100",
-            "--ring-color: #DBEAFE;"
+            "rgb(219, 234, 254)",
+            "--ring-color: #DBEAFE;",
+            "#DBEAFE"
           ],
           [
-            "rgb(191, 219, 254)",
             "ring-blue-200",
-            "--ring-color: #BFDBFE;"
+            "rgb(191, 219, 254)",
+            "--ring-color: #BFDBFE;",
+            "#BFDBFE"
           ],
           [
-            "rgb(147, 197, 253)",
             "ring-blue-300",
-            "--ring-color: #93C5FD;"
+            "rgb(147, 197, 253)",
+            "--ring-color: #93C5FD;",
+            "#93C5FD"
           ],
           [
-            "rgb(96, 165, 250)",
             "ring-blue-400",
-            "--ring-color: #60A5FA;"
+            "rgb(96, 165, 250)",
+            "--ring-color: #60A5FA;",
+            "#60A5FA"
           ],
           [
-            "rgb(59, 130, 246)",
             "ring-blue-500",
-            "--ring-color: #3B82F6;"
+            "rgb(59, 130, 246)",
+            "--ring-color: #3B82F6;",
+            "#3B82F6"
           ],
           [
-            "rgb(37, 99, 235)",
             "ring-blue-600",
-            "--ring-color: #2563EB;"
+            "rgb(37, 99, 235)",
+            "--ring-color: #2563EB;",
+            "#2563EB"
           ],
           [
-            "rgb(29, 78, 216)",
             "ring-blue-700",
-            "--ring-color: #1D4ED8;"
+            "rgb(29, 78, 216)",
+            "--ring-color: #1D4ED8;",
+            "#1D4ED8"
           ],
           [
-            "rgb(30, 64, 175)",
             "ring-blue-800",
-            "--ring-color: #1E40AF;"
+            "rgb(30, 64, 175)",
+            "--ring-color: #1E40AF;",
+            "#1E40AF"
           ],
           [
-            "rgb(30, 58, 138)",
             "ring-blue-900",
-            "--ring-color: #1E3A8A;"
+            "rgb(30, 58, 138)",
+            "--ring-color: #1E3A8A;",
+            "#1E3A8A"
           ],
           [
-            "rgb(238, 242, 255)",
             "ring-indigo-50",
-            "--ring-color: #EEF2FF;"
+            "rgb(238, 242, 255)",
+            "--ring-color: #EEF2FF;",
+            "#EEF2FF"
           ],
           [
-            "rgb(224, 231, 255)",
             "ring-indigo-100",
-            "--ring-color: #E0E7FF;"
+            "rgb(224, 231, 255)",
+            "--ring-color: #E0E7FF;",
+            "#E0E7FF"
           ],
           [
-            "rgb(199, 210, 254)",
             "ring-indigo-200",
-            "--ring-color: #C7D2FE;"
+            "rgb(199, 210, 254)",
+            "--ring-color: #C7D2FE;",
+            "#C7D2FE"
           ],
           [
-            "rgb(165, 180, 252)",
             "ring-indigo-300",
-            "--ring-color: #A5B4FC;"
+            "rgb(165, 180, 252)",
+            "--ring-color: #A5B4FC;",
+            "#A5B4FC"
           ],
           [
-            "rgb(129, 140, 248)",
             "ring-indigo-400",
-            "--ring-color: #818CF8;"
+            "rgb(129, 140, 248)",
+            "--ring-color: #818CF8;",
+            "#818CF8"
           ],
           [
-            "rgb(99, 102, 241)",
             "ring-indigo-500",
-            "--ring-color: #6366F1;"
+            "rgb(99, 102, 241)",
+            "--ring-color: #6366F1;",
+            "#6366F1"
           ],
           [
-            "rgb(79, 70, 229)",
             "ring-indigo-600",
-            "--ring-color: #4F46E5;"
+            "rgb(79, 70, 229)",
+            "--ring-color: #4F46E5;",
+            "#4F46E5"
           ],
           [
-            "rgb(67, 56, 202)",
             "ring-indigo-700",
-            "--ring-color: #4338CA;"
+            "rgb(67, 56, 202)",
+            "--ring-color: #4338CA;",
+            "#4338CA"
           ],
           [
-            "rgb(55, 48, 163)",
             "ring-indigo-800",
-            "--ring-color: #3730A3;"
+            "rgb(55, 48, 163)",
+            "--ring-color: #3730A3;",
+            "#3730A3"
           ],
           [
-            "rgb(49, 46, 129)",
             "ring-indigo-900",
-            "--ring-color: #312E81;"
+            "rgb(49, 46, 129)",
+            "--ring-color: #312E81;",
+            "#312E81"
           ],
           [
-            "rgb(245, 243, 255)",
             "ring-purple-50",
-            "--ring-color: #F5F3FF;"
+            "rgb(245, 243, 255)",
+            "--ring-color: #F5F3FF;",
+            "#F5F3FF"
           ],
           [
-            "rgb(237, 233, 254)",
             "ring-purple-100",
-            "--ring-color: #EDE9FE;"
+            "rgb(237, 233, 254)",
+            "--ring-color: #EDE9FE;",
+            "#EDE9FE"
           ],
           [
-            "rgb(221, 214, 254)",
             "ring-purple-200",
-            "--ring-color: #DDD6FE;"
+            "rgb(221, 214, 254)",
+            "--ring-color: #DDD6FE;",
+            "#DDD6FE"
           ],
           [
-            "rgb(196, 181, 253)",
             "ring-purple-300",
-            "--ring-color: #C4B5FD;"
+            "rgb(196, 181, 253)",
+            "--ring-color: #C4B5FD;",
+            "#C4B5FD"
           ],
           [
-            "rgb(167, 139, 250)",
             "ring-purple-400",
-            "--ring-color: #A78BFA;"
+            "rgb(167, 139, 250)",
+            "--ring-color: #A78BFA;",
+            "#A78BFA"
           ],
           [
-            "rgb(139, 92, 246)",
             "ring-purple-500",
-            "--ring-color: #8B5CF6;"
+            "rgb(139, 92, 246)",
+            "--ring-color: #8B5CF6;",
+            "#8B5CF6"
           ],
           [
-            "rgb(124, 58, 237)",
             "ring-purple-600",
-            "--ring-color: #7C3AED;"
+            "rgb(124, 58, 237)",
+            "--ring-color: #7C3AED;",
+            "#7C3AED"
           ],
           [
-            "rgb(109, 40, 217)",
             "ring-purple-700",
-            "--ring-color: #6D28D9;"
+            "rgb(109, 40, 217)",
+            "--ring-color: #6D28D9;",
+            "#6D28D9"
           ],
           [
-            "rgb(91, 33, 182)",
             "ring-purple-800",
-            "--ring-color: #5B21B6;"
+            "rgb(91, 33, 182)",
+            "--ring-color: #5B21B6;",
+            "#5B21B6"
           ],
           [
-            "rgb(76, 29, 149)",
             "ring-purple-900",
-            "--ring-color: #4C1D95;"
+            "rgb(76, 29, 149)",
+            "--ring-color: #4C1D95;",
+            "#4C1D95"
           ],
           [
-            "rgb(253, 242, 248)",
             "ring-pink-50",
-            "--ring-color: #FDF2F8;"
+            "rgb(253, 242, 248)",
+            "--ring-color: #FDF2F8;",
+            "#FDF2F8"
           ],
           [
-            "rgb(252, 231, 243)",
             "ring-pink-100",
-            "--ring-color: #FCE7F3;"
+            "rgb(252, 231, 243)",
+            "--ring-color: #FCE7F3;",
+            "#FCE7F3"
           ],
           [
-            "rgb(251, 207, 232)",
             "ring-pink-200",
-            "--ring-color: #FBCFE8;"
+            "rgb(251, 207, 232)",
+            "--ring-color: #FBCFE8;",
+            "#FBCFE8"
           ],
           [
-            "rgb(249, 168, 212)",
             "ring-pink-300",
-            "--ring-color: #F9A8D4;"
+            "rgb(249, 168, 212)",
+            "--ring-color: #F9A8D4;",
+            "#F9A8D4"
           ],
           [
-            "rgb(244, 114, 182)",
             "ring-pink-400",
-            "--ring-color: #F472B6;"
+            "rgb(244, 114, 182)",
+            "--ring-color: #F472B6;",
+            "#F472B6"
           ],
           [
-            "rgb(236, 72, 153)",
             "ring-pink-500",
-            "--ring-color: #EC4899;"
+            "rgb(236, 72, 153)",
+            "--ring-color: #EC4899;",
+            "#EC4899"
           ],
           [
-            "rgb(219, 39, 119)",
             "ring-pink-600",
-            "--ring-color: #DB2777;"
+            "rgb(219, 39, 119)",
+            "--ring-color: #DB2777;",
+            "#DB2777"
           ],
           [
-            "rgb(190, 24, 93)",
             "ring-pink-700",
-            "--ring-color: #BE185D;"
+            "rgb(190, 24, 93)",
+            "--ring-color: #BE185D;",
+            "#BE185D"
           ],
           [
-            "rgb(157, 23, 77)",
             "ring-pink-800",
-            "--ring-color: #9D174D;"
+            "rgb(157, 23, 77)",
+            "--ring-color: #9D174D;",
+            "#9D174D"
           ],
           [
-            "rgb(131, 24, 67)",
             "ring-pink-900",
-            "--ring-color: #831843;"
+            "rgb(131, 24, 67)",
+            "--ring-color: #831843;",
+            "#831843"
           ]
         ]
       },
@@ -10969,424 +11221,508 @@
         "description": "Utilities for setting the color of outline rings offset.",
         "table": [
           [
-            "transparent",
             "ring-offset-transparent",
-            "--ring-offset-color: transparent;"
+            "transparent",
+            "--ring-offset-color: transparent;",
+            "transparent"
           ],
           [
-            "current color",
             "ring-offset-current",
-            "--ring-offset-color: currentColor;"
+            "current color",
+            "--ring-offset-color: currentColor;",
+            "currentColor"
           ],
           [
-            "rgb(0, 0, 0)",
             "ring-offset-black",
-            "--ring-offset-color: #000000;"
+            "rgb(0, 0, 0)",
+            "--ring-offset-color: #000000;",
+            "#000000"
           ],
           [
-            "rgb(255, 255, 255)",
             "ring-offset-white",
-            "--ring-offset-color: #ffffff;"
+            "rgb(255, 255, 255)",
+            "--ring-offset-color: #ffffff;",
+            "#ffffff"
           ],
           [
-            "rgb(249, 250, 251)",
             "ring-offset-gray-50",
-            "--ring-offset-color: #F9FAFB;"
+            "rgb(249, 250, 251)",
+            "--ring-offset-color: #F9FAFB;",
+            "#F9FAFB"
           ],
           [
-            "rgb(243, 244, 246)",
             "ring-offset-gray-100",
-            "--ring-offset-color: #F3F4F6;"
+            "rgb(243, 244, 246)",
+            "--ring-offset-color: #F3F4F6;",
+            "#F3F4F6"
           ],
           [
-            "rgb(229, 231, 235)",
             "ring-offset-gray-200",
-            "--ring-offset-color: #E5E7EB;"
+            "rgb(229, 231, 235)",
+            "--ring-offset-color: #E5E7EB;",
+            "#E5E7EB"
           ],
           [
-            "rgb(209, 213, 219)",
             "ring-offset-gray-300",
-            "--ring-offset-color: #D1D5DB;"
+            "rgb(209, 213, 219)",
+            "--ring-offset-color: #D1D5DB;",
+            "#D1D5DB"
           ],
           [
-            "rgb(156, 163, 175)",
             "ring-offset-gray-400",
-            "--ring-offset-color: #9CA3AF;"
+            "rgb(156, 163, 175)",
+            "--ring-offset-color: #9CA3AF;",
+            "#9CA3AF"
           ],
           [
-            "rgb(107, 114, 128)",
             "ring-offset-gray-500",
-            "--ring-offset-color: #6B7280;"
+            "rgb(107, 114, 128)",
+            "--ring-offset-color: #6B7280;",
+            "#6B7280"
           ],
           [
-            "rgb(75, 85, 99)",
             "ring-offset-gray-600",
-            "--ring-offset-color: #4B5563;"
+            "rgb(75, 85, 99)",
+            "--ring-offset-color: #4B5563;",
+            "#4B5563"
           ],
           [
-            "rgb(55, 65, 81)",
             "ring-offset-gray-700",
-            "--ring-offset-color: #374151;"
+            "rgb(55, 65, 81)",
+            "--ring-offset-color: #374151;",
+            "#374151"
           ],
           [
-            "rgb(31, 41, 55)",
             "ring-offset-gray-800",
-            "--ring-offset-color: #1F2937;"
+            "rgb(31, 41, 55)",
+            "--ring-offset-color: #1F2937;",
+            "#1F2937"
           ],
           [
-            "rgb(17, 24, 39)",
             "ring-offset-gray-900",
-            "--ring-offset-color: #111827;"
+            "rgb(17, 24, 39)",
+            "--ring-offset-color: #111827;",
+            "#111827"
           ],
           [
-            "rgb(254, 242, 242)",
             "ring-offset-red-50",
-            "--ring-offset-color: #FEF2F2;"
+            "rgb(254, 242, 242)",
+            "--ring-offset-color: #FEF2F2;",
+            "#FEF2F2"
           ],
           [
-            "rgb(254, 226, 226)",
             "ring-offset-red-100",
-            "--ring-offset-color: #FEE2E2;"
+            "rgb(254, 226, 226)",
+            "--ring-offset-color: #FEE2E2;",
+            "#FEE2E2"
           ],
           [
-            "rgb(254, 202, 202)",
             "ring-offset-red-200",
-            "--ring-offset-color: #FECACA;"
+            "rgb(254, 202, 202)",
+            "--ring-offset-color: #FECACA;",
+            "#FECACA"
           ],
           [
-            "rgb(252, 165, 165)",
             "ring-offset-red-300",
-            "--ring-offset-color: #FCA5A5;"
+            "rgb(252, 165, 165)",
+            "--ring-offset-color: #FCA5A5;",
+            "#FCA5A5"
           ],
           [
-            "rgb(248, 113, 113)",
             "ring-offset-red-400",
-            "--ring-offset-color: #F87171;"
+            "rgb(248, 113, 113)",
+            "--ring-offset-color: #F87171;",
+            "#F87171"
           ],
           [
-            "rgb(239, 68, 68)",
             "ring-offset-red-500",
-            "--ring-offset-color: #EF4444;"
+            "rgb(239, 68, 68)",
+            "--ring-offset-color: #EF4444;",
+            "#EF4444"
           ],
           [
-            "rgb(220, 38, 38)",
             "ring-offset-red-600",
-            "--ring-offset-color: #DC2626;"
+            "rgb(220, 38, 38)",
+            "--ring-offset-color: #DC2626;",
+            "#DC2626"
           ],
           [
-            "rgb(185, 28, 28)",
             "ring-offset-red-700",
-            "--ring-offset-color: #B91C1C;"
+            "rgb(185, 28, 28)",
+            "--ring-offset-color: #B91C1C;",
+            "#B91C1C"
           ],
           [
-            "rgb(153, 27, 27)",
             "ring-offset-red-800",
-            "--ring-offset-color: #991B1B;"
+            "rgb(153, 27, 27)",
+            "--ring-offset-color: #991B1B;",
+            "#991B1B"
           ],
           [
-            "rgb(127, 29, 29)",
             "ring-offset-red-900",
-            "--ring-offset-color: #7F1D1D;"
+            "rgb(127, 29, 29)",
+            "--ring-offset-color: #7F1D1D;",
+            "#7F1D1D"
           ],
           [
-            "rgb(255, 251, 235)",
             "ring-offset-yellow-50",
-            "--ring-offset-color: #FFFBEB;"
+            "rgb(255, 251, 235)",
+            "--ring-offset-color: #FFFBEB;",
+            "#FFFBEB"
           ],
           [
-            "rgb(254, 243, 199)",
             "ring-offset-yellow-100",
-            "--ring-offset-color: #FEF3C7;"
+            "rgb(254, 243, 199)",
+            "--ring-offset-color: #FEF3C7;",
+            "#FEF3C7"
           ],
           [
-            "rgb(253, 230, 138)",
             "ring-offset-yellow-200",
-            "--ring-offset-color: #FDE68A;"
+            "rgb(253, 230, 138)",
+            "--ring-offset-color: #FDE68A;",
+            "#FDE68A"
           ],
           [
-            "rgb(252, 211, 77)",
             "ring-offset-yellow-300",
-            "--ring-offset-color: #FCD34D;"
+            "rgb(252, 211, 77)",
+            "--ring-offset-color: #FCD34D;",
+            "#FCD34D"
           ],
           [
-            "rgb(251, 191, 36)",
             "ring-offset-yellow-400",
-            "--ring-offset-color: #FBBF24;"
+            "rgb(251, 191, 36)",
+            "--ring-offset-color: #FBBF24;",
+            "#FBBF24"
           ],
           [
-            "rgb(245, 158, 11)",
             "ring-offset-yellow-500",
-            "--ring-offset-color: #F59E0B;"
+            "rgb(245, 158, 11)",
+            "--ring-offset-color: #F59E0B;",
+            "#F59E0B"
           ],
           [
-            "rgb(217, 119, 6)",
             "ring-offset-yellow-600",
-            "--ring-offset-color: #D97706;"
+            "rgb(217, 119, 6)",
+            "--ring-offset-color: #D97706;",
+            "#D97706"
           ],
           [
-            "rgb(180, 83, 9)",
             "ring-offset-yellow-700",
-            "--ring-offset-color: #B45309;"
+            "rgb(180, 83, 9)",
+            "--ring-offset-color: #B45309;",
+            "#B45309"
           ],
           [
-            "rgb(146, 64, 14)",
             "ring-offset-yellow-800",
-            "--ring-offset-color: #92400E;"
+            "rgb(146, 64, 14)",
+            "--ring-offset-color: #92400E;",
+            "#92400E"
           ],
           [
-            "rgb(120, 53, 15)",
             "ring-offset-yellow-900",
-            "--ring-offset-color: #78350F;"
+            "rgb(120, 53, 15)",
+            "--ring-offset-color: #78350F;",
+            "#78350F"
           ],
           [
-            "rgb(236, 253, 245)",
             "ring-offset-green-50",
-            "--ring-offset-color: #ECFDF5;"
+            "rgb(236, 253, 245)",
+            "--ring-offset-color: #ECFDF5;",
+            "#ECFDF5"
           ],
           [
-            "rgb(209, 250, 229)",
             "ring-offset-green-100",
-            "--ring-offset-color: #D1FAE5;"
+            "rgb(209, 250, 229)",
+            "--ring-offset-color: #D1FAE5;",
+            "#D1FAE5"
           ],
           [
-            "rgb(167, 243, 208)",
             "ring-offset-green-200",
-            "--ring-offset-color: #A7F3D0;"
+            "rgb(167, 243, 208)",
+            "--ring-offset-color: #A7F3D0;",
+            "#A7F3D0"
           ],
           [
-            "rgb(110, 231, 183)",
             "ring-offset-green-300",
-            "--ring-offset-color: #6EE7B7;"
+            "rgb(110, 231, 183)",
+            "--ring-offset-color: #6EE7B7;",
+            "#6EE7B7"
           ],
           [
-            "rgb(52, 211, 153)",
             "ring-offset-green-400",
-            "--ring-offset-color: #34D399;"
+            "rgb(52, 211, 153)",
+            "--ring-offset-color: #34D399;",
+            "#34D399"
           ],
           [
-            "rgb(16, 185, 129)",
             "ring-offset-green-500",
-            "--ring-offset-color: #10B981;"
+            "rgb(16, 185, 129)",
+            "--ring-offset-color: #10B981;",
+            "#10B981"
           ],
           [
-            "rgb(5, 150, 105)",
             "ring-offset-green-600",
-            "--ring-offset-color: #059669;"
+            "rgb(5, 150, 105)",
+            "--ring-offset-color: #059669;",
+            "#059669"
           ],
           [
-            "rgb(4, 120, 87)",
             "ring-offset-green-700",
-            "--ring-offset-color: #047857;"
+            "rgb(4, 120, 87)",
+            "--ring-offset-color: #047857;",
+            "#047857"
           ],
           [
-            "rgb(6, 95, 70)",
             "ring-offset-green-800",
-            "--ring-offset-color: #065F46;"
+            "rgb(6, 95, 70)",
+            "--ring-offset-color: #065F46;",
+            "#065F46"
           ],
           [
-            "rgb(6, 78, 59)",
             "ring-offset-green-900",
-            "--ring-offset-color: #064E3B;"
+            "rgb(6, 78, 59)",
+            "--ring-offset-color: #064E3B;",
+            "#064E3B"
           ],
           [
-            "rgb(239, 246, 255)",
             "ring-offset-blue-50",
-            "--ring-offset-color: #EFF6FF;"
+            "rgb(239, 246, 255)",
+            "--ring-offset-color: #EFF6FF;",
+            "#EFF6FF"
           ],
           [
-            "rgb(219, 234, 254)",
             "ring-offset-blue-100",
-            "--ring-offset-color: #DBEAFE;"
+            "rgb(219, 234, 254)",
+            "--ring-offset-color: #DBEAFE;",
+            "#DBEAFE"
           ],
           [
-            "rgb(191, 219, 254)",
             "ring-offset-blue-200",
-            "--ring-offset-color: #BFDBFE;"
+            "rgb(191, 219, 254)",
+            "--ring-offset-color: #BFDBFE;",
+            "#BFDBFE"
           ],
           [
-            "rgb(147, 197, 253)",
             "ring-offset-blue-300",
-            "--ring-offset-color: #93C5FD;"
+            "rgb(147, 197, 253)",
+            "--ring-offset-color: #93C5FD;",
+            "#93C5FD"
           ],
           [
-            "rgb(96, 165, 250)",
             "ring-offset-blue-400",
-            "--ring-offset-color: #60A5FA;"
+            "rgb(96, 165, 250)",
+            "--ring-offset-color: #60A5FA;",
+            "#60A5FA"
           ],
           [
-            "rgb(59, 130, 246)",
             "ring-offset-blue-500",
-            "--ring-offset-color: #3B82F6;"
+            "rgb(59, 130, 246)",
+            "--ring-offset-color: #3B82F6;",
+            "#3B82F6"
           ],
           [
-            "rgb(37, 99, 235)",
             "ring-offset-blue-600",
-            "--ring-offset-color: #2563EB;"
+            "rgb(37, 99, 235)",
+            "--ring-offset-color: #2563EB;",
+            "#2563EB"
           ],
           [
-            "rgb(29, 78, 216)",
             "ring-offset-blue-700",
-            "--ring-offset-color: #1D4ED8;"
+            "rgb(29, 78, 216)",
+            "--ring-offset-color: #1D4ED8;",
+            "#1D4ED8"
           ],
           [
-            "rgb(30, 64, 175)",
             "ring-offset-blue-800",
-            "--ring-offset-color: #1E40AF;"
+            "rgb(30, 64, 175)",
+            "--ring-offset-color: #1E40AF;",
+            "#1E40AF"
           ],
           [
-            "rgb(30, 58, 138)",
             "ring-offset-blue-900",
-            "--ring-offset-color: #1E3A8A;"
+            "rgb(30, 58, 138)",
+            "--ring-offset-color: #1E3A8A;",
+            "#1E3A8A"
           ],
           [
-            "rgb(238, 242, 255)",
             "ring-offset-indigo-50",
-            "--ring-offset-color: #EEF2FF;"
+            "rgb(238, 242, 255)",
+            "--ring-offset-color: #EEF2FF;",
+            "#EEF2FF"
           ],
           [
-            "rgb(224, 231, 255)",
             "ring-offset-indigo-100",
-            "--ring-offset-color: #E0E7FF;"
+            "rgb(224, 231, 255)",
+            "--ring-offset-color: #E0E7FF;",
+            "#E0E7FF"
           ],
           [
-            "rgb(199, 210, 254)",
             "ring-offset-indigo-200",
-            "--ring-offset-color: #C7D2FE;"
+            "rgb(199, 210, 254)",
+            "--ring-offset-color: #C7D2FE;",
+            "#C7D2FE"
           ],
           [
-            "rgb(165, 180, 252)",
             "ring-offset-indigo-300",
-            "--ring-offset-color: #A5B4FC;"
+            "rgb(165, 180, 252)",
+            "--ring-offset-color: #A5B4FC;",
+            "#A5B4FC"
           ],
           [
-            "rgb(129, 140, 248)",
             "ring-offset-indigo-400",
-            "--ring-offset-color: #818CF8;"
+            "rgb(129, 140, 248)",
+            "--ring-offset-color: #818CF8;",
+            "#818CF8"
           ],
           [
-            "rgb(99, 102, 241)",
             "ring-offset-indigo-500",
-            "--ring-offset-color: #6366F1;"
+            "rgb(99, 102, 241)",
+            "--ring-offset-color: #6366F1;",
+            "#6366F1"
           ],
           [
-            "rgb(79, 70, 229)",
             "ring-offset-indigo-600",
-            "--ring-offset-color: #4F46E5;"
+            "rgb(79, 70, 229)",
+            "--ring-offset-color: #4F46E5;",
+            "#4F46E5"
           ],
           [
-            "rgb(67, 56, 202)",
             "ring-offset-indigo-700",
-            "--ring-offset-color: #4338CA;"
+            "rgb(67, 56, 202)",
+            "--ring-offset-color: #4338CA;",
+            "#4338CA"
           ],
           [
-            "rgb(55, 48, 163)",
             "ring-offset-indigo-800",
-            "--ring-offset-color: #3730A3;"
+            "rgb(55, 48, 163)",
+            "--ring-offset-color: #3730A3;",
+            "#3730A3"
           ],
           [
-            "rgb(49, 46, 129)",
             "ring-offset-indigo-900",
-            "--ring-offset-color: #312E81;"
+            "rgb(49, 46, 129)",
+            "--ring-offset-color: #312E81;",
+            "#312E81"
           ],
           [
-            "rgb(245, 243, 255)",
             "ring-offset-purple-50",
-            "--ring-offset-color: #F5F3FF;"
+            "rgb(245, 243, 255)",
+            "--ring-offset-color: #F5F3FF;",
+            "#F5F3FF"
           ],
           [
-            "rgb(237, 233, 254)",
             "ring-offset-purple-100",
-            "--ring-offset-color: #EDE9FE;"
+            "rgb(237, 233, 254)",
+            "--ring-offset-color: #EDE9FE;",
+            "#EDE9FE"
           ],
           [
-            "rgb(221, 214, 254)",
             "ring-offset-purple-200",
-            "--ring-offset-color: #DDD6FE;"
+            "rgb(221, 214, 254)",
+            "--ring-offset-color: #DDD6FE;",
+            "#DDD6FE"
           ],
           [
-            "rgb(196, 181, 253)",
             "ring-offset-purple-300",
-            "--ring-offset-color: #C4B5FD;"
+            "rgb(196, 181, 253)",
+            "--ring-offset-color: #C4B5FD;",
+            "#C4B5FD"
           ],
           [
-            "rgb(167, 139, 250)",
             "ring-offset-purple-400",
-            "--ring-offset-color: #A78BFA;"
+            "rgb(167, 139, 250)",
+            "--ring-offset-color: #A78BFA;",
+            "#A78BFA"
           ],
           [
-            "rgb(139, 92, 246)",
             "ring-offset-purple-500",
-            "--ring-offset-color: #8B5CF6;"
+            "rgb(139, 92, 246)",
+            "--ring-offset-color: #8B5CF6;",
+            "#8B5CF6"
           ],
           [
-            "rgb(124, 58, 237)",
             "ring-offset-purple-600",
-            "--ring-offset-color: #7C3AED;"
+            "rgb(124, 58, 237)",
+            "--ring-offset-color: #7C3AED;",
+            "#7C3AED"
           ],
           [
-            "rgb(109, 40, 217)",
             "ring-offset-purple-700",
-            "--ring-offset-color: #6D28D9;"
+            "rgb(109, 40, 217)",
+            "--ring-offset-color: #6D28D9;",
+            "#6D28D9"
           ],
           [
-            "rgb(91, 33, 182)",
             "ring-offset-purple-800",
-            "--ring-offset-color: #5B21B6;"
+            "rgb(91, 33, 182)",
+            "--ring-offset-color: #5B21B6;",
+            "#5B21B6"
           ],
           [
-            "rgb(76, 29, 149)",
             "ring-offset-purple-900",
-            "--ring-offset-color: #4C1D95;"
+            "rgb(76, 29, 149)",
+            "--ring-offset-color: #4C1D95;",
+            "#4C1D95"
           ],
           [
-            "rgb(253, 242, 248)",
             "ring-offset-pink-50",
-            "--ring-offset-color: #FDF2F8;"
+            "rgb(253, 242, 248)",
+            "--ring-offset-color: #FDF2F8;",
+            "#FDF2F8"
           ],
           [
-            "rgb(252, 231, 243)",
             "ring-offset-pink-100",
-            "--ring-offset-color: #FCE7F3;"
+            "rgb(252, 231, 243)",
+            "--ring-offset-color: #FCE7F3;",
+            "#FCE7F3"
           ],
           [
-            "rgb(251, 207, 232)",
             "ring-offset-pink-200",
-            "--ring-offset-color: #FBCFE8;"
+            "rgb(251, 207, 232)",
+            "--ring-offset-color: #FBCFE8;",
+            "#FBCFE8"
           ],
           [
-            "rgb(249, 168, 212)",
             "ring-offset-pink-300",
-            "--ring-offset-color: #F9A8D4;"
+            "rgb(249, 168, 212)",
+            "--ring-offset-color: #F9A8D4;",
+            "#F9A8D4"
           ],
           [
-            "rgb(244, 114, 182)",
             "ring-offset-pink-400",
-            "--ring-offset-color: #F472B6;"
+            "rgb(244, 114, 182)",
+            "--ring-offset-color: #F472B6;",
+            "#F472B6"
           ],
           [
-            "rgb(236, 72, 153)",
             "ring-offset-pink-500",
-            "--ring-offset-color: #EC4899;"
+            "rgb(236, 72, 153)",
+            "--ring-offset-color: #EC4899;",
+            "#EC4899"
           ],
           [
-            "rgb(219, 39, 119)",
             "ring-offset-pink-600",
-            "--ring-offset-color: #DB2777;"
+            "rgb(219, 39, 119)",
+            "--ring-offset-color: #DB2777;",
+            "#DB2777"
           ],
           [
-            "rgb(190, 24, 93)",
             "ring-offset-pink-700",
-            "--ring-offset-color: #BE185D;"
+            "rgb(190, 24, 93)",
+            "--ring-offset-color: #BE185D;",
+            "#BE185D"
           ],
           [
-            "rgb(157, 23, 77)",
             "ring-offset-pink-800",
-            "--ring-offset-color: #9D174D;"
+            "rgb(157, 23, 77)",
+            "--ring-offset-color: #9D174D;",
+            "#9D174D"
           ],
           [
-            "rgb(131, 24, 67)",
             "ring-offset-pink-900",
-            "--ring-offset-color: #831843;"
+            "rgb(131, 24, 67)",
+            "--ring-offset-color: #831843;",
+            "#831843"
           ]
         ]
       }
@@ -12667,424 +13003,508 @@
         "description": "Sets the text color.",
         "table": [
           [
-            "transparent",
             "text-transparent",
-            "color: transparent;"
+            "transparent",
+            "color: transparent;",
+            "transparent"
           ],
           [
-            "current color",
             "text-current",
-            "color: currentColor;"
+            "current color",
+            "color: currentColor;",
+            "currentColor"
           ],
           [
-            "rgb(0, 0, 0)",
             "text-black",
-            "color: #000000;"
+            "rgb(0, 0, 0)",
+            "color: #000000;",
+            "#000000"
           ],
           [
-            "rgb(255, 255, 255)",
             "text-white",
-            "color: #ffffff;"
+            "rgb(255, 255, 255)",
+            "color: #ffffff;",
+            "#ffffff"
           ],
           [
-            "rgb(249, 250, 251)",
             "text-gray-50",
-            "color: #F9FAFB;"
+            "rgb(249, 250, 251)",
+            "color: #F9FAFB;",
+            "#F9FAFB"
           ],
           [
-            "rgb(243, 244, 246)",
             "text-gray-100",
-            "color: #F3F4F6;"
+            "rgb(243, 244, 246)",
+            "color: #F3F4F6;",
+            "#F3F4F6"
           ],
           [
-            "rgb(229, 231, 235)",
             "text-gray-200",
-            "color: #E5E7EB;"
+            "rgb(229, 231, 235)",
+            "color: #E5E7EB;",
+            "#E5E7EB"
           ],
           [
-            "rgb(209, 213, 219)",
             "text-gray-300",
-            "color: #D1D5DB;"
+            "rgb(209, 213, 219)",
+            "color: #D1D5DB;",
+            "#D1D5DB"
           ],
           [
-            "rgb(156, 163, 175)",
             "text-gray-400",
-            "color: #9CA3AF;"
+            "rgb(156, 163, 175)",
+            "color: #9CA3AF;",
+            "#9CA3AF"
           ],
           [
-            "rgb(107, 114, 128)",
             "text-gray-500",
-            "color: #6B7280;"
+            "rgb(107, 114, 128)",
+            "color: #6B7280;",
+            "#6B7280"
           ],
           [
-            "rgb(75, 85, 99)",
             "text-gray-600",
-            "color: #4B5563;"
+            "rgb(75, 85, 99)",
+            "color: #4B5563;",
+            "#4B5563"
           ],
           [
-            "rgb(55, 65, 81)",
             "text-gray-700",
-            "color: #374151;"
+            "rgb(55, 65, 81)",
+            "color: #374151;",
+            "#374151"
           ],
           [
-            "rgb(31, 41, 55)",
             "text-gray-800",
-            "color: #1F2937;"
+            "rgb(31, 41, 55)",
+            "color: #1F2937;",
+            "#1F2937"
           ],
           [
-            "rgb(17, 24, 39)",
             "text-gray-900",
-            "color: #111827;"
+            "rgb(17, 24, 39)",
+            "color: #111827;",
+            "#111827"
           ],
           [
-            "rgb(254, 242, 242)",
             "text-red-50",
-            "color: #FEF2F2;"
+            "rgb(254, 242, 242)",
+            "color: #FEF2F2;",
+            "#FEF2F2"
           ],
           [
-            "rgb(254, 226, 226)",
             "text-red-100",
-            "color: #FEE2E2;"
+            "rgb(254, 226, 226)",
+            "color: #FEE2E2;",
+            "#FEE2E2"
           ],
           [
-            "rgb(254, 202, 202)",
             "text-red-200",
-            "color: #FECACA;"
+            "rgb(254, 202, 202)",
+            "color: #FECACA;",
+            "#FECACA"
           ],
           [
-            "rgb(252, 165, 165)",
             "text-red-300",
-            "color: #FCA5A5;"
+            "rgb(252, 165, 165)",
+            "color: #FCA5A5;",
+            "#FCA5A5"
           ],
           [
-            "rgb(248, 113, 113)",
             "text-red-400",
-            "color: #F87171;"
+            "rgb(248, 113, 113)",
+            "color: #F87171;",
+            "#F87171"
           ],
           [
-            "rgb(239, 68, 68)",
             "text-red-500",
-            "color: #EF4444;"
+            "rgb(239, 68, 68)",
+            "color: #EF4444;",
+            "#EF4444"
           ],
           [
-            "rgb(220, 38, 38)",
             "text-red-600",
-            "color: #DC2626;"
+            "rgb(220, 38, 38)",
+            "color: #DC2626;",
+            "#DC2626"
           ],
           [
-            "rgb(185, 28, 28)",
             "text-red-700",
-            "color: #B91C1C;"
+            "rgb(185, 28, 28)",
+            "color: #B91C1C;",
+            "#B91C1C"
           ],
           [
-            "rgb(153, 27, 27)",
             "text-red-800",
-            "color: #991B1B;"
+            "rgb(153, 27, 27)",
+            "color: #991B1B;",
+            "#991B1B"
           ],
           [
-            "rgb(127, 29, 29)",
             "text-red-900",
-            "color: #7F1D1D;"
+            "rgb(127, 29, 29)",
+            "color: #7F1D1D;",
+            "#7F1D1D"
           ],
           [
-            "rgb(255, 251, 235)",
             "text-yellow-50",
-            "color: #FFFBEB;"
+            "rgb(255, 251, 235)",
+            "color: #FFFBEB;",
+            "#FFFBEB"
           ],
           [
-            "rgb(254, 243, 199)",
             "text-yellow-100",
-            "color: #FEF3C7;"
+            "rgb(254, 243, 199)",
+            "color: #FEF3C7;",
+            "#FEF3C7"
           ],
           [
-            "rgb(253, 230, 138)",
             "text-yellow-200",
-            "color: #FDE68A;"
+            "rgb(253, 230, 138)",
+            "color: #FDE68A;",
+            "#FDE68A"
           ],
           [
-            "rgb(252, 211, 77)",
             "text-yellow-300",
-            "color: #FCD34D;"
+            "rgb(252, 211, 77)",
+            "color: #FCD34D;",
+            "#FCD34D"
           ],
           [
-            "rgb(251, 191, 36)",
             "text-yellow-400",
-            "color: #FBBF24;"
+            "rgb(251, 191, 36)",
+            "color: #FBBF24;",
+            "#FBBF24"
           ],
           [
-            "rgb(245, 158, 11)",
             "text-yellow-500",
-            "color: #F59E0B;"
+            "rgb(245, 158, 11)",
+            "color: #F59E0B;",
+            "#F59E0B"
           ],
           [
-            "rgb(217, 119, 6)",
             "text-yellow-600",
-            "color: #D97706;"
+            "rgb(217, 119, 6)",
+            "color: #D97706;",
+            "#D97706"
           ],
           [
-            "rgb(180, 83, 9)",
             "text-yellow-700",
-            "color: #B45309;"
+            "rgb(180, 83, 9)",
+            "color: #B45309;",
+            "#B45309"
           ],
           [
-            "rgb(146, 64, 14)",
             "text-yellow-800",
-            "color: #92400E;"
+            "rgb(146, 64, 14)",
+            "color: #92400E;",
+            "#92400E"
           ],
           [
-            "rgb(120, 53, 15)",
             "text-yellow-900",
-            "color: #78350F;"
+            "rgb(120, 53, 15)",
+            "color: #78350F;",
+            "#78350F"
           ],
           [
-            "rgb(236, 253, 245)",
             "text-green-50",
-            "color: #ECFDF5;"
+            "rgb(236, 253, 245)",
+            "color: #ECFDF5;",
+            "#ECFDF5"
           ],
           [
-            "rgb(209, 250, 229)",
             "text-green-100",
-            "color: #D1FAE5;"
+            "rgb(209, 250, 229)",
+            "color: #D1FAE5;",
+            "#D1FAE5"
           ],
           [
-            "rgb(167, 243, 208)",
             "text-green-200",
-            "color: #A7F3D0;"
+            "rgb(167, 243, 208)",
+            "color: #A7F3D0;",
+            "#A7F3D0"
           ],
           [
-            "rgb(110, 231, 183)",
             "text-green-300",
-            "color: #6EE7B7;"
+            "rgb(110, 231, 183)",
+            "color: #6EE7B7;",
+            "#6EE7B7"
           ],
           [
-            "rgb(52, 211, 153)",
             "text-green-400",
-            "color: #34D399;"
+            "rgb(52, 211, 153)",
+            "color: #34D399;",
+            "#34D399"
           ],
           [
-            "rgb(16, 185, 129)",
             "text-green-500",
-            "color: #10B981;"
+            "rgb(16, 185, 129)",
+            "color: #10B981;",
+            "#10B981"
           ],
           [
-            "rgb(5, 150, 105)",
             "text-green-600",
-            "color: #059669;"
+            "rgb(5, 150, 105)",
+            "color: #059669;",
+            "#059669"
           ],
           [
-            "rgb(4, 120, 87)",
             "text-green-700",
-            "color: #047857;"
+            "rgb(4, 120, 87)",
+            "color: #047857;",
+            "#047857"
           ],
           [
-            "rgb(6, 95, 70)",
             "text-green-800",
-            "color: #065F46;"
+            "rgb(6, 95, 70)",
+            "color: #065F46;",
+            "#065F46"
           ],
           [
-            "rgb(6, 78, 59)",
             "text-green-900",
-            "color: #064E3B;"
+            "rgb(6, 78, 59)",
+            "color: #064E3B;",
+            "#064E3B"
           ],
           [
-            "rgb(239, 246, 255)",
             "text-blue-50",
-            "color: #EFF6FF;"
+            "rgb(239, 246, 255)",
+            "color: #EFF6FF;",
+            "#EFF6FF"
           ],
           [
-            "rgb(219, 234, 254)",
             "text-blue-100",
-            "color: #DBEAFE;"
+            "rgb(219, 234, 254)",
+            "color: #DBEAFE;",
+            "#DBEAFE"
           ],
           [
-            "rgb(191, 219, 254)",
             "text-blue-200",
-            "color: #BFDBFE;"
+            "rgb(191, 219, 254)",
+            "color: #BFDBFE;",
+            "#BFDBFE"
           ],
           [
-            "rgb(147, 197, 253)",
             "text-blue-300",
-            "color: #93C5FD;"
+            "rgb(147, 197, 253)",
+            "color: #93C5FD;",
+            "#93C5FD"
           ],
           [
-            "rgb(96, 165, 250)",
             "text-blue-400",
-            "color: #60A5FA;"
+            "rgb(96, 165, 250)",
+            "color: #60A5FA;",
+            "#60A5FA"
           ],
           [
-            "rgb(59, 130, 246)",
             "text-blue-500",
-            "color: #3B82F6;"
+            "rgb(59, 130, 246)",
+            "color: #3B82F6;",
+            "#3B82F6"
           ],
           [
-            "rgb(37, 99, 235)",
             "text-blue-600",
-            "color: #2563EB;"
+            "rgb(37, 99, 235)",
+            "color: #2563EB;",
+            "#2563EB"
           ],
           [
-            "rgb(29, 78, 216)",
             "text-blue-700",
-            "color: #1D4ED8;"
+            "rgb(29, 78, 216)",
+            "color: #1D4ED8;",
+            "#1D4ED8"
           ],
           [
-            "rgb(30, 64, 175)",
             "text-blue-800",
-            "color: #1E40AF;"
+            "rgb(30, 64, 175)",
+            "color: #1E40AF;",
+            "#1E40AF"
           ],
           [
-            "rgb(30, 58, 138)",
             "text-blue-900",
-            "color: #1E3A8A;"
+            "rgb(30, 58, 138)",
+            "color: #1E3A8A;",
+            "#1E3A8A"
           ],
           [
-            "rgb(238, 242, 255)",
             "text-indigo-50",
-            "color: #EEF2FF;"
+            "rgb(238, 242, 255)",
+            "color: #EEF2FF;",
+            "#EEF2FF"
           ],
           [
-            "rgb(224, 231, 255)",
             "text-indigo-100",
-            "color: #E0E7FF;"
+            "rgb(224, 231, 255)",
+            "color: #E0E7FF;",
+            "#E0E7FF"
           ],
           [
-            "rgb(199, 210, 254)",
             "text-indigo-200",
-            "color: #C7D2FE;"
+            "rgb(199, 210, 254)",
+            "color: #C7D2FE;",
+            "#C7D2FE"
           ],
           [
-            "rgb(165, 180, 252)",
             "text-indigo-300",
-            "color: #A5B4FC;"
+            "rgb(165, 180, 252)",
+            "color: #A5B4FC;",
+            "#A5B4FC"
           ],
           [
-            "rgb(129, 140, 248)",
             "text-indigo-400",
-            "color: #818CF8;"
+            "rgb(129, 140, 248)",
+            "color: #818CF8;",
+            "#818CF8"
           ],
           [
-            "rgb(99, 102, 241)",
             "text-indigo-500",
-            "color: #6366F1;"
+            "rgb(99, 102, 241)",
+            "color: #6366F1;",
+            "#6366F1"
           ],
           [
-            "rgb(79, 70, 229)",
             "text-indigo-600",
-            "color: #4F46E5;"
+            "rgb(79, 70, 229)",
+            "color: #4F46E5;",
+            "#4F46E5"
           ],
           [
-            "rgb(67, 56, 202)",
             "text-indigo-700",
-            "color: #4338CA;"
+            "rgb(67, 56, 202)",
+            "color: #4338CA;",
+            "#4338CA"
           ],
           [
-            "rgb(55, 48, 163)",
             "text-indigo-800",
-            "color: #3730A3;"
+            "rgb(55, 48, 163)",
+            "color: #3730A3;",
+            "#3730A3"
           ],
           [
-            "rgb(49, 46, 129)",
             "text-indigo-900",
-            "color: #312E81;"
+            "rgb(49, 46, 129)",
+            "color: #312E81;",
+            "#312E81"
           ],
           [
-            "rgb(245, 243, 255)",
             "text-purple-50",
-            "color: #F5F3FF;"
+            "rgb(245, 243, 255)",
+            "color: #F5F3FF;",
+            "#F5F3FF"
           ],
           [
-            "rgb(237, 233, 254)",
             "text-purple-100",
-            "color: #EDE9FE;"
+            "rgb(237, 233, 254)",
+            "color: #EDE9FE;",
+            "#EDE9FE"
           ],
           [
-            "rgb(221, 214, 254)",
             "text-purple-200",
-            "color: #DDD6FE;"
+            "rgb(221, 214, 254)",
+            "color: #DDD6FE;",
+            "#DDD6FE"
           ],
           [
-            "rgb(196, 181, 253)",
             "text-purple-300",
-            "color: #C4B5FD;"
+            "rgb(196, 181, 253)",
+            "color: #C4B5FD;",
+            "#C4B5FD"
           ],
           [
-            "rgb(167, 139, 250)",
             "text-purple-400",
-            "color: #A78BFA;"
+            "rgb(167, 139, 250)",
+            "color: #A78BFA;",
+            "#A78BFA"
           ],
           [
-            "rgb(139, 92, 246)",
             "text-purple-500",
-            "color: #8B5CF6;"
+            "rgb(139, 92, 246)",
+            "color: #8B5CF6;",
+            "#8B5CF6"
           ],
           [
-            "rgb(124, 58, 237)",
             "text-purple-600",
-            "color: #7C3AED;"
+            "rgb(124, 58, 237)",
+            "color: #7C3AED;",
+            "#7C3AED"
           ],
           [
-            "rgb(109, 40, 217)",
             "text-purple-700",
-            "color: #6D28D9;"
+            "rgb(109, 40, 217)",
+            "color: #6D28D9;",
+            "#6D28D9"
           ],
           [
-            "rgb(91, 33, 182)",
             "text-purple-800",
-            "color: #5B21B6;"
+            "rgb(91, 33, 182)",
+            "color: #5B21B6;",
+            "#5B21B6"
           ],
           [
-            "rgb(76, 29, 149)",
             "text-purple-900",
-            "color: #4C1D95;"
+            "rgb(76, 29, 149)",
+            "color: #4C1D95;",
+            "#4C1D95"
           ],
           [
-            "rgb(253, 242, 248)",
             "text-pink-50",
-            "color: #FDF2F8;"
+            "rgb(253, 242, 248)",
+            "color: #FDF2F8;",
+            "#FDF2F8"
           ],
           [
-            "rgb(252, 231, 243)",
             "text-pink-100",
-            "color: #FCE7F3;"
+            "rgb(252, 231, 243)",
+            "color: #FCE7F3;",
+            "#FCE7F3"
           ],
           [
-            "rgb(251, 207, 232)",
             "text-pink-200",
-            "color: #FBCFE8;"
+            "rgb(251, 207, 232)",
+            "color: #FBCFE8;",
+            "#FBCFE8"
           ],
           [
-            "rgb(249, 168, 212)",
             "text-pink-300",
-            "color: #F9A8D4;"
+            "rgb(249, 168, 212)",
+            "color: #F9A8D4;",
+            "#F9A8D4"
           ],
           [
-            "rgb(244, 114, 182)",
             "text-pink-400",
-            "color: #F472B6;"
+            "rgb(244, 114, 182)",
+            "color: #F472B6;",
+            "#F472B6"
           ],
           [
-            "rgb(236, 72, 153)",
             "text-pink-500",
-            "color: #EC4899;"
+            "rgb(236, 72, 153)",
+            "color: #EC4899;",
+            "#EC4899"
           ],
           [
-            "rgb(219, 39, 119)",
             "text-pink-600",
-            "color: #DB2777;"
+            "rgb(219, 39, 119)",
+            "color: #DB2777;",
+            "#DB2777"
           ],
           [
-            "rgb(190, 24, 93)",
             "text-pink-700",
-            "color: #BE185D;"
+            "rgb(190, 24, 93)",
+            "color: #BE185D;",
+            "#BE185D"
           ],
           [
-            "rgb(157, 23, 77)",
             "text-pink-800",
-            "color: #9D174D;"
+            "rgb(157, 23, 77)",
+            "color: #9D174D;",
+            "#9D174D"
           ],
           [
-            "rgb(131, 24, 67)",
             "text-pink-900",
-            "color: #831843;"
+            "rgb(131, 24, 67)",
+            "color: #831843;",
+            "#831843"
           ]
         ]
       },
@@ -13564,424 +13984,508 @@
         "description": "Sets background color.",
         "table": [
           [
-            "transparent",
             "bg-transparent",
-            "background-color: transparent;"
+            "transparent",
+            "background-color: transparent;",
+            "transparent"
           ],
           [
-            "current color",
             "bg-current",
-            "background-color: currentColor;"
+            "current color",
+            "background-color: currentColor;",
+            "currentColor"
           ],
           [
-            "rgb(0, 0, 0)",
             "bg-black",
-            "background-color: #000000;"
+            "rgb(0, 0, 0)",
+            "background-color: #000000;",
+            "#000000"
           ],
           [
-            "rgb(255, 255, 255)",
             "bg-white",
-            "background-color: #ffffff;"
+            "rgb(255, 255, 255)",
+            "background-color: #ffffff;",
+            "#ffffff"
           ],
           [
-            "rgb(249, 250, 251)",
             "bg-gray-50",
-            "background-color: #F9FAFB;"
+            "rgb(249, 250, 251)",
+            "background-color: #F9FAFB;",
+            "#F9FAFB"
           ],
           [
-            "rgb(243, 244, 246)",
             "bg-gray-100",
-            "background-color: #F3F4F6;"
+            "rgb(243, 244, 246)",
+            "background-color: #F3F4F6;",
+            "#F3F4F6"
           ],
           [
-            "rgb(229, 231, 235)",
             "bg-gray-200",
-            "background-color: #E5E7EB;"
+            "rgb(229, 231, 235)",
+            "background-color: #E5E7EB;",
+            "#E5E7EB"
           ],
           [
-            "rgb(209, 213, 219)",
             "bg-gray-300",
-            "background-color: #D1D5DB;"
+            "rgb(209, 213, 219)",
+            "background-color: #D1D5DB;",
+            "#D1D5DB"
           ],
           [
-            "rgb(156, 163, 175)",
             "bg-gray-400",
-            "background-color: #9CA3AF;"
+            "rgb(156, 163, 175)",
+            "background-color: #9CA3AF;",
+            "#9CA3AF"
           ],
           [
-            "rgb(107, 114, 128)",
             "bg-gray-500",
-            "background-color: #6B7280;"
+            "rgb(107, 114, 128)",
+            "background-color: #6B7280;",
+            "#6B7280"
           ],
           [
-            "rgb(75, 85, 99)",
             "bg-gray-600",
-            "background-color: #6B7280;"
+            "rgb(75, 85, 99)",
+            "background-color: #6B7280;",
+            "#6B7280"
           ],
           [
-            "rgb(55, 65, 81)",
             "bg-gray-700",
-            "background-color: #374151;"
+            "rgb(55, 65, 81)",
+            "background-color: #374151;",
+            "#374151"
           ],
           [
-            "rgb(31, 41, 55)",
             "bg-gray-800",
-            "background-color: #1F2937;"
+            "rgb(31, 41, 55)",
+            "background-color: #1F2937;",
+            "#1F2937"
           ],
           [
-            "rgb(17, 24, 39)",
             "bg-gray-900",
-            "background-color: #111827;"
+            "rgb(17, 24, 39)",
+            "background-color: #111827;",
+            "#111827"
           ],
           [
-            "rgb(254, 242, 242)",
             "bg-red-50",
-            "background-color: #FEF2F2;"
+            "rgb(254, 242, 242)",
+            "background-color: #FEF2F2;",
+            "#FEF2F2"
           ],
           [
-            "rgb(254, 226, 226)",
             "bg-red-100",
-            "background-color: #FEE2E2;"
+            "rgb(254, 226, 226)",
+            "background-color: #FEE2E2;",
+            "#FEE2E2"
           ],
           [
-            "rgb(254, 202, 202)",
             "bg-red-200",
-            "background-color: #FECACA;"
+            "rgb(254, 202, 202)",
+            "background-color: #FECACA;",
+            "#FECACA"
           ],
           [
-            "rgb(252, 165, 165)",
             "bg-red-300",
-            "background-color: #FCA5A5;"
+            "rgb(252, 165, 165)",
+            "background-color: #FCA5A5;",
+            "#FCA5A5"
           ],
           [
-            "rgb(248, 113, 113)",
             "bg-red-400",
-            "background-color: #F87171;"
+            "rgb(248, 113, 113)",
+            "background-color: #F87171;",
+            "#F87171"
           ],
           [
-            "rgb(239, 68, 68)",
             "bg-red-500",
-            "background-color: #EF4444;"
+            "rgb(239, 68, 68)",
+            "background-color: #EF4444;",
+            "#EF4444"
           ],
           [
-            "rgb(220, 38, 38)",
             "bg-red-600",
-            "background-color: #DC2626;"
+            "rgb(220, 38, 38)",
+            "background-color: #DC2626;",
+            "#DC2626"
           ],
           [
-            "rgb(185, 28, 28)",
             "bg-red-700",
-            "background-color: #B91C1C;"
+            "rgb(185, 28, 28)",
+            "background-color: #B91C1C;",
+            "#B91C1C"
           ],
           [
-            "rgb(153, 27, 27)",
             "bg-red-800",
-            "background-color: #991B1B;"
+            "rgb(153, 27, 27)",
+            "background-color: #991B1B;",
+            "#991B1B"
           ],
           [
-            "rgb(127, 29, 29)",
             "bg-red-900",
-            "background-color: #7F1D1D;"
+            "rgb(127, 29, 29)",
+            "background-color: #7F1D1D;",
+            "#7F1D1D"
           ],
           [
-            "rgb(255, 251, 235)",
             "bg-yellow-50",
-            "background-color: #FFFBEB;"
+            "rgb(255, 251, 235)",
+            "background-color: #FFFBEB;",
+            "#FFFBEB"
           ],
           [
-            "rgb(254, 243, 199)",
             "bg-yellow-100",
-            "background-color: #FEF3C7;"
+            "rgb(254, 243, 199)",
+            "background-color: #FEF3C7;",
+            "#FEF3C7"
           ],
           [
-            "rgb(253, 230, 138)",
             "bg-yellow-200",
-            "background-color: #FDE68A;"
+            "rgb(253, 230, 138)",
+            "background-color: #FDE68A;",
+            "#FDE68A"
           ],
           [
-            "rgb(252, 211, 77)",
             "bg-yellow-300",
-            "background-color: #FCD34D;"
+            "rgb(252, 211, 77)",
+            "background-color: #FCD34D;",
+            "#FCD34D"
           ],
           [
-            "rgb(251, 191, 36)",
             "bg-yellow-400",
-            "background-color: #FBBF24;"
+            "rgb(251, 191, 36)",
+            "background-color: #FBBF24;",
+            "#FBBF24"
           ],
           [
-            "rgb(245, 158, 11)",
             "bg-yellow-500",
-            "background-color: #F59E0B;"
+            "rgb(245, 158, 11)",
+            "background-color: #F59E0B;",
+            "#F59E0B"
           ],
           [
-            "rgb(217, 119, 6)",
             "bg-yellow-600",
-            "background-color: #D97706;"
+            "rgb(217, 119, 6)",
+            "background-color: #D97706;",
+            "#D97706"
           ],
           [
-            "rgb(180, 83, 9)",
             "bg-yellow-700",
-            "background-color: #B45309;"
+            "rgb(180, 83, 9)",
+            "background-color: #B45309;",
+            "#B45309"
           ],
           [
-            "rgb(146, 64, 14)",
             "bg-yellow-800",
-            "background-color: #92400E;"
+            "rgb(146, 64, 14)",
+            "background-color: #92400E;",
+            "#92400E"
           ],
           [
-            "rgb(120, 53, 15)",
             "bg-yellow-900",
-            "background-color: #78350F;"
+            "rgb(120, 53, 15)",
+            "background-color: #78350F;",
+            "#78350F"
           ],
           [
-            "rgb(236, 253, 245)",
             "bg-green-50",
-            "background-color: #ECFDF5;"
+            "rgb(236, 253, 245)",
+            "background-color: #ECFDF5;",
+            "#ECFDF5"
           ],
           [
-            "rgb(209, 250, 229)",
             "bg-green-100",
-            "background-color: #D1FAE5;"
+            "rgb(209, 250, 229)",
+            "background-color: #D1FAE5;",
+            "#D1FAE5"
           ],
           [
-            "rgb(167, 243, 208)",
             "bg-green-200",
-            "background-color: #A7F3D0;"
+            "rgb(167, 243, 208)",
+            "background-color: #A7F3D0;",
+            "#A7F3D0"
           ],
           [
-            "rgb(110, 231, 183)",
             "bg-green-300",
-            "background-color: #6EE7B7;"
+            "rgb(110, 231, 183)",
+            "background-color: #6EE7B7;",
+            "#6EE7B7"
           ],
           [
-            "rgb(52, 211, 153)",
             "bg-green-400",
-            "background-color: #34D399;"
+            "rgb(52, 211, 153)",
+            "background-color: #34D399;",
+            "#34D399"
           ],
           [
-            "rgb(16, 185, 129)",
             "bg-green-500",
-            "background-color: #10B981;"
+            "rgb(16, 185, 129)",
+            "background-color: #10B981;",
+            "#10B981"
           ],
           [
-            "rgb(5, 150, 105)",
             "bg-green-600",
-            "background-color: #059669;"
+            "rgb(5, 150, 105)",
+            "background-color: #059669;",
+            "#059669"
           ],
           [
-            "rgb(4, 120, 87)",
             "bg-green-700",
-            "background-color: #047857;"
+            "rgb(4, 120, 87)",
+            "background-color: #047857;",
+            "#047857"
           ],
           [
-            "rgb(6, 95, 70)",
             "bg-green-800",
-            "background-color: #065F46;"
+            "rgb(6, 95, 70)",
+            "background-color: #065F46;",
+            "#065F46"
           ],
           [
-            "rgb(6, 78, 59)",
             "bg-green-900",
-            "background-color: #064E3B;"
+            "rgb(6, 78, 59)",
+            "background-color: #064E3B;",
+            "#064E3B"
           ],
           [
-            "rgb(239, 246, 255)",
             "bg-blue-50",
-            "background-color: #EFF6FF;"
+            "rgb(239, 246, 255)",
+            "background-color: #EFF6FF;",
+            "#EFF6FF"
           ],
           [
-            "rgb(219, 234, 254)",
             "bg-blue-100",
-            "background-color: #DBEAFE;"
+            "rgb(219, 234, 254)",
+            "background-color: #DBEAFE;",
+            "#DBEAFE"
           ],
           [
-            "rgb(191, 219, 254)",
             "bg-blue-200",
-            "background-color: #BFDBFE;"
+            "rgb(191, 219, 254)",
+            "background-color: #BFDBFE;",
+            "#BFDBFE"
           ],
           [
-            "rgb(147, 197, 253)",
             "bg-blue-300",
-            "background-color: #93C5FD;"
+            "rgb(147, 197, 253)",
+            "background-color: #93C5FD;",
+            "#93C5FD"
           ],
           [
-            "rgb(96, 165, 250)",
             "bg-blue-400",
-            "background-color: #60A5FA;"
+            "rgb(96, 165, 250)",
+            "background-color: #60A5FA;",
+            "#60A5FA"
           ],
           [
-            "rgb(59, 130, 246)",
             "bg-blue-500",
-            "background-color: #3B82F6;"
+            "rgb(59, 130, 246)",
+            "background-color: #3B82F6;",
+            "#3B82F6"
           ],
           [
-            "rgb(37, 99, 235)",
             "bg-blue-600",
-            "background-color: #2563EB;"
+            "rgb(37, 99, 235)",
+            "background-color: #2563EB;",
+            "#2563EB"
           ],
           [
-            "rgb(29, 78, 216)",
             "bg-blue-700",
-            "background-color: #1D4ED8;"
+            "rgb(29, 78, 216)",
+            "background-color: #1D4ED8;",
+            "#1D4ED8"
           ],
           [
-            "rgb(30, 64, 175)",
             "bg-blue-800",
-            "background-color: #1E40AF;"
+            "rgb(30, 64, 175)",
+            "background-color: #1E40AF;",
+            "#1E40AF"
           ],
           [
-            "rgb(30, 58, 138)",
             "bg-blue-900",
-            "background-color: #1E3A8A;"
+            "rgb(30, 58, 138)",
+            "background-color: #1E3A8A;",
+            "#1E3A8A"
           ],
           [
-            "rgb(238, 242, 255)",
             "bg-indigo-50",
-            "background-color: #EEF2FF;"
+            "rgb(238, 242, 255)",
+            "background-color: #EEF2FF;",
+            "#EEF2FF"
           ],
           [
-            "rgb(224, 231, 255)",
             "bg-indigo-100",
-            "background-color: #E0E7FF;"
+            "rgb(224, 231, 255)",
+            "background-color: #E0E7FF;",
+            "#E0E7FF"
           ],
           [
-            "rgb(199, 210, 254)",
             "bg-indigo-200",
-            "background-color: #C7D2FE;"
+            "rgb(199, 210, 254)",
+            "background-color: #C7D2FE;",
+            "#C7D2FE"
           ],
           [
-            "rgb(165, 180, 252)",
             "bg-indigo-300",
-            "background-color: #A5B4FC;"
+            "rgb(165, 180, 252)",
+            "background-color: #A5B4FC;",
+            "#A5B4FC"
           ],
           [
-            "rgb(129, 140, 248)",
             "bg-indigo-400",
-            "background-color: #818CF8;"
+            "rgb(129, 140, 248)",
+            "background-color: #818CF8;",
+            "#818CF8"
           ],
           [
-            "rgb(99, 102, 241)",
             "bg-indigo-500",
-            "background-color: #6366F1;"
+            "rgb(99, 102, 241)",
+            "background-color: #6366F1;",
+            "#6366F1"
           ],
           [
-            "rgb(79, 70, 229)",
             "bg-indigo-600",
-            "background-color: #4F46E5;"
+            "rgb(79, 70, 229)",
+            "background-color: #4F46E5;",
+            "#4F46E5"
           ],
           [
-            "rgb(67, 56, 202)",
             "bg-indigo-700",
-            "background-color: #4338CA;"
+            "rgb(67, 56, 202)",
+            "background-color: #4338CA;",
+            "#4338CA"
           ],
           [
-            "rgb(55, 48, 163)",
             "bg-indigo-800",
-            "background-color: #3730A3;"
+            "rgb(55, 48, 163)",
+            "background-color: #3730A3;",
+            "#3730A3"
           ],
           [
-            "rgb(49, 46, 129)",
             "bg-indigo-900",
-            "background-color: #312E81;"
+            "rgb(49, 46, 129)",
+            "background-color: #312E81;",
+            "#312E81"
           ],
           [
-            "rgb(245, 243, 255)",
             "bg-purple-50",
-            "background-color: #F5F3FF;"
+            "rgb(245, 243, 255)",
+            "background-color: #F5F3FF;",
+            "#F5F3FF"
           ],
           [
-            "rgb(237, 233, 254)",
             "bg-purple-100",
-            "background-color: #EDE9FE;"
+            "rgb(237, 233, 254)",
+            "background-color: #EDE9FE;",
+            "#EDE9FE"
           ],
           [
-            "rgb(221, 214, 254)",
             "bg-purple-200",
-            "background-color: #DDD6FE;"
+            "rgb(221, 214, 254)",
+            "background-color: #DDD6FE;",
+            "#DDD6FE"
           ],
           [
-            "rgb(196, 181, 253)",
             "bg-purple-300",
-            "background-color: #C4B5FD;"
+            "rgb(196, 181, 253)",
+            "background-color: #C4B5FD;",
+            "#C4B5FD"
           ],
           [
-            "rgb(167, 139, 250)",
             "bg-purple-400",
-            "background-color: #A78BFA;"
+            "rgb(167, 139, 250)",
+            "background-color: #A78BFA;",
+            "#A78BFA"
           ],
           [
-            "rgb(139, 92, 246)",
             "bg-purple-500",
-            "background-color: #8B5CF6;"
+            "rgb(139, 92, 246)",
+            "background-color: #8B5CF6;",
+            "#8B5CF6"
           ],
           [
-            "rgb(124, 58, 237)",
             "bg-purple-600",
-            "background-color: #7C3AED;"
+            "rgb(124, 58, 237)",
+            "background-color: #7C3AED;",
+            "#7C3AED"
           ],
           [
-            "rgb(109, 40, 217)",
             "bg-purple-700",
-            "background-color: #6D28D9;"
+            "rgb(109, 40, 217)",
+            "background-color: #6D28D9;",
+            "#6D28D9"
           ],
           [
-            "rgb(91, 33, 182)",
             "bg-purple-800",
-            "background-color: #5B21B6;"
+            "rgb(91, 33, 182)",
+            "background-color: #5B21B6;",
+            "#5B21B6"
           ],
           [
-            "rgb(76, 29, 149)",
             "bg-purple-900",
-            "background-color: #4C1D95;"
+            "rgb(76, 29, 149)",
+            "background-color: #4C1D95;",
+            "#4C1D95"
           ],
           [
-            "rgb(253, 242, 248)",
             "bg-pink-50",
-            "background-color: #FDF2F8;"
+            "rgb(253, 242, 248)",
+            "background-color: #FDF2F8;",
+            "#FDF2F8"
           ],
           [
-            "rgb(252, 231, 243)",
             "bg-pink-100",
-            "background-color: #FCE7F3;"
+            "rgb(252, 231, 243)",
+            "background-color: #FCE7F3;",
+            "#FCE7F3"
           ],
           [
-            "rgb(251, 207, 232)",
             "bg-pink-200",
-            "background-color: #FBCFE8;"
+            "rgb(251, 207, 232)",
+            "background-color: #FBCFE8;",
+            "#FBCFE8"
           ],
           [
-            "rgb(249, 168, 212)",
             "bg-pink-300",
-            "background-color: #F9A8D4;"
+            "rgb(249, 168, 212)",
+            "background-color: #F9A8D4;",
+            "#F9A8D4"
           ],
           [
-            "rgb(244, 114, 182)",
             "bg-pink-400",
-            "background-color: #F472B6;"
+            "rgb(244, 114, 182)",
+            "background-color: #F472B6;",
+            "#F472B6"
           ],
           [
-            "rgb(236, 72, 153)",
             "bg-pink-500",
-            "background-color: #EC4899;"
+            "rgb(236, 72, 153)",
+            "background-color: #EC4899;",
+            "#EC4899"
           ],
           [
-            "rgb(219, 39, 119)",
             "bg-pink-600",
-            "background-color: #DB2777;"
+            "rgb(219, 39, 119)",
+            "background-color: #DB2777;",
+            "#DB2777"
           ],
           [
-            "rgb(190, 24, 93)",
             "bg-pink-700",
-            "background-color: #BE185D;"
+            "rgb(190, 24, 93)",
+            "background-color: #BE185D;",
+            "#BE185D"
           ],
           [
-            "rgb(157, 23, 77)",
             "bg-pink-800",
-            "background-color: #9D174D;"
+            "rgb(157, 23, 77)",
+            "background-color: #9D174D;",
+            "#9D174D"
           ],
           [
-            "rgb(131, 24, 67)",
             "bg-pink-900",
-            "background-color: #831843;"
+            "rgb(131, 24, 67)",
+            "background-color: #831843;",
+            "#831843"
           ]
         ]
       },
@@ -14213,1264 +14717,1516 @@
         "description": "Utilities for controlling the color stops in background gradients.",
         "table": [
           [
-            "transparent",
             "from-transparent",
-            "background-color: transparent;"
+            "transparent",
+            "background-color: transparent;",
+            "transparent"
           ],
           [
-            "current color",
             "from-current",
-            "background-color: currentColor;"
+            "current color",
+            "background-color: currentColor;",
+            "currentColor"
           ],
           [
-            "rgb(0, 0, 0)",
             "from-black",
-            "background-color: #000000;"
+            "rgb(0, 0, 0)",
+            "background-color: #000000;",
+            "#000000"
           ],
           [
-            "rgb(255, 255, 255)",
             "from-white",
-            "background-color: #ffffff;"
+            "rgb(255, 255, 255)",
+            "background-color: #ffffff;",
+            "#ffffff"
           ],
           [
-            "rgb(249, 250, 251)",
             "from-gray-50",
-            "background-color: #F9FAFB;"
+            "rgb(249, 250, 251)",
+            "background-color: #F9FAFB;",
+            "#F9FAFB"
           ],
           [
-            "rgb(243, 244, 246)",
             "from-gray-100",
-            "background-color: #F3F4F6;"
+            "rgb(243, 244, 246)",
+            "background-color: #F3F4F6;",
+            "#F3F4F6"
           ],
           [
-            "rgb(229, 231, 235)",
             "from-gray-200",
-            "background-color: #E5E7EB;"
+            "rgb(229, 231, 235)",
+            "background-color: #E5E7EB;",
+            "#E5E7EB"
           ],
           [
-            "rgb(209, 213, 219)",
             "from-gray-300",
-            "background-color: #D1D5DB;"
+            "rgb(209, 213, 219)",
+            "background-color: #D1D5DB;",
+            "#D1D5DB"
           ],
           [
-            "rgb(156, 163, 175)",
             "from-gray-400",
-            "background-color: #9CA3AF;"
+            "rgb(156, 163, 175)",
+            "background-color: #9CA3AF;",
+            "#9CA3AF"
           ],
           [
-            "rgb(107, 114, 128)",
             "from-gray-500",
-            "background-color: #6B7280;"
+            "rgb(107, 114, 128)",
+            "background-color: #6B7280;",
+            "#6B7280"
           ],
           [
-            "rgb(75, 85, 99)",
             "from-gray-600",
-            "background-color: #6B7280;"
+            "rgb(75, 85, 99)",
+            "background-color: #6B7280;",
+            "#6B7280"
           ],
           [
-            "rgb(55, 65, 81)",
             "from-gray-700",
-            "background-color: #374151;"
+            "rgb(55, 65, 81)",
+            "background-color: #374151;",
+            "#374151"
           ],
           [
-            "rgb(31, 41, 55)",
             "from-gray-800",
-            "background-color: #1F2937;"
+            "rgb(31, 41, 55)",
+            "background-color: #1F2937;",
+            "#1F2937"
           ],
           [
-            "rgb(17, 24, 39)",
             "from-gray-900",
-            "background-color: #111827;"
+            "rgb(17, 24, 39)",
+            "background-color: #111827;",
+            "#111827"
           ],
           [
-            "rgb(254, 242, 242)",
             "from-red-50",
-            "background-color: #FEF2F2;"
+            "rgb(254, 242, 242)",
+            "background-color: #FEF2F2;",
+            "#FEF2F2"
           ],
           [
-            "rgb(254, 226, 226)",
             "from-red-100",
-            "background-color: #FEE2E2;"
+            "rgb(254, 226, 226)",
+            "background-color: #FEE2E2;",
+            "#FEE2E2"
           ],
           [
-            "rgb(254, 202, 202)",
             "from-red-200",
-            "background-color: #FECACA;"
+            "rgb(254, 202, 202)",
+            "background-color: #FECACA;",
+            "#FECACA"
           ],
           [
-            "rgb(252, 165, 165)",
             "from-red-300",
-            "background-color: #FCA5A5;"
+            "rgb(252, 165, 165)",
+            "background-color: #FCA5A5;",
+            "#FCA5A5"
           ],
           [
-            "rgb(248, 113, 113)",
             "from-red-400",
-            "background-color: #F87171;"
+            "rgb(248, 113, 113)",
+            "background-color: #F87171;",
+            "#F87171"
           ],
           [
-            "rgb(239, 68, 68)",
             "from-red-500",
-            "background-color: #EF4444;"
+            "rgb(239, 68, 68)",
+            "background-color: #EF4444;",
+            "#EF4444"
           ],
           [
-            "rgb(220, 38, 38)",
             "from-red-600",
-            "background-color: #DC2626;"
+            "rgb(220, 38, 38)",
+            "background-color: #DC2626;",
+            "#DC2626"
           ],
           [
-            "rgb(185, 28, 28)",
             "from-red-700",
-            "background-color: #B91C1C;"
+            "rgb(185, 28, 28)",
+            "background-color: #B91C1C;",
+            "#B91C1C"
           ],
           [
-            "rgb(153, 27, 27)",
             "from-red-800",
-            "background-color: #991B1B;"
+            "rgb(153, 27, 27)",
+            "background-color: #991B1B;",
+            "#991B1B"
           ],
           [
-            "rgb(127, 29, 29)",
             "from-red-900",
-            "background-color: #7F1D1D;"
+            "rgb(127, 29, 29)",
+            "background-color: #7F1D1D;",
+            "#7F1D1D"
           ],
           [
-            "rgb(255, 251, 235)",
             "from-yellow-50",
-            "background-color: #FFFBEB;"
+            "rgb(255, 251, 235)",
+            "background-color: #FFFBEB;",
+            "#FFFBEB"
           ],
           [
-            "rgb(254, 243, 199)",
             "from-yellow-100",
-            "background-color: #FEF3C7;"
+            "rgb(254, 243, 199)",
+            "background-color: #FEF3C7;",
+            "#FEF3C7"
           ],
           [
-            "rgb(253, 230, 138)",
             "from-yellow-200",
-            "background-color: #FDE68A;"
+            "rgb(253, 230, 138)",
+            "background-color: #FDE68A;",
+            "#FDE68A"
           ],
           [
-            "rgb(252, 211, 77)",
             "from-yellow-300",
-            "background-color: #FCD34D;"
+            "rgb(252, 211, 77)",
+            "background-color: #FCD34D;",
+            "#FCD34D"
           ],
           [
-            "rgb(251, 191, 36)",
             "from-yellow-400",
-            "background-color: #FBBF24;"
+            "rgb(251, 191, 36)",
+            "background-color: #FBBF24;",
+            "#FBBF24"
           ],
           [
-            "rgb(245, 158, 11)",
             "from-yellow-500",
-            "background-color: #F59E0B;"
+            "rgb(245, 158, 11)",
+            "background-color: #F59E0B;",
+            "#F59E0B"
           ],
           [
-            "rgb(217, 119, 6)",
             "from-yellow-600",
-            "background-color: #D97706;"
+            "rgb(217, 119, 6)",
+            "background-color: #D97706;",
+            "#D97706"
           ],
           [
-            "rgb(180, 83, 9)",
             "from-yellow-700",
-            "background-color: #B45309;"
+            "rgb(180, 83, 9)",
+            "background-color: #B45309;",
+            "#B45309"
           ],
           [
-            "rgb(146, 64, 14)",
             "from-yellow-800",
-            "background-color: #92400E;"
+            "rgb(146, 64, 14)",
+            "background-color: #92400E;",
+            "#92400E"
           ],
           [
-            "rgb(120, 53, 15)",
             "from-yellow-900",
-            "background-color: #78350F;"
+            "rgb(120, 53, 15)",
+            "background-color: #78350F;",
+            "#78350F"
           ],
           [
-            "rgb(236, 253, 245)",
             "from-green-50",
-            "background-color: #ECFDF5;"
+            "rgb(236, 253, 245)",
+            "background-color: #ECFDF5;",
+            "#ECFDF5"
           ],
           [
-            "rgb(209, 250, 229)",
             "from-green-100",
-            "background-color: #D1FAE5;"
+            "rgb(209, 250, 229)",
+            "background-color: #D1FAE5;",
+            "#D1FAE5"
           ],
           [
-            "rgb(167, 243, 208)",
             "from-green-200",
-            "background-color: #A7F3D0;"
+            "rgb(167, 243, 208)",
+            "background-color: #A7F3D0;",
+            "#A7F3D0"
           ],
           [
-            "rgb(110, 231, 183)",
             "from-green-300",
-            "background-color: #6EE7B7;"
+            "rgb(110, 231, 183)",
+            "background-color: #6EE7B7;",
+            "#6EE7B7"
           ],
           [
-            "rgb(52, 211, 153)",
             "from-green-400",
-            "background-color: #34D399;"
+            "rgb(52, 211, 153)",
+            "background-color: #34D399;",
+            "#34D399"
           ],
           [
-            "rgb(16, 185, 129)",
             "from-green-500",
-            "background-color: #10B981;"
+            "rgb(16, 185, 129)",
+            "background-color: #10B981;",
+            "#10B981"
           ],
           [
-            "rgb(5, 150, 105)",
             "from-green-600",
-            "background-color: #059669;"
+            "rgb(5, 150, 105)",
+            "background-color: #059669;",
+            "#059669"
           ],
           [
-            "rgb(4, 120, 87)",
             "from-green-700",
-            "background-color: #047857;"
+            "rgb(4, 120, 87)",
+            "background-color: #047857;",
+            "#047857"
           ],
           [
-            "rgb(6, 95, 70)",
             "from-green-800",
-            "background-color: #065F46;"
+            "rgb(6, 95, 70)",
+            "background-color: #065F46;",
+            "#065F46"
           ],
           [
-            "rgb(6, 78, 59)",
             "from-green-900",
-            "background-color: #064E3B;"
+            "rgb(6, 78, 59)",
+            "background-color: #064E3B;",
+            "#064E3B"
           ],
           [
-            "rgb(239, 246, 255)",
             "from-blue-50",
-            "background-color: #EFF6FF;"
+            "rgb(239, 246, 255)",
+            "background-color: #EFF6FF;",
+            "#EFF6FF"
           ],
           [
-            "rgb(219, 234, 254)",
             "from-blue-100",
-            "background-color: #DBEAFE;"
+            "rgb(219, 234, 254)",
+            "background-color: #DBEAFE;",
+            "#DBEAFE"
           ],
           [
-            "rgb(191, 219, 254)",
             "from-blue-200",
-            "background-color: #BFDBFE;"
+            "rgb(191, 219, 254)",
+            "background-color: #BFDBFE;",
+            "#BFDBFE"
           ],
           [
-            "rgb(147, 197, 253)",
             "from-blue-300",
-            "background-color: #93C5FD;"
+            "rgb(147, 197, 253)",
+            "background-color: #93C5FD;",
+            "#93C5FD"
           ],
           [
-            "rgb(96, 165, 250)",
             "from-blue-400",
-            "background-color: #60A5FA;"
+            "rgb(96, 165, 250)",
+            "background-color: #60A5FA;",
+            "#60A5FA"
           ],
           [
-            "rgb(59, 130, 246)",
             "from-blue-500",
-            "background-color: #3B82F6;"
+            "rgb(59, 130, 246)",
+            "background-color: #3B82F6;",
+            "#3B82F6"
           ],
           [
-            "rgb(37, 99, 235)",
             "from-blue-600",
-            "background-color: #2563EB;"
+            "rgb(37, 99, 235)",
+            "background-color: #2563EB;",
+            "#2563EB"
           ],
           [
-            "rgb(29, 78, 216)",
             "from-blue-700",
-            "background-color: #1D4ED8;"
+            "rgb(29, 78, 216)",
+            "background-color: #1D4ED8;",
+            "#1D4ED8"
           ],
           [
-            "rgb(30, 64, 175)",
             "from-blue-800",
-            "background-color: #1E40AF;"
+            "rgb(30, 64, 175)",
+            "background-color: #1E40AF;",
+            "#1E40AF"
           ],
           [
-            "rgb(30, 58, 138)",
             "from-blue-900",
-            "background-color: #1E3A8A;"
+            "rgb(30, 58, 138)",
+            "background-color: #1E3A8A;",
+            "#1E3A8A"
           ],
           [
-            "rgb(238, 242, 255)",
             "from-indigo-50",
-            "background-color: #EEF2FF;"
+            "rgb(238, 242, 255)",
+            "background-color: #EEF2FF;",
+            "#EEF2FF"
           ],
           [
-            "rgb(224, 231, 255)",
             "from-indigo-100",
-            "background-color: #E0E7FF;"
+            "rgb(224, 231, 255)",
+            "background-color: #E0E7FF;",
+            "#E0E7FF"
           ],
           [
-            "rgb(199, 210, 254)",
             "from-indigo-200",
-            "background-color: #C7D2FE;"
+            "rgb(199, 210, 254)",
+            "background-color: #C7D2FE;",
+            "#C7D2FE"
           ],
           [
-            "rgb(165, 180, 252)",
             "from-indigo-300",
-            "background-color: #A5B4FC;"
+            "rgb(165, 180, 252)",
+            "background-color: #A5B4FC;",
+            "#A5B4FC"
           ],
           [
-            "rgb(129, 140, 248)",
             "from-indigo-400",
-            "background-color: #818CF8;"
+            "rgb(129, 140, 248)",
+            "background-color: #818CF8;",
+            "#818CF8"
           ],
           [
-            "rgb(99, 102, 241)",
             "from-indigo-500",
-            "background-color: #6366F1;"
+            "rgb(99, 102, 241)",
+            "background-color: #6366F1;",
+            "#6366F1"
           ],
           [
-            "rgb(79, 70, 229)",
             "from-indigo-600",
-            "background-color: #4F46E5;"
+            "rgb(79, 70, 229)",
+            "background-color: #4F46E5;",
+            "#4F46E5"
           ],
           [
-            "rgb(67, 56, 202)",
             "from-indigo-700",
-            "background-color: #4338CA;"
+            "rgb(67, 56, 202)",
+            "background-color: #4338CA;",
+            "#4338CA"
           ],
           [
-            "rgb(55, 48, 163)",
             "from-indigo-800",
-            "background-color: #3730A3;"
+            "rgb(55, 48, 163)",
+            "background-color: #3730A3;",
+            "#3730A3"
           ],
           [
-            "rgb(49, 46, 129)",
             "from-indigo-900",
-            "background-color: #312E81;"
+            "rgb(49, 46, 129)",
+            "background-color: #312E81;",
+            "#312E81"
           ],
           [
-            "rgb(245, 243, 255)",
             "from-purple-50",
-            "background-color: #F5F3FF;"
+            "rgb(245, 243, 255)",
+            "background-color: #F5F3FF;",
+            "#F5F3FF"
           ],
           [
-            "rgb(237, 233, 254)",
             "from-purple-100",
-            "background-color: #EDE9FE;"
+            "rgb(237, 233, 254)",
+            "background-color: #EDE9FE;",
+            "#EDE9FE"
           ],
           [
-            "rgb(221, 214, 254)",
             "from-purple-200",
-            "background-color: #DDD6FE;"
+            "rgb(221, 214, 254)",
+            "background-color: #DDD6FE;",
+            "#DDD6FE"
           ],
           [
-            "rgb(196, 181, 253)",
             "from-purple-300",
-            "background-color: #C4B5FD;"
+            "rgb(196, 181, 253)",
+            "background-color: #C4B5FD;",
+            "#C4B5FD"
           ],
           [
-            "rgb(167, 139, 250)",
             "from-purple-400",
-            "background-color: #A78BFA;"
+            "rgb(167, 139, 250)",
+            "background-color: #A78BFA;",
+            "#A78BFA"
           ],
           [
-            "rgb(139, 92, 246)",
             "from-purple-500",
-            "background-color: #8B5CF6;"
+            "rgb(139, 92, 246)",
+            "background-color: #8B5CF6;",
+            "#8B5CF6"
           ],
           [
-            "rgb(124, 58, 237)",
             "from-purple-600",
-            "background-color: #7C3AED;"
+            "rgb(124, 58, 237)",
+            "background-color: #7C3AED;",
+            "#7C3AED"
           ],
           [
-            "rgb(109, 40, 217)",
             "from-purple-700",
-            "background-color: #6D28D9;"
+            "rgb(109, 40, 217)",
+            "background-color: #6D28D9;",
+            "#6D28D9"
           ],
           [
-            "rgb(91, 33, 182)",
             "from-purple-800",
-            "background-color: #5B21B6;"
+            "rgb(91, 33, 182)",
+            "background-color: #5B21B6;",
+            "#5B21B6"
           ],
           [
-            "rgb(76, 29, 149)",
             "from-purple-900",
-            "background-color: #4C1D95;"
+            "rgb(76, 29, 149)",
+            "background-color: #4C1D95;",
+            "#4C1D95"
           ],
           [
-            "rgb(253, 242, 248)",
             "from-pink-50",
-            "background-color: #FDF2F8;"
+            "rgb(253, 242, 248)",
+            "background-color: #FDF2F8;",
+            "#FDF2F8"
           ],
           [
-            "rgb(252, 231, 243)",
             "from-pink-100",
-            "background-color: #FCE7F3;"
+            "rgb(252, 231, 243)",
+            "background-color: #FCE7F3;",
+            "#FCE7F3"
           ],
           [
-            "rgb(251, 207, 232)",
             "from-pink-200",
-            "background-color: #FBCFE8;"
+            "rgb(251, 207, 232)",
+            "background-color: #FBCFE8;",
+            "#FBCFE8"
           ],
           [
-            "rgb(249, 168, 212)",
             "from-pink-300",
-            "background-color: #F9A8D4;"
+            "rgb(249, 168, 212)",
+            "background-color: #F9A8D4;",
+            "#F9A8D4"
           ],
           [
-            "rgb(244, 114, 182)",
             "from-pink-400",
-            "background-color: #F472B6;"
+            "rgb(244, 114, 182)",
+            "background-color: #F472B6;",
+            "#F472B6"
           ],
           [
-            "rgb(236, 72, 153)",
             "from-pink-500",
-            "background-color: #EC4899;"
+            "rgb(236, 72, 153)",
+            "background-color: #EC4899;",
+            "#EC4899"
           ],
           [
-            "rgb(219, 39, 119)",
             "from-pink-600",
-            "background-color: #DB2777;"
+            "rgb(219, 39, 119)",
+            "background-color: #DB2777;",
+            "#DB2777"
           ],
           [
-            "rgb(190, 24, 93)",
             "from-pink-700",
-            "background-color: #BE185D;"
+            "rgb(190, 24, 93)",
+            "background-color: #BE185D;",
+            "#BE185D"
           ],
           [
-            "rgb(157, 23, 77)",
             "from-pink-800",
-            "background-color: #9D174D;"
+            "rgb(157, 23, 77)",
+            "background-color: #9D174D;",
+            "#9D174D"
           ],
           [
-            "rgb(131, 24, 67)",
             "from-pink-900",
-            "background-color: #831843;"
+            "rgb(131, 24, 67)",
+            "background-color: #831843;",
+            "#831843"
           ],
           [
-            "transparent",
             "via-transparent",
-            "background-color: transparent;"
-          ],
-          [
-            "current color",
-            "via-current",
-            "background-color: currentColor;"
-          ],
-          [
-            "rgb(0, 0, 0)",
-            "via-black",
-            "background-color: #000000;"
-          ],
-          [
-            "rgb(255, 255, 255)",
-            "via-white",
-            "background-color: #ffffff;"
-          ],
-          [
-            "rgb(249, 250, 251)",
-            "via-gray-50",
-            "background-color: #F9FAFB;"
-          ],
-          [
-            "rgb(243, 244, 246)",
-            "via-gray-100",
-            "background-color: #F3F4F6;"
-          ],
-          [
-            "rgb(229, 231, 235)",
-            "via-gray-200",
-            "background-color: #E5E7EB;"
-          ],
-          [
-            "rgb(209, 213, 219)",
-            "via-gray-300",
-            "background-color: #D1D5DB;"
-          ],
-          [
-            "rgb(156, 163, 175)",
-            "via-gray-400",
-            "background-color: #9CA3AF;"
-          ],
-          [
-            "rgb(107, 114, 128)",
-            "via-gray-500",
-            "background-color: #6B7280;"
-          ],
-          [
-            "rgb(75, 85, 99)",
-            "via-gray-600",
-            "background-color: #6B7280;"
-          ],
-          [
-            "rgb(55, 65, 81)",
-            "via-gray-700",
-            "background-color: #374151;"
-          ],
-          [
-            "rgb(31, 41, 55)",
-            "via-gray-800",
-            "background-color: #1F2937;"
-          ],
-          [
-            "rgb(17, 24, 39)",
-            "via-gray-900",
-            "background-color: #111827;"
-          ],
-          [
-            "rgb(254, 242, 242)",
-            "via-red-50",
-            "background-color: #FEF2F2;"
-          ],
-          [
-            "rgb(254, 226, 226)",
-            "via-red-100",
-            "background-color: #FEE2E2;"
-          ],
-          [
-            "rgb(254, 202, 202)",
-            "via-red-200",
-            "background-color: #FECACA;"
-          ],
-          [
-            "rgb(252, 165, 165)",
-            "via-red-300",
-            "background-color: #FCA5A5;"
-          ],
-          [
-            "rgb(248, 113, 113)",
-            "via-red-400",
-            "background-color: #F87171;"
-          ],
-          [
-            "rgb(239, 68, 68)",
-            "via-red-500",
-            "background-color: #EF4444;"
-          ],
-          [
-            "rgb(220, 38, 38)",
-            "via-red-600",
-            "background-color: #DC2626;"
-          ],
-          [
-            "rgb(185, 28, 28)",
-            "via-red-700",
-            "background-color: #B91C1C;"
-          ],
-          [
-            "rgb(153, 27, 27)",
-            "via-red-800",
-            "background-color: #991B1B;"
-          ],
-          [
-            "rgb(127, 29, 29)",
-            "via-red-900",
-            "background-color: #7F1D1D;"
-          ],
-          [
-            "rgb(255, 251, 235)",
-            "via-yellow-50",
-            "background-color: #FFFBEB;"
-          ],
-          [
-            "rgb(254, 243, 199)",
-            "via-yellow-100",
-            "background-color: #FEF3C7;"
-          ],
-          [
-            "rgb(253, 230, 138)",
-            "via-yellow-200",
-            "background-color: #FDE68A;"
-          ],
-          [
-            "rgb(252, 211, 77)",
-            "via-yellow-300",
-            "background-color: #FCD34D;"
-          ],
-          [
-            "rgb(251, 191, 36)",
-            "via-yellow-400",
-            "background-color: #FBBF24;"
-          ],
-          [
-            "rgb(245, 158, 11)",
-            "via-yellow-500",
-            "background-color: #F59E0B;"
-          ],
-          [
-            "rgb(217, 119, 6)",
-            "via-yellow-600",
-            "background-color: #D97706;"
-          ],
-          [
-            "rgb(180, 83, 9)",
-            "via-yellow-700",
-            "background-color: #B45309;"
-          ],
-          [
-            "rgb(146, 64, 14)",
-            "via-yellow-800",
-            "background-color: #92400E;"
-          ],
-          [
-            "rgb(120, 53, 15)",
-            "via-yellow-900",
-            "background-color: #78350F;"
-          ],
-          [
-            "rgb(236, 253, 245)",
-            "via-green-50",
-            "background-color: #ECFDF5;"
-          ],
-          [
-            "rgb(209, 250, 229)",
-            "via-green-100",
-            "background-color: #D1FAE5;"
-          ],
-          [
-            "rgb(167, 243, 208)",
-            "via-green-200",
-            "background-color: #A7F3D0;"
-          ],
-          [
-            "rgb(110, 231, 183)",
-            "via-green-300",
-            "background-color: #6EE7B7;"
-          ],
-          [
-            "rgb(52, 211, 153)",
-            "via-green-400",
-            "background-color: #34D399;"
-          ],
-          [
-            "rgb(16, 185, 129)",
-            "via-green-500",
-            "background-color: #10B981;"
-          ],
-          [
-            "rgb(5, 150, 105)",
-            "via-green-600",
-            "background-color: #059669;"
-          ],
-          [
-            "rgb(4, 120, 87)",
-            "via-green-700",
-            "background-color: #047857;"
-          ],
-          [
-            "rgb(6, 95, 70)",
-            "via-green-800",
-            "background-color: #065F46;"
-          ],
-          [
-            "rgb(6, 78, 59)",
-            "via-green-900",
-            "background-color: #064E3B;"
-          ],
-          [
-            "rgb(239, 246, 255)",
-            "via-blue-50",
-            "background-color: #EFF6FF;"
-          ],
-          [
-            "rgb(219, 234, 254)",
-            "via-blue-100",
-            "background-color: #DBEAFE;"
-          ],
-          [
-            "rgb(191, 219, 254)",
-            "via-blue-200",
-            "background-color: #BFDBFE;"
-          ],
-          [
-            "rgb(147, 197, 253)",
-            "via-blue-300",
-            "background-color: #93C5FD;"
-          ],
-          [
-            "rgb(96, 165, 250)",
-            "via-blue-400",
-            "background-color: #60A5FA;"
-          ],
-          [
-            "rgb(59, 130, 246)",
-            "via-blue-500",
-            "background-color: #3B82F6;"
-          ],
-          [
-            "rgb(37, 99, 235)",
-            "via-blue-600",
-            "background-color: #2563EB;"
-          ],
-          [
-            "rgb(29, 78, 216)",
-            "via-blue-700",
-            "background-color: #1D4ED8;"
-          ],
-          [
-            "rgb(30, 64, 175)",
-            "via-blue-800",
-            "background-color: #1E40AF;"
-          ],
-          [
-            "rgb(30, 58, 138)",
-            "via-blue-900",
-            "background-color: #1E3A8A;"
-          ],
-          [
-            "rgb(238, 242, 255)",
-            "via-indigo-50",
-            "background-color: #EEF2FF;"
-          ],
-          [
-            "rgb(224, 231, 255)",
-            "via-indigo-100",
-            "background-color: #E0E7FF;"
-          ],
-          [
-            "rgb(199, 210, 254)",
-            "via-indigo-200",
-            "background-color: #C7D2FE;"
-          ],
-          [
-            "rgb(165, 180, 252)",
-            "via-indigo-300",
-            "background-color: #A5B4FC;"
-          ],
-          [
-            "rgb(129, 140, 248)",
-            "via-indigo-400",
-            "background-color: #818CF8;"
-          ],
-          [
-            "rgb(99, 102, 241)",
-            "via-indigo-500",
-            "background-color: #6366F1;"
-          ],
-          [
-            "rgb(79, 70, 229)",
-            "via-indigo-600",
-            "background-color: #4F46E5;"
-          ],
-          [
-            "rgb(67, 56, 202)",
-            "via-indigo-700",
-            "background-color: #4338CA;"
-          ],
-          [
-            "rgb(55, 48, 163)",
-            "via-indigo-800",
-            "background-color: #3730A3;"
-          ],
-          [
-            "rgb(49, 46, 129)",
-            "via-indigo-900",
-            "background-color: #312E81;"
-          ],
-          [
-            "rgb(245, 243, 255)",
-            "via-purple-50",
-            "background-color: #F5F3FF;"
-          ],
-          [
-            "rgb(237, 233, 254)",
-            "via-purple-100",
-            "background-color: #EDE9FE;"
-          ],
-          [
-            "rgb(221, 214, 254)",
-            "via-purple-200",
-            "background-color: #DDD6FE;"
-          ],
-          [
-            "rgb(196, 181, 253)",
-            "via-purple-300",
-            "background-color: #C4B5FD;"
-          ],
-          [
-            "rgb(167, 139, 250)",
-            "via-purple-400",
-            "background-color: #A78BFA;"
-          ],
-          [
-            "rgb(139, 92, 246)",
-            "via-purple-500",
-            "background-color: #8B5CF6;"
-          ],
-          [
-            "rgb(124, 58, 237)",
-            "via-purple-600",
-            "background-color: #7C3AED;"
-          ],
-          [
-            "rgb(109, 40, 217)",
-            "via-purple-700",
-            "background-color: #6D28D9;"
-          ],
-          [
-            "rgb(91, 33, 182)",
-            "via-purple-800",
-            "background-color: #5B21B6;"
-          ],
-          [
-            "rgb(76, 29, 149)",
-            "via-purple-900",
-            "background-color: #4C1D95;"
-          ],
-          [
-            "rgb(253, 242, 248)",
-            "via-pink-50",
-            "background-color: #FDF2F8;"
-          ],
-          [
-            "rgb(252, 231, 243)",
-            "via-pink-100",
-            "background-color: #FCE7F3;"
-          ],
-          [
-            "rgb(251, 207, 232)",
-            "via-pink-200",
-            "background-color: #FBCFE8;"
-          ],
-          [
-            "rgb(249, 168, 212)",
-            "via-pink-300",
-            "background-color: #F9A8D4;"
-          ],
-          [
-            "rgb(244, 114, 182)",
-            "via-pink-400",
-            "background-color: #F472B6;"
-          ],
-          [
-            "rgb(236, 72, 153)",
-            "via-pink-500",
-            "background-color: #EC4899;"
-          ],
-          [
-            "rgb(219, 39, 119)",
-            "via-pink-600",
-            "background-color: #DB2777;"
-          ],
-          [
-            "rgb(190, 24, 93)",
-            "via-pink-700",
-            "background-color: #BE185D;"
-          ],
-          [
-            "rgb(157, 23, 77)",
-            "via-pink-800",
-            "background-color: #9D174D;"
-          ],
-          [
-            "rgb(131, 24, 67)",
-            "via-pink-900",
-            "background-color: #831843;"
-          ],
-          [
             "transparent",
-            "to-transparent",
-            "background-color: transparent;"
+            "background-color: transparent;",
+            "transparent"
           ],
           [
+            "via-current",
             "current color",
-            "to-current",
-            "background-color: currentColor;"
+            "background-color: currentColor;",
+            "currentColor"
           ],
           [
+            "via-black",
             "rgb(0, 0, 0)",
-            "to-black",
-            "background-color: #000000;"
+            "background-color: #000000;",
+            "#000000"
           ],
           [
+            "via-white",
             "rgb(255, 255, 255)",
-            "to-white",
-            "background-color: #ffffff;"
+            "background-color: #ffffff;",
+            "#ffffff"
           ],
           [
+            "via-gray-50",
             "rgb(249, 250, 251)",
-            "to-gray-50",
-            "background-color: #F9FAFB;"
+            "background-color: #F9FAFB;",
+            "#F9FAFB"
           ],
           [
+            "via-gray-100",
             "rgb(243, 244, 246)",
-            "to-gray-100",
-            "background-color: #F3F4F6;"
+            "background-color: #F3F4F6;",
+            "#F3F4F6"
           ],
           [
+            "via-gray-200",
             "rgb(229, 231, 235)",
-            "to-gray-200",
-            "background-color: #E5E7EB;"
+            "background-color: #E5E7EB;",
+            "#E5E7EB"
           ],
           [
+            "via-gray-300",
             "rgb(209, 213, 219)",
-            "to-gray-300",
-            "background-color: #D1D5DB;"
+            "background-color: #D1D5DB;",
+            "#D1D5DB"
           ],
           [
+            "via-gray-400",
             "rgb(156, 163, 175)",
-            "to-gray-400",
-            "background-color: #9CA3AF;"
+            "background-color: #9CA3AF;",
+            "#9CA3AF"
           ],
           [
+            "via-gray-500",
             "rgb(107, 114, 128)",
-            "to-gray-500",
-            "background-color: #6B7280;"
+            "background-color: #6B7280;",
+            "#6B7280"
           ],
           [
+            "via-gray-600",
             "rgb(75, 85, 99)",
-            "to-gray-600",
-            "background-color: #6B7280;"
+            "background-color: #6B7280;",
+            "#6B7280"
           ],
           [
+            "via-gray-700",
             "rgb(55, 65, 81)",
-            "to-gray-700",
-            "background-color: #374151;"
+            "background-color: #374151;",
+            "#374151"
           ],
           [
+            "via-gray-800",
             "rgb(31, 41, 55)",
-            "to-gray-800",
-            "background-color: #1F2937;"
+            "background-color: #1F2937;",
+            "#1F2937"
           ],
           [
+            "via-gray-900",
             "rgb(17, 24, 39)",
-            "to-gray-900",
-            "background-color: #111827;"
+            "background-color: #111827;",
+            "#111827"
           ],
           [
+            "via-red-50",
             "rgb(254, 242, 242)",
-            "to-red-50",
-            "background-color: #FEF2F2;"
+            "background-color: #FEF2F2;",
+            "#FEF2F2"
           ],
           [
+            "via-red-100",
             "rgb(254, 226, 226)",
-            "to-red-100",
-            "background-color: #FEE2E2;"
+            "background-color: #FEE2E2;",
+            "#FEE2E2"
           ],
           [
+            "via-red-200",
             "rgb(254, 202, 202)",
-            "to-red-200",
-            "background-color: #FECACA;"
+            "background-color: #FECACA;",
+            "#FECACA"
           ],
           [
+            "via-red-300",
             "rgb(252, 165, 165)",
-            "to-red-300",
-            "background-color: #FCA5A5;"
+            "background-color: #FCA5A5;",
+            "#FCA5A5"
           ],
           [
+            "via-red-400",
             "rgb(248, 113, 113)",
-            "to-red-400",
-            "background-color: #F87171;"
+            "background-color: #F87171;",
+            "#F87171"
           ],
           [
+            "via-red-500",
             "rgb(239, 68, 68)",
-            "to-red-500",
-            "background-color: #EF4444;"
+            "background-color: #EF4444;",
+            "#EF4444"
           ],
           [
+            "via-red-600",
             "rgb(220, 38, 38)",
-            "to-red-600",
-            "background-color: #DC2626;"
+            "background-color: #DC2626;",
+            "#DC2626"
           ],
           [
+            "via-red-700",
             "rgb(185, 28, 28)",
-            "to-red-700",
-            "background-color: #B91C1C;"
+            "background-color: #B91C1C;",
+            "#B91C1C"
           ],
           [
+            "via-red-800",
             "rgb(153, 27, 27)",
-            "to-red-800",
-            "background-color: #991B1B;"
+            "background-color: #991B1B;",
+            "#991B1B"
           ],
           [
+            "via-red-900",
             "rgb(127, 29, 29)",
-            "to-red-900",
-            "background-color: #7F1D1D;"
+            "background-color: #7F1D1D;",
+            "#7F1D1D"
           ],
           [
+            "via-yellow-50",
             "rgb(255, 251, 235)",
-            "to-yellow-50",
-            "background-color: #FFFBEB;"
+            "background-color: #FFFBEB;",
+            "#FFFBEB"
           ],
           [
+            "via-yellow-100",
             "rgb(254, 243, 199)",
-            "to-yellow-100",
-            "background-color: #FEF3C7;"
+            "background-color: #FEF3C7;",
+            "#FEF3C7"
           ],
           [
+            "via-yellow-200",
             "rgb(253, 230, 138)",
-            "to-yellow-200",
-            "background-color: #FDE68A;"
+            "background-color: #FDE68A;",
+            "#FDE68A"
           ],
           [
+            "via-yellow-300",
             "rgb(252, 211, 77)",
-            "to-yellow-300",
-            "background-color: #FCD34D;"
+            "background-color: #FCD34D;",
+            "#FCD34D"
           ],
           [
+            "via-yellow-400",
             "rgb(251, 191, 36)",
-            "to-yellow-400",
-            "background-color: #FBBF24;"
+            "background-color: #FBBF24;",
+            "#FBBF24"
           ],
           [
+            "via-yellow-500",
             "rgb(245, 158, 11)",
-            "to-yellow-500",
-            "background-color: #F59E0B;"
+            "background-color: #F59E0B;",
+            "#F59E0B"
           ],
           [
+            "via-yellow-600",
             "rgb(217, 119, 6)",
-            "to-yellow-600",
-            "background-color: #D97706;"
+            "background-color: #D97706;",
+            "#D97706"
           ],
           [
+            "via-yellow-700",
             "rgb(180, 83, 9)",
-            "to-yellow-700",
-            "background-color: #B45309;"
+            "background-color: #B45309;",
+            "#B45309"
           ],
           [
+            "via-yellow-800",
             "rgb(146, 64, 14)",
-            "to-yellow-800",
-            "background-color: #92400E;"
+            "background-color: #92400E;",
+            "#92400E"
           ],
           [
+            "via-yellow-900",
             "rgb(120, 53, 15)",
-            "to-yellow-900",
-            "background-color: #78350F;"
+            "background-color: #78350F;",
+            "#78350F"
           ],
           [
+            "via-green-50",
             "rgb(236, 253, 245)",
-            "to-green-50",
-            "background-color: #ECFDF5;"
+            "background-color: #ECFDF5;",
+            "#ECFDF5"
           ],
           [
+            "via-green-100",
             "rgb(209, 250, 229)",
-            "to-green-100",
-            "background-color: #D1FAE5;"
+            "background-color: #D1FAE5;",
+            "#D1FAE5"
           ],
           [
+            "via-green-200",
             "rgb(167, 243, 208)",
-            "to-green-200",
-            "background-color: #A7F3D0;"
+            "background-color: #A7F3D0;",
+            "#A7F3D0"
           ],
           [
+            "via-green-300",
             "rgb(110, 231, 183)",
-            "to-green-300",
-            "background-color: #6EE7B7;"
+            "background-color: #6EE7B7;",
+            "#6EE7B7"
           ],
           [
+            "via-green-400",
             "rgb(52, 211, 153)",
-            "to-green-400",
-            "background-color: #34D399;"
+            "background-color: #34D399;",
+            "#34D399"
           ],
           [
+            "via-green-500",
             "rgb(16, 185, 129)",
-            "to-green-500",
-            "background-color: #10B981;"
+            "background-color: #10B981;",
+            "#10B981"
           ],
           [
+            "via-green-600",
             "rgb(5, 150, 105)",
-            "to-green-600",
-            "background-color: #059669;"
+            "background-color: #059669;",
+            "#059669"
           ],
           [
+            "via-green-700",
             "rgb(4, 120, 87)",
-            "to-green-700",
-            "background-color: #047857;"
+            "background-color: #047857;",
+            "#047857"
           ],
           [
+            "via-green-800",
             "rgb(6, 95, 70)",
-            "to-green-800",
-            "background-color: #065F46;"
+            "background-color: #065F46;",
+            "#065F46"
           ],
           [
+            "via-green-900",
             "rgb(6, 78, 59)",
-            "to-green-900",
-            "background-color: #064E3B;"
+            "background-color: #064E3B;",
+            "#064E3B"
           ],
           [
+            "via-blue-50",
             "rgb(239, 246, 255)",
-            "to-blue-50",
-            "background-color: #EFF6FF;"
+            "background-color: #EFF6FF;",
+            "#EFF6FF"
           ],
           [
+            "via-blue-100",
             "rgb(219, 234, 254)",
-            "to-blue-100",
-            "background-color: #DBEAFE;"
+            "background-color: #DBEAFE;",
+            "#DBEAFE"
           ],
           [
+            "via-blue-200",
             "rgb(191, 219, 254)",
-            "to-blue-200",
-            "background-color: #BFDBFE;"
+            "background-color: #BFDBFE;",
+            "#BFDBFE"
           ],
           [
+            "via-blue-300",
             "rgb(147, 197, 253)",
-            "to-blue-300",
-            "background-color: #93C5FD;"
+            "background-color: #93C5FD;",
+            "#93C5FD"
           ],
           [
+            "via-blue-400",
             "rgb(96, 165, 250)",
-            "to-blue-400",
-            "background-color: #60A5FA;"
+            "background-color: #60A5FA;",
+            "#60A5FA"
           ],
           [
+            "via-blue-500",
             "rgb(59, 130, 246)",
-            "to-blue-500",
-            "background-color: #3B82F6;"
+            "background-color: #3B82F6;",
+            "#3B82F6"
           ],
           [
+            "via-blue-600",
             "rgb(37, 99, 235)",
-            "to-blue-600",
-            "background-color: #2563EB;"
+            "background-color: #2563EB;",
+            "#2563EB"
           ],
           [
+            "via-blue-700",
             "rgb(29, 78, 216)",
-            "to-blue-700",
-            "background-color: #1D4ED8;"
+            "background-color: #1D4ED8;",
+            "#1D4ED8"
           ],
           [
+            "via-blue-800",
             "rgb(30, 64, 175)",
-            "to-blue-800",
-            "background-color: #1E40AF;"
+            "background-color: #1E40AF;",
+            "#1E40AF"
           ],
           [
+            "via-blue-900",
             "rgb(30, 58, 138)",
-            "to-blue-900",
-            "background-color: #1E3A8A;"
+            "background-color: #1E3A8A;",
+            "#1E3A8A"
           ],
           [
+            "via-indigo-50",
             "rgb(238, 242, 255)",
-            "to-indigo-50",
-            "background-color: #EEF2FF;"
+            "background-color: #EEF2FF;",
+            "#EEF2FF"
           ],
           [
+            "via-indigo-100",
             "rgb(224, 231, 255)",
-            "to-indigo-100",
-            "background-color: #E0E7FF;"
+            "background-color: #E0E7FF;",
+            "#E0E7FF"
           ],
           [
+            "via-indigo-200",
             "rgb(199, 210, 254)",
-            "to-indigo-200",
-            "background-color: #C7D2FE;"
+            "background-color: #C7D2FE;",
+            "#C7D2FE"
           ],
           [
+            "via-indigo-300",
             "rgb(165, 180, 252)",
-            "to-indigo-300",
-            "background-color: #A5B4FC;"
+            "background-color: #A5B4FC;",
+            "#A5B4FC"
           ],
           [
+            "via-indigo-400",
             "rgb(129, 140, 248)",
-            "to-indigo-400",
-            "background-color: #818CF8;"
+            "background-color: #818CF8;",
+            "#818CF8"
           ],
           [
+            "via-indigo-500",
             "rgb(99, 102, 241)",
-            "to-indigo-500",
-            "background-color: #6366F1;"
+            "background-color: #6366F1;",
+            "#6366F1"
           ],
           [
+            "via-indigo-600",
             "rgb(79, 70, 229)",
-            "to-indigo-600",
-            "background-color: #4F46E5;"
+            "background-color: #4F46E5;",
+            "#4F46E5"
           ],
           [
+            "via-indigo-700",
             "rgb(67, 56, 202)",
-            "to-indigo-700",
-            "background-color: #4338CA;"
+            "background-color: #4338CA;",
+            "#4338CA"
           ],
           [
+            "via-indigo-800",
             "rgb(55, 48, 163)",
-            "to-indigo-800",
-            "background-color: #3730A3;"
+            "background-color: #3730A3;",
+            "#3730A3"
           ],
           [
+            "via-indigo-900",
             "rgb(49, 46, 129)",
-            "to-indigo-900",
-            "background-color: #312E81;"
+            "background-color: #312E81;",
+            "#312E81"
           ],
           [
+            "via-purple-50",
             "rgb(245, 243, 255)",
-            "to-purple-50",
-            "background-color: #F5F3FF;"
+            "background-color: #F5F3FF;",
+            "#F5F3FF"
           ],
           [
+            "via-purple-100",
             "rgb(237, 233, 254)",
-            "to-purple-100",
-            "background-color: #EDE9FE;"
+            "background-color: #EDE9FE;",
+            "#EDE9FE"
           ],
           [
+            "via-purple-200",
             "rgb(221, 214, 254)",
-            "to-purple-200",
-            "background-color: #DDD6FE;"
+            "background-color: #DDD6FE;",
+            "#DDD6FE"
           ],
           [
+            "via-purple-300",
             "rgb(196, 181, 253)",
-            "to-purple-300",
-            "background-color: #C4B5FD;"
+            "background-color: #C4B5FD;",
+            "#C4B5FD"
           ],
           [
+            "via-purple-400",
             "rgb(167, 139, 250)",
-            "to-purple-400",
-            "background-color: #A78BFA;"
+            "background-color: #A78BFA;",
+            "#A78BFA"
           ],
           [
+            "via-purple-500",
             "rgb(139, 92, 246)",
-            "to-purple-500",
-            "background-color: #8B5CF6;"
+            "background-color: #8B5CF6;",
+            "#8B5CF6"
           ],
           [
+            "via-purple-600",
             "rgb(124, 58, 237)",
-            "to-purple-600",
-            "background-color: #7C3AED;"
+            "background-color: #7C3AED;",
+            "#7C3AED"
           ],
           [
+            "via-purple-700",
             "rgb(109, 40, 217)",
-            "to-purple-700",
-            "background-color: #6D28D9;"
+            "background-color: #6D28D9;",
+            "#6D28D9"
           ],
           [
+            "via-purple-800",
             "rgb(91, 33, 182)",
-            "to-purple-800",
-            "background-color: #5B21B6;"
+            "background-color: #5B21B6;",
+            "#5B21B6"
           ],
           [
+            "via-purple-900",
             "rgb(76, 29, 149)",
-            "to-purple-900",
-            "background-color: #4C1D95;"
+            "background-color: #4C1D95;",
+            "#4C1D95"
           ],
           [
+            "via-pink-50",
             "rgb(253, 242, 248)",
-            "to-pink-50",
-            "background-color: #FDF2F8;"
+            "background-color: #FDF2F8;",
+            "#FDF2F8"
           ],
           [
+            "via-pink-100",
             "rgb(252, 231, 243)",
-            "to-pink-100",
-            "background-color: #FCE7F3;"
+            "background-color: #FCE7F3;",
+            "#FCE7F3"
           ],
           [
+            "via-pink-200",
             "rgb(251, 207, 232)",
-            "to-pink-200",
-            "background-color: #FBCFE8;"
+            "background-color: #FBCFE8;",
+            "#FBCFE8"
           ],
           [
+            "via-pink-300",
             "rgb(249, 168, 212)",
-            "to-pink-300",
-            "background-color: #F9A8D4;"
+            "background-color: #F9A8D4;",
+            "#F9A8D4"
           ],
           [
+            "via-pink-400",
             "rgb(244, 114, 182)",
-            "to-pink-400",
-            "background-color: #F472B6;"
+            "background-color: #F472B6;",
+            "#F472B6"
           ],
           [
+            "via-pink-500",
             "rgb(236, 72, 153)",
-            "to-pink-500",
-            "background-color: #EC4899;"
+            "background-color: #EC4899;",
+            "#EC4899"
           ],
           [
+            "via-pink-600",
             "rgb(219, 39, 119)",
-            "to-pink-600",
-            "background-color: #DB2777;"
+            "background-color: #DB2777;",
+            "#DB2777"
           ],
           [
+            "via-pink-700",
             "rgb(190, 24, 93)",
-            "to-pink-700",
-            "background-color: #BE185D;"
+            "background-color: #BE185D;",
+            "#BE185D"
           ],
           [
+            "via-pink-800",
             "rgb(157, 23, 77)",
-            "to-pink-800",
-            "background-color: #9D174D;"
+            "background-color: #9D174D;",
+            "#9D174D"
           ],
           [
+            "via-pink-900",
             "rgb(131, 24, 67)",
+            "background-color: #831843;",
+            "#831843"
+          ],
+          [
+            "to-transparent",
+            "transparent",
+            "background-color: transparent;",
+            "transparent"
+          ],
+          [
+            "to-current",
+            "current color",
+            "background-color: currentColor;",
+            "currentColor"
+          ],
+          [
+            "to-black",
+            "rgb(0, 0, 0)",
+            "background-color: #000000;",
+            "#000000"
+          ],
+          [
+            "to-white",
+            "rgb(255, 255, 255)",
+            "background-color: #ffffff;",
+            "#ffffff"
+          ],
+          [
+            "to-gray-50",
+            "rgb(249, 250, 251)",
+            "background-color: #F9FAFB;",
+            "#F9FAFB"
+          ],
+          [
+            "to-gray-100",
+            "rgb(243, 244, 246)",
+            "background-color: #F3F4F6;",
+            "#F3F4F6"
+          ],
+          [
+            "to-gray-200",
+            "rgb(229, 231, 235)",
+            "background-color: #E5E7EB;",
+            "#E5E7EB"
+          ],
+          [
+            "to-gray-300",
+            "rgb(209, 213, 219)",
+            "background-color: #D1D5DB;",
+            "#D1D5DB"
+          ],
+          [
+            "to-gray-400",
+            "rgb(156, 163, 175)",
+            "background-color: #9CA3AF;",
+            "#9CA3AF"
+          ],
+          [
+            "to-gray-500",
+            "rgb(107, 114, 128)",
+            "background-color: #6B7280;",
+            "#6B7280"
+          ],
+          [
+            "to-gray-600",
+            "rgb(75, 85, 99)",
+            "background-color: #6B7280;",
+            "#6B7280"
+          ],
+          [
+            "to-gray-700",
+            "rgb(55, 65, 81)",
+            "background-color: #374151;",
+            "#374151"
+          ],
+          [
+            "to-gray-800",
+            "rgb(31, 41, 55)",
+            "background-color: #1F2937;",
+            "#1F2937"
+          ],
+          [
+            "to-gray-900",
+            "rgb(17, 24, 39)",
+            "background-color: #111827;",
+            "#111827"
+          ],
+          [
+            "to-red-50",
+            "rgb(254, 242, 242)",
+            "background-color: #FEF2F2;",
+            "#FEF2F2"
+          ],
+          [
+            "to-red-100",
+            "rgb(254, 226, 226)",
+            "background-color: #FEE2E2;",
+            "#FEE2E2"
+          ],
+          [
+            "to-red-200",
+            "rgb(254, 202, 202)",
+            "background-color: #FECACA;",
+            "#FECACA"
+          ],
+          [
+            "to-red-300",
+            "rgb(252, 165, 165)",
+            "background-color: #FCA5A5;",
+            "#FCA5A5"
+          ],
+          [
+            "to-red-400",
+            "rgb(248, 113, 113)",
+            "background-color: #F87171;",
+            "#F87171"
+          ],
+          [
+            "to-red-500",
+            "rgb(239, 68, 68)",
+            "background-color: #EF4444;",
+            "#EF4444"
+          ],
+          [
+            "to-red-600",
+            "rgb(220, 38, 38)",
+            "background-color: #DC2626;",
+            "#DC2626"
+          ],
+          [
+            "to-red-700",
+            "rgb(185, 28, 28)",
+            "background-color: #B91C1C;",
+            "#B91C1C"
+          ],
+          [
+            "to-red-800",
+            "rgb(153, 27, 27)",
+            "background-color: #991B1B;",
+            "#991B1B"
+          ],
+          [
+            "to-red-900",
+            "rgb(127, 29, 29)",
+            "background-color: #7F1D1D;",
+            "#7F1D1D"
+          ],
+          [
+            "to-yellow-50",
+            "rgb(255, 251, 235)",
+            "background-color: #FFFBEB;",
+            "#FFFBEB"
+          ],
+          [
+            "to-yellow-100",
+            "rgb(254, 243, 199)",
+            "background-color: #FEF3C7;",
+            "#FEF3C7"
+          ],
+          [
+            "to-yellow-200",
+            "rgb(253, 230, 138)",
+            "background-color: #FDE68A;",
+            "#FDE68A"
+          ],
+          [
+            "to-yellow-300",
+            "rgb(252, 211, 77)",
+            "background-color: #FCD34D;",
+            "#FCD34D"
+          ],
+          [
+            "to-yellow-400",
+            "rgb(251, 191, 36)",
+            "background-color: #FBBF24;",
+            "#FBBF24"
+          ],
+          [
+            "to-yellow-500",
+            "rgb(245, 158, 11)",
+            "background-color: #F59E0B;",
+            "#F59E0B"
+          ],
+          [
+            "to-yellow-600",
+            "rgb(217, 119, 6)",
+            "background-color: #D97706;",
+            "#D97706"
+          ],
+          [
+            "to-yellow-700",
+            "rgb(180, 83, 9)",
+            "background-color: #B45309;",
+            "#B45309"
+          ],
+          [
+            "to-yellow-800",
+            "rgb(146, 64, 14)",
+            "background-color: #92400E;",
+            "#92400E"
+          ],
+          [
+            "to-yellow-900",
+            "rgb(120, 53, 15)",
+            "background-color: #78350F;",
+            "#78350F"
+          ],
+          [
+            "to-green-50",
+            "rgb(236, 253, 245)",
+            "background-color: #ECFDF5;",
+            "#ECFDF5"
+          ],
+          [
+            "to-green-100",
+            "rgb(209, 250, 229)",
+            "background-color: #D1FAE5;",
+            "#D1FAE5"
+          ],
+          [
+            "to-green-200",
+            "rgb(167, 243, 208)",
+            "background-color: #A7F3D0;",
+            "#A7F3D0"
+          ],
+          [
+            "to-green-300",
+            "rgb(110, 231, 183)",
+            "background-color: #6EE7B7;",
+            "#6EE7B7"
+          ],
+          [
+            "to-green-400",
+            "rgb(52, 211, 153)",
+            "background-color: #34D399;",
+            "#34D399"
+          ],
+          [
+            "to-green-500",
+            "rgb(16, 185, 129)",
+            "background-color: #10B981;",
+            "#10B981"
+          ],
+          [
+            "to-green-600",
+            "rgb(5, 150, 105)",
+            "background-color: #059669;",
+            "#059669"
+          ],
+          [
+            "to-green-700",
+            "rgb(4, 120, 87)",
+            "background-color: #047857;",
+            "#047857"
+          ],
+          [
+            "to-green-800",
+            "rgb(6, 95, 70)",
+            "background-color: #065F46;",
+            "#065F46"
+          ],
+          [
+            "to-green-900",
+            "rgb(6, 78, 59)",
+            "background-color: #064E3B;",
+            "#064E3B"
+          ],
+          [
+            "to-blue-50",
+            "rgb(239, 246, 255)",
+            "background-color: #EFF6FF;",
+            "#EFF6FF"
+          ],
+          [
+            "to-blue-100",
+            "rgb(219, 234, 254)",
+            "background-color: #DBEAFE;",
+            "#DBEAFE"
+          ],
+          [
+            "to-blue-200",
+            "rgb(191, 219, 254)",
+            "background-color: #BFDBFE;",
+            "#BFDBFE"
+          ],
+          [
+            "to-blue-300",
+            "rgb(147, 197, 253)",
+            "background-color: #93C5FD;",
+            "#93C5FD"
+          ],
+          [
+            "to-blue-400",
+            "rgb(96, 165, 250)",
+            "background-color: #60A5FA;",
+            "#60A5FA"
+          ],
+          [
+            "to-blue-500",
+            "rgb(59, 130, 246)",
+            "background-color: #3B82F6;",
+            "#3B82F6"
+          ],
+          [
+            "to-blue-600",
+            "rgb(37, 99, 235)",
+            "background-color: #2563EB;",
+            "#2563EB"
+          ],
+          [
+            "to-blue-700",
+            "rgb(29, 78, 216)",
+            "background-color: #1D4ED8;",
+            "#1D4ED8"
+          ],
+          [
+            "to-blue-800",
+            "rgb(30, 64, 175)",
+            "background-color: #1E40AF;",
+            "#1E40AF"
+          ],
+          [
+            "to-blue-900",
+            "rgb(30, 58, 138)",
+            "background-color: #1E3A8A;",
+            "#1E3A8A"
+          ],
+          [
+            "to-indigo-50",
+            "rgb(238, 242, 255)",
+            "background-color: #EEF2FF;",
+            "#EEF2FF"
+          ],
+          [
+            "to-indigo-100",
+            "rgb(224, 231, 255)",
+            "background-color: #E0E7FF;",
+            "#E0E7FF"
+          ],
+          [
+            "to-indigo-200",
+            "rgb(199, 210, 254)",
+            "background-color: #C7D2FE;",
+            "#C7D2FE"
+          ],
+          [
+            "to-indigo-300",
+            "rgb(165, 180, 252)",
+            "background-color: #A5B4FC;",
+            "#A5B4FC"
+          ],
+          [
+            "to-indigo-400",
+            "rgb(129, 140, 248)",
+            "background-color: #818CF8;",
+            "#818CF8"
+          ],
+          [
+            "to-indigo-500",
+            "rgb(99, 102, 241)",
+            "background-color: #6366F1;",
+            "#6366F1"
+          ],
+          [
+            "to-indigo-600",
+            "rgb(79, 70, 229)",
+            "background-color: #4F46E5;",
+            "#4F46E5"
+          ],
+          [
+            "to-indigo-700",
+            "rgb(67, 56, 202)",
+            "background-color: #4338CA;",
+            "#4338CA"
+          ],
+          [
+            "to-indigo-800",
+            "rgb(55, 48, 163)",
+            "background-color: #3730A3;",
+            "#3730A3"
+          ],
+          [
+            "to-indigo-900",
+            "rgb(49, 46, 129)",
+            "background-color: #312E81;",
+            "#312E81"
+          ],
+          [
+            "to-purple-50",
+            "rgb(245, 243, 255)",
+            "background-color: #F5F3FF;",
+            "#F5F3FF"
+          ],
+          [
+            "to-purple-100",
+            "rgb(237, 233, 254)",
+            "background-color: #EDE9FE;",
+            "#EDE9FE"
+          ],
+          [
+            "to-purple-200",
+            "rgb(221, 214, 254)",
+            "background-color: #DDD6FE;",
+            "#DDD6FE"
+          ],
+          [
+            "to-purple-300",
+            "rgb(196, 181, 253)",
+            "background-color: #C4B5FD;",
+            "#C4B5FD"
+          ],
+          [
+            "to-purple-400",
+            "rgb(167, 139, 250)",
+            "background-color: #A78BFA;",
+            "#A78BFA"
+          ],
+          [
+            "to-purple-500",
+            "rgb(139, 92, 246)",
+            "background-color: #8B5CF6;",
+            "#8B5CF6"
+          ],
+          [
+            "to-purple-600",
+            "rgb(124, 58, 237)",
+            "background-color: #7C3AED;",
+            "#7C3AED"
+          ],
+          [
+            "to-purple-700",
+            "rgb(109, 40, 217)",
+            "background-color: #6D28D9;",
+            "#6D28D9"
+          ],
+          [
+            "to-purple-800",
+            "rgb(91, 33, 182)",
+            "background-color: #5B21B6;",
+            "#5B21B6"
+          ],
+          [
+            "to-purple-900",
+            "rgb(76, 29, 149)",
+            "background-color: #4C1D95;",
+            "#4C1D95"
+          ],
+          [
+            "to-pink-50",
+            "rgb(253, 242, 248)",
+            "background-color: #FDF2F8;",
+            "#FDF2F8"
+          ],
+          [
+            "to-pink-100",
+            "rgb(252, 231, 243)",
+            "background-color: #FCE7F3;",
+            "#FCE7F3"
+          ],
+          [
+            "to-pink-200",
+            "rgb(251, 207, 232)",
+            "background-color: #FBCFE8;",
+            "#FBCFE8"
+          ],
+          [
+            "to-pink-300",
+            "rgb(249, 168, 212)",
+            "background-color: #F9A8D4;",
+            "#F9A8D4"
+          ],
+          [
+            "to-pink-400",
+            "rgb(244, 114, 182)",
+            "background-color: #F472B6;",
+            "#F472B6"
+          ],
+          [
+            "to-pink-500",
+            "rgb(236, 72, 153)",
+            "background-color: #EC4899;",
+            "#EC4899"
+          ],
+          [
+            "to-pink-600",
+            "rgb(219, 39, 119)",
+            "background-color: #DB2777;",
+            "#DB2777"
+          ],
+          [
+            "to-pink-700",
+            "rgb(190, 24, 93)",
+            "background-color: #BE185D;",
+            "#BE185D"
+          ],
+          [
+            "to-pink-800",
+            "rgb(157, 23, 77)",
+            "background-color: #9D174D;",
+            "#9D174D"
+          ],
+          [
             "to-pink-900",
-            "background-color: #831843;"
+            "rgb(131, 24, 67)",
+            "background-color: #831843;",
+            "#831843"
           ]
         ]
       }
