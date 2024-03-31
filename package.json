@@ -12,7 +12,8 @@
     "preview": "vite preview",
     "build:manifest": "tsx manifest.ts",
     "generate-types": "make_types -i src/__generated__/generatedTypes.ts src/data/cheatsheet3.0.24.json CategoryCollection",
-    "build:zip": "pnpm run build && tsx zip.ts"
+    "build:zip": "pnpm run build && tsx zip.ts",
+    "export": "yarn run generate-types && tsc && vite build && yarn run build:manifest"
   },
   "dependencies": {
     "react": "^18.2.0",
