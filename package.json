@@ -3,7 +3,7 @@
   "title": "Tailwind CSS Cheat Sheet",
   "description": "A chrome extension for finding quickly all the class names and CSS properties with this interactive cheat sheet.",
   "private": true,
-  "version": "0.0.4",
+  "version": "0.0.5",
   "type": "module",
   "scripts": {
     "dev": "pnpm run generate-types && concurrently \"tsx watch manifest.ts\" \"vite\"",
