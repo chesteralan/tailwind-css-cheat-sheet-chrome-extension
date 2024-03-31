@@ -1,4 +1,4 @@
-import jsonData from "../../data/cheatsheet.json";
+import jsonData from "../../data/cheatsheet3.0.24.json";
 import { useSearchContext } from "../../context/SearchContext";
 import { useEffect, useState } from "react";
 import { CategoryCollection } from "../../__generated__/generatedTypes.ts";

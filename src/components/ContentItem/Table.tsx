@@ -5,7 +5,7 @@ type TableProps = {
 };
 const Table = ({ table }: TableProps) => {
   return (
-    <table className="mb-4 mt-4 w-full rounded bg-gray-100 dark:bg-gray-800">
+    <table className="mb-4 mt-4 w-full rounded bg-gray-100">
       <tbody>
         {table?.map((row, index) => <TableRow row={row} key={index} />)}
       </tbody>

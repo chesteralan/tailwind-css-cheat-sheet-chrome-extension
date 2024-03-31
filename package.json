@@ -11,7 +11,7 @@
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "build:manifest": "tsx manifest.ts",
-    "generate-types": "make_types -i src/__generated__/generatedTypes.ts src/data/cheatsheet.json CategoryCollection"
+    "generate-types": "make_types -i src/__generated__/generatedTypes.ts src/data/cheatsheet3.0.24.json CategoryCollection"
   },
   "dependencies": {
     "react": "^18.2.0",
