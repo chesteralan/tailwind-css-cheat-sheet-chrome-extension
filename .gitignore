@@ -23,7 +23,6 @@ dist-ssr
 *.sln
 *.sw?
 
-src/__generated__
 src/__generated__/*
-
+__generatedTypes__.ts
 *.zip
