@@ -25,3 +25,5 @@ dist-ssr
 
 src/__generated__
 src/__generated__/*
+
+*.zip

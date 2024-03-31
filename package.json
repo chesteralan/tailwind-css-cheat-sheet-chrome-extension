@@ -11,13 +11,15 @@
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "build:manifest": "tsx manifest.ts",
-    "generate-types": "make_types -i src/__generated__/generatedTypes.ts src/data/cheatsheet3.0.24.json CategoryCollection"
+    "generate-types": "make_types -i src/__generated__/generatedTypes.ts src/data/cheatsheet3.0.24.json CategoryCollection",
+    "build:zip": "pnpm run build && tsx zip.ts"
   },
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
+    "@types/archiver": "^6.0.2",
     "@types/chrome": "^0.0.263",
     "@types/node": "^20.11.30",
     "@types/react": "^18.2.66",
@@ -25,6 +27,7 @@
     "@typescript-eslint/eslint-plugin": "^7.2.0",
     "@typescript-eslint/parser": "^7.2.0",
     "@vitejs/plugin-react": "^4.2.1",
+    "archiver": "^7.0.1",
     "autoprefixer": "^10.4.19",
     "concurrently": "^8.2.2",
     "eslint": "^8.57.0",
