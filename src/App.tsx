@@ -12,7 +12,7 @@ function App() {
   const [searchValue, setSearchValue] = useState<string>("");
   useKeyPress(initialSearchContextValue.inputRef);
 
-  const minWidth = isInPopup() ? 700 : 345;
+  const minWidth = isInPopup() ? 780 : 345;
 
   return (
     <SearchProvider

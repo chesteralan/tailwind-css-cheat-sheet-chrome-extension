@@ -14,7 +14,7 @@ const SearchInput = () => {
 
   return (
     <div className="w-full sm:flex">
-      <div className="relative mb-3 w-full sm:mb-0 sm:mr-3">
+      <div className="relative w-full">
         <div className="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3">
           <svg
             className="h-5 w-5 text-gray-500"
@@ -32,7 +32,7 @@ const SearchInput = () => {
         <input
           type="search"
           className="block w-full rounded-lg border border-gray-300 bg-white p-2.5 py-2 pl-10 text-gray-900 focus:border-blue-500 focus:ring-blue-500 sm:text-sm"
-          placeholder="Search"
+          placeholder="Search Class Name"
           ref={search?.inputRef}
           onChange={onChangeHandler}
         />
