@@ -23,14 +23,22 @@ const TableRow = ({ row }: TableRowProps) => {
         {row?.at(0) ? `.${row?.at(0)}` : ""}
       </td>
       <td className="border-b border-gray-300 p-2 font-mono text-xs text-blue-700">
-        <span
-          dangerouslySetInnerHTML={{
-            __html: (row?.at(1) as string).replace("\n", "<br />"),
-          }}
-        ></span>
+        {row?.at(1) && (
+          <span
+            dangerouslySetInnerHTML={{
+              __html: (row?.at(1) as string)?.replace("\n", "<br />"),
+            }}
+          ></span>
+        )}
       </td>
       <td className="border-b border-gray-300 p-2 font-mono text-xs text-gray-500">
-        {row?.at(2)}
+        {row?.at(2) && (
+          <span
+            dangerouslySetInnerHTML={{
+              __html: (row?.at(2) as string)?.replace("\n", "<br />"),
+            }}
+          ></span>
+        )}
       </td>
       <td className="border-b border-gray-300 p-2 font-mono text-xs">
         {row?.at(3) ? (

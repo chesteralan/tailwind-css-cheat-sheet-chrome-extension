@@ -9,7 +9,9 @@ const SearchInput = () => {
   }, [search]);
 
   const onChangeHandler = (e: ChangeEvent<HTMLInputElement>) => {
-    (search as SearchDataType).setSearchValue(e.currentTarget.value);
+    (search as SearchDataType).setSearchValue(
+      e.currentTarget.value.toLowerCase(),
+    );
   };
 
   return (
