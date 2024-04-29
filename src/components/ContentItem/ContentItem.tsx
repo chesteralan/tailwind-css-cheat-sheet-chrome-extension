@@ -6,6 +6,7 @@ type ContentItemProps = {
 };
 const ContentItem = ({ data }: ContentItemProps) => {
   const { description, docs, table } = data;
+
   return (
     <div className="overflow-hidden bg-gray-100 p-3">
       <p className="relative w-full text-sm font-semibold leading-tight text-gray-800">
