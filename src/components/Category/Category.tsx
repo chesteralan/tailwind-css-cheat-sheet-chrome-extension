@@ -1,19 +1,27 @@
-import { CategoryCollection } from "../../__generated__/generatedTypes.ts";
 import Content from "../Content";
-import { useState } from "react";
 import Arrow from "../Arrow";
 import useSearch from "../../hooks/useSearch";
+import { type CategoryCollection } from "../../__generated__/generatedTypes";
+import { useState } from "react";
 
 type CategoryProps = {
   data: CategoryCollection;
+  isOpened: boolean;
+  onClick: () => void;
 };
-const Category = ({ data: { title, content } }: CategoryProps) => {
+const Category = ({
+  data: { title, content },
+  isOpened,
+  onClick,
+}: CategoryProps) => {
   const { isSearching } = useSearch();
-  const [open, setOpen] = useState(false);
-  const isOpen = isSearching || open;
+  const isOpen = isSearching || isOpened;
+  const [openContent, setOpenContent] = useState<number | null>(null);
   return (
-    <div className="w-full cursor-pointer overflow-hidden rounded-xl border border-gray-100 bg-white hover:shadow-lg">
-      <div onClick={() => setOpen(!open)}>
+    <div
+      className={`w-full cursor-pointer overflow-hidden rounded-xl border border-gray-100 bg-white hover:shadow-lg`}
+    >
+      <div onClick={onClick}>
         <h2
           className={`${isOpen && "border-b border-gray-200"} flex items-center justify-between rounded-t-lg bg-gray-50 px-3 py-2.5`}
         >
@@ -23,7 +31,16 @@ const Category = ({ data: { title, content } }: CategoryProps) => {
       </div>
       {isOpen && (
         <>
-          {content?.map((data, index) => <Content data={data} key={index} />)}
+          {content?.map((data, index) => (
+            <Content
+              data={data}
+              key={index}
+              isOpened={openContent === index}
+              onClick={() =>
+                setOpenContent(openContent === index ? null : index)
+              }
+            />
+          ))}
         </>
       )}
     </div>

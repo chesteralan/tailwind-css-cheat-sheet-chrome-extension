@@ -15,14 +15,19 @@ const TableRow = ({ row }: TableRowProps) => {
   };
   return (
     <tr
-      className={`group cursor-pointer ${hasClassName && "hover:bg-gray-200"}`}
+      className={`group cursor-pointer ${hasClassName && "hover:bg-gray-200"} 
+      ${row?.at(0) === "no" ? "hidden" : ""}`}
       onClick={onClickHandler}
     >
       <td className="whitespace-nowrap border-b border-gray-300 p-2 font-mono text-xs text-purple-700 ">
         {row?.at(0) ? `.${row?.at(0)}` : ""}
       </td>
       <td className="border-b border-gray-300 p-2 font-mono text-xs text-blue-700">
-        {row?.at(1)}
+        <span
+          dangerouslySetInnerHTML={{
+            __html: (row?.at(1) as string).replace("\n", "<br />"),
+          }}
+        ></span>
       </td>
       <td className="border-b border-gray-300 p-2 font-mono text-xs text-gray-500">
         {row?.at(2)}
