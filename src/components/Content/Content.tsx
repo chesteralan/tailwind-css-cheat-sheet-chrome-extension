@@ -9,7 +9,7 @@ type ContentProps = {
   onClick: () => void;
 };
 const Content = ({ data, isOpened, onClick }: ContentProps) => {
-  const { title, found, table2 } = data;
+  const { title, found, table2, docs } = data;
   const { isSearching } = useSearch();
   const isOpen = isSearching || isOpened;
   const hasClassNames = table2.some((t) => t.found);
@@ -23,7 +23,19 @@ const Content = ({ data, isOpened, onClick }: ContentProps) => {
         `}
       >
         <h3 className="flex-1 font-mono text-sm">{title}</h3>
-        <Arrow open={isOpen} />
+        <div className="flex items-center">
+          {isOpen && (
+            <a
+              className="font-mono text-xs text-blue-600 hover:underline"
+              href={docs}
+              target="_blank"
+              rel="noopener noreferrer nofollow"
+            >
+              View docs
+            </a>
+          )}
+          <Arrow open={isOpen} />
+        </div>
       </div>
       <ContentItem data={data} isOpen={isOpen} />
     </div>

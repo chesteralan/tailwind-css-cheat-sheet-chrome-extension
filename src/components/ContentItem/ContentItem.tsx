@@ -6,7 +6,7 @@ type ContentItemProps = {
   isOpen: boolean;
 };
 const ContentItem = ({ data, isOpen = false }: ContentItemProps) => {
-  const { description, docs, table2 } = data;
+  const { description, table2 } = data;
 
   return (
     <div
@@ -14,14 +14,6 @@ const ContentItem = ({ data, isOpen = false }: ContentItemProps) => {
     >
       <p className="relative w-full text-sm font-semibold leading-tight text-gray-800">
         {description}
-        <a
-          className="absolute right-0 font-mono text-xs text-blue-600 hover:underline"
-          href={docs}
-          target="_blank"
-          rel="noopener noreferrer nofollow"
-        >
-          View docs
-        </a>
       </p>
       <Table table={table2} />
     </div>
