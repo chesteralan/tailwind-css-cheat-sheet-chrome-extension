@@ -6,14 +6,15 @@
   "version": "0.0.7",
   "type": "module",
   "scripts": {
-    "dev": "pnpm run generate-types && concurrently \"tsx watch manifest.ts\" \"vite\"",
-    "build": "pnpm run generate-types && tsc && vite build && pnpm run build:manifest",
+    "dev": "npm run generate-types && concurrently \"tsx watch manifest.ts\" \"vite\"",
+    "build": "npm run generate-types && tsc && vite build && npm run build:manifest",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "build:manifest": "tsx manifest.ts",
     "generate-types": "make_types -i src/__generated__/generatedTypes.ts src/data/cheatsheet3.0.24.json CategoryCollection",
-    "build:zip": "pnpm run build && tsx zip.ts",
-    "export": "yarn run generate-types && tsc && vite build && yarn run build:manifest"
+    "build:zip": "npm run build && tsx zip.ts",
+    "export": "npm run generate-types && tsc && vite build && npm run build:manifest",
+    "type-check": "tsc --pretty --noEmit"
   },
   "dependencies": {
     "react": "^18.2.0",

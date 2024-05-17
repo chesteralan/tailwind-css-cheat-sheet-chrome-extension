@@ -1,25 +1,26 @@
 import Content from "../Content";
 import Arrow from "../Arrow";
 import useSearch from "../../hooks/useSearch";
-import { type CategoryCollection } from "../../__generated__/generatedTypes";
 import { useState } from "react";
+import { CategoryData } from "../../types/dataTypes.ts";
 
 type CategoryProps = {
-  data: CategoryCollection;
+  data: CategoryData;
   isOpened: boolean;
   onClick: () => void;
 };
 const Category = ({
-  data: { title, content },
+  data: { title, content2, found },
   isOpened,
   onClick,
 }: CategoryProps) => {
   const { isSearching } = useSearch();
   const isOpen = isSearching || isOpened;
   const [openContent, setOpenContent] = useState<number | null>(null);
+  const hasClassName = content2.some((c2) => c2.table2.some((t2) => t2.found));
   return (
     <div
-      className={`w-full cursor-pointer overflow-hidden rounded-xl border border-gray-100 bg-white hover:shadow-lg`}
+      className={`w-full cursor-pointer overflow-hidden rounded-xl border border-gray-100 bg-white hover:shadow-lg ${found === true && hasClassName ? "" : "hidden"}`}
     >
       <div onClick={onClick}>
         <h2
@@ -31,7 +32,7 @@ const Category = ({
       </div>
       {isOpen && (
         <>
-          {content?.map((data, index) => (
+          {content2?.map((data, index) => (
             <Content
               data={data}
               key={index}

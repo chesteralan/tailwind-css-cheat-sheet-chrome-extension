@@ -1,17 +1,18 @@
-import { SearchDataType, useSearchContext } from "../../context/SearchContext";
-import { ChangeEvent, useEffect } from "react";
+import { useSearchContext } from "../../hooks/useSearchContext";
+import { SearchDataType } from "../../context/SearchContext";
+
+let timeout: NodeJS.Timeout;
 
 const SearchInput = () => {
   const search = useSearchContext();
 
-  useEffect(() => {
-    if (search?.inputRef) search?.inputRef.current?.focus();
-  }, [search]);
-
-  const onChangeHandler = (e: ChangeEvent<HTMLInputElement>) => {
-    (search as SearchDataType).setSearchValue(
-      e.currentTarget.value.toLowerCase(),
-    );
+  const onChangeHandler = () => {
+    clearTimeout(timeout);
+    timeout = setTimeout(() => {
+      (search as SearchDataType).setSearchValue(
+        search?.inputRef.current?.value.toLowerCase() || "",
+      );
+    }, 500);
   };
 
   return (

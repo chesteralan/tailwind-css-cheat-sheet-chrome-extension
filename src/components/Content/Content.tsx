@@ -1,20 +1,20 @@
 import ContentItem from "../ContentItem";
 import Arrow from "../Arrow";
 import useSearch from "../../hooks/useSearch";
-import { type ContentEntity } from "../../__generated__/generatedTypes";
+import { ContentData } from "../../types/dataTypes.ts";
 
 type ContentProps = {
-  data: ContentEntity;
+  data: ContentData;
   isOpened: boolean;
   onClick: () => void;
 };
 const Content = ({ data, isOpened, onClick }: ContentProps) => {
-  const { title } = data;
+  const { title, found, table2 } = data;
   const { isSearching } = useSearch();
   const isOpen = isSearching || isOpened;
-
+  const hasClassNames = table2.some((t) => t.found);
   return (
-    <div>
+    <div className={found === true && hasClassNames ? "" : "hidden"}>
       <div
         onClick={onClick}
         className={`
@@ -25,7 +25,7 @@ const Content = ({ data, isOpened, onClick }: ContentProps) => {
         <h3 className="flex-1 font-mono text-sm">{title}</h3>
         <Arrow open={isOpen} />
       </div>
-      {isOpen && <ContentItem data={data} />}
+      <ContentItem data={data} isOpen={isOpen} />
     </div>
   );
 };

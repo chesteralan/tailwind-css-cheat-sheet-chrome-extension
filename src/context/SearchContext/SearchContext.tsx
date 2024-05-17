@@ -4,7 +4,6 @@ import {
   Dispatch,
   RefObject,
   SetStateAction,
-  useContext,
 } from "react";
 
 export interface SearchDataType {
@@ -15,16 +14,8 @@ export interface SearchDataType {
   setVersion: Dispatch<SetStateAction<string>>;
 }
 
-export const initialSearchContextValue = {
-  inputRef: createRef<HTMLInputElement>(),
-  searchValue: "",
-  version: "3.4.3",
-};
-
 const searchContextRef = createRef<SearchDataType>();
 
 export const SearchContext = createContext(searchContextRef.current);
 
 export const SearchProvider = SearchContext.Provider;
-
-export const useSearchContext = () => useContext(SearchContext);

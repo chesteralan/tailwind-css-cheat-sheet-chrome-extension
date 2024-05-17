@@ -1,12 +1,10 @@
 import Navigation from "./components/Navigation";
 import CheatsheetContainer from "./components/Container";
-import {
-  initialSearchContextValue,
-  SearchProvider,
-} from "./context/SearchContext";
+import { SearchProvider } from "./context/SearchContext";
 import { useState } from "react";
 import useKeyPress from "./hooks/useKeyPress";
 import { isInPopup } from "./utils/helpers/isInPopup";
+import { initialSearchContextValue } from "./context/SearchContext/initialSearchContextValue";
 
 function App() {
   const [searchValue, setSearchValue] = useState<string>("");

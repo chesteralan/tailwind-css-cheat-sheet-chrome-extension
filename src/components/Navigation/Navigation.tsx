@@ -1,8 +1,6 @@
 import SearchInput from "../SearchInput";
-import {
-  type SearchDataType,
-  useSearchContext,
-} from "../../context/SearchContext";
+import { type SearchDataType } from "../../context/SearchContext";
+import { useSearchContext } from "../../hooks/useSearchContext";
 
 const Navigation = () => {
   const { setVersion } = useSearchContext() as SearchDataType;

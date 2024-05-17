@@ -1,9 +1,11 @@
 import { useState } from "react";
+import { TableData } from "../../types/dataTypes.ts";
 
 type TableRowProps = {
-  row: string[] | null;
+  data: TableData;
 };
-const TableRow = ({ row }: TableRowProps) => {
+const TableRow = ({ data }: TableRowProps) => {
+  const { table: row, found } = data;
   const [copied, setCopied] = useState(false);
 
   const hasClassName = (row?.at(0) as string)?.length > 0;
@@ -15,8 +17,11 @@ const TableRow = ({ row }: TableRowProps) => {
   };
   return (
     <tr
-      className={`group cursor-pointer ${hasClassName && "hover:bg-gray-200"} 
-      ${row?.at(0) === "no" ? "hidden" : ""}`}
+      className={`group cursor-pointer 
+      ${hasClassName && "hover:bg-gray-200"} 
+      ${row?.at(0) === "no" ? "hidden" : ""}
+      ${found === true || row?.at(0) === "" ? "" : "hidden"}
+      `}
       onClick={onClickHandler}
     >
       <td className="whitespace-nowrap border-b border-gray-300 p-2 font-mono text-xs text-purple-700 ">

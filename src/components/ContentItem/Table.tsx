@@ -1,13 +1,14 @@
 import TableRow from "./TableRow.tsx";
+import { TableData } from "../../types/dataTypes.ts";
 
 type TableProps = {
-  table: Array<string[] | null> | null | undefined;
+  table: TableData[];
 };
 const Table = ({ table }: TableProps) => {
   return (
     <table className="mb-4 mt-4 w-full rounded bg-gray-100">
       <tbody>
-        {table?.map((row, index) => <TableRow row={row} key={index} />)}
+        {table?.map((data, index) => <TableRow data={data} key={index} />)}
       </tbody>
     </table>
   );
