@@ -1,6 +1,6 @@
-import Category from "../Category";
-import useFilterData from "../../hooks/useFilterData";
 import { useState } from "react";
+import useFilterData from "../../hooks/useFilterData";
+import Category from "../Category";
 
 const Container = () => {
   const filteredData = useFilterData();
@@ -19,6 +19,16 @@ const Container = () => {
         />
       ))}
       {!hasClassName && <div>Nothing found!</div>}
+      <div className="border-t pt-3 text-sm ">
+        Developed by{" "}
+        <a href="https://www.alchie.cc/" className="underline" target="_blank">
+          Alchie
+        </a>{" "}
+        &middot; Other Projects:{" "}
+        <a href="https://www.alchie.cc/" className="underline" target="_blank">
+          Free Web Templates
+        </a>
+      </div>
     </div>
   );
 };
