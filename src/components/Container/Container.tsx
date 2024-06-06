@@ -1,4 +1,5 @@
 import { useState } from "react";
+import PackageJson from "../../../package.json";
 import useFilterData from "../../hooks/useFilterData";
 import Category from "../Category";
 
@@ -19,15 +20,42 @@ const Container = () => {
         />
       ))}
       {!hasClassName && <div>Nothing found!</div>}
-      <div className="border-t pt-3 text-sm ">
-        Developed by{" "}
-        <a href="https://www.alchie.cc/" className="underline" target="_blank">
-          Alchie
-        </a>{" "}
-        &middot; Other Projects:{" "}
-        <a href="https://www.alchie.cc/" className="underline" target="_blank">
-          Free Web Templates
-        </a>
+      <div className="flex flex-row justify-between border-t pt-3 text-sm ">
+        <div>
+          Developed by{" "}
+          <a
+            href="https://www.alchie.cc/"
+            className="underline"
+            target="_blank"
+          >
+            Alchie
+          </a>{" "}
+          &middot; Other Projects:{" "}
+          <a
+            href="https://www.free-templates.cc/"
+            className="underline"
+            target="_blank"
+          >
+            Free Web Templates
+          </a>
+        </div>
+        <div>
+          <a
+            className="text-sm underline"
+            href="https://chromewebstore.google.com/detail/tailwind-css-cheat-sheet/fndbnfnjnhldjeppmglocapmfjdjkleh"
+            target="_blank"
+          >
+            Install Chrome Extension
+          </a>{" "}
+          &middot;{" "}
+          <a
+            className="text-sm underline"
+            href="https://github.com/chesteralan/tailwind-css-cheat-sheet-chrome-extension"
+            target="_blank"
+          >
+            v{PackageJson.version}
+          </a>
+        </div>
       </div>
     </div>
   );
