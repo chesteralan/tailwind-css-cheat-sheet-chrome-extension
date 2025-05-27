@@ -1,8 +1,8 @@
 import PackageJson from "../../../package.json";
 
 export const Footer = () => {
-  return <div className="flex flex-row justify-between border-t py-3 px-4 text-sm ">
-  <div className="flex flex-row gap-4">
+  return <div className="flex flex-col md:flex-row gap-2 justify-between border-t py-3 px-4 text-sm">
+  <div className="flex flex-col md:flex-row md:gap-4 gap-2 text-center md:text-left">
   <a
       className="text-sm underline"
       href="https://github.com/chesteralan/tailwind-css-cheat-sheet-chrome-extension"
@@ -18,7 +18,7 @@ export const Footer = () => {
       Install Chrome Extension
     </a>
   </div>
-  <div className="flex flex-row gap-4">
+  <div className="flex flex-col md:flex-row md:gap-4 text-center md:text-right gap-2">
     <div>
     Developed by{" "}
     <a
