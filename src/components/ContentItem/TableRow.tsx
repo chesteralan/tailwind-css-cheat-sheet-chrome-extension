@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { TableData } from "../../types/dataTypes.ts";
+import { TableData } from "@/types/dataTypes.ts";
 
 type TableRowProps = {
   data: TableData;

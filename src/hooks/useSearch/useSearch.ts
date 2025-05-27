@@ -1,12 +1,16 @@
+import { DEFAULT_VERSION, VERSION_DOC_URLS } from "@/utils/constants/versions";
 import { useSearchContext } from "../useSearchContext";
 
 const useSearch = () => {
-  const search = useSearchContext();
-  const searchValue = search?.setSearchValue as unknown as string;
-  const isSearching = (search?.searchValue as string).length > 0;
+  const searchContext = useSearchContext();
+  const searchValue = searchContext?.searchValue as unknown as string;
+  const isSearching = (searchContext?.searchValue as string).length > 0;
+  const currentVersion = searchContext?.version as string || DEFAULT_VERSION;
   return {
     searchValue,
     isSearching,
+    version: currentVersion,
+    docsUrl: VERSION_DOC_URLS[currentVersion as keyof typeof VERSION_DOC_URLS],
   };
 };
 
