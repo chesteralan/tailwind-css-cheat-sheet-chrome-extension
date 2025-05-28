@@ -1,7 +1,7 @@
 import ContentItem from "../ContentItem";
 import Arrow from "../Arrow";
-import useSearch from "../../hooks/useSearch";
-import { ContentData } from "../../types/dataTypes.ts";
+import useSearch from "@/hooks/useSearch";
+import { ContentData } from "@/types/dataTypes.ts";
 
 type ContentProps = {
   data: ContentData;
@@ -9,8 +9,8 @@ type ContentProps = {
   onClick: () => void;
 };
 const Content = ({ data, isOpened, onClick }: ContentProps) => {
-  const { title, found, table2, docs } = data;
-  const { isSearching } = useSearch();
+  const { title, found, table2, docs: docsPathname } = data;
+  const { isSearching, docsUrl } = useSearch();
   const isOpen = isSearching || isOpened;
   const hasClassNames = table2.some((t) => t.found);
   return (
@@ -27,7 +27,7 @@ const Content = ({ data, isOpened, onClick }: ContentProps) => {
           {isOpen && (
             <a
               className="font-mono text-xs text-blue-600 hover:underline"
-              href={docs}
+              href={`${docsUrl}${docsPathname}`}
               target="_blank"
               rel="noopener noreferrer nofollow"
             >

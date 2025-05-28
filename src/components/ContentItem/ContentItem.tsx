@@ -1,5 +1,5 @@
 import Table from "./Table.tsx";
-import { ContentData } from "../../types/dataTypes.ts";
+import { ContentData } from "@/types/dataTypes.ts";
 
 type ContentItemProps = {
   data: ContentData;

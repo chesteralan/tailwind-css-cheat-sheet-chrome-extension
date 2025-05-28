@@ -1,5 +1,5 @@
 import TableRow from "./TableRow.tsx";
-import { TableData } from "../../types/dataTypes.ts";
+import { TableData } from "@/types/dataTypes.ts";
 
 type TableProps = {
   table: TableData[];
