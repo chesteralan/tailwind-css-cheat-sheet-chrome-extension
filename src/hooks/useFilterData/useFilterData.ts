@@ -11,9 +11,9 @@ const json3_4_3 = import("@/data/3.4.3.json");
 const json4_1 = import("@/data/4.1.json");
 
 const jsonMap = {
-  "3.0.24": json3_0_24,
+  "4.1": json4_1,
   "3.4.3": json3_4_3,
-  "4.1": json4_1
+  "3.0.24": json3_0_24,
 };
 
 const searchCategory = (category: CategoryCollection, searchValue: string, startsWithDot: boolean) =>

@@ -5,7 +5,7 @@ const useSearch = () => {
   const searchContext = useSearchContext();
   const searchValue = searchContext?.searchValue as unknown as string;
   const isSearching = (searchContext?.searchValue as string).length > 0;
-  const currentVersion = searchContext?.version as string || DEFAULT_VERSION;
+  const currentVersion = searchContext?.version || DEFAULT_VERSION;
   return {
     searchValue,
     isSearching,

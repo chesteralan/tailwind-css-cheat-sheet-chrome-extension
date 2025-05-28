@@ -5,10 +5,11 @@ import { useState } from "react";
 import useKeyPress from "@/hooks/useKeyPress";
 import { isInPopup } from "@/utils/helpers/isInPopup";
 import { initialSearchContextValue } from "@/context/SearchContext/initialSearchContextValue";
+import { DEFAULT_VERSION } from "@/utils/constants/versions";
 
 function App() {
   const [searchValue, setSearchValue] = useState<string>("");
-  const [version, setVersion] = useState<string>("3.4.3");
+  const [version, setVersion] = useState<string>(DEFAULT_VERSION);
 
   useKeyPress(initialSearchContextValue.inputRef);
 
