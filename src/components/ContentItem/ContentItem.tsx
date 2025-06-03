@@ -6,7 +6,7 @@ type ContentItemProps = {
   isOpen: boolean;
 };
 const ContentItem = ({ data, isOpen = false }: ContentItemProps) => {
-  const { description, table2 } = data;
+  const { description, table2, noDot = false, noCopy = false } = data;
 
   return (
     <div
@@ -15,7 +15,7 @@ const ContentItem = ({ data, isOpen = false }: ContentItemProps) => {
       <p className="relative w-full text-sm font-semibold leading-tight text-gray-800">
         {description}
       </p>
-      <Table table={table2} />
+      <Table table={table2} noDot={noDot} noCopy={noCopy} />
     </div>
   );
 };

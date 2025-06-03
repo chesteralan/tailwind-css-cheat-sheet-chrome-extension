@@ -11,6 +11,8 @@ export type CategoryData = CategoryCollection & {
 export type ContentData = ContentEntity & {
   found: boolean | undefined;
   table2: TableData[];
+  noDot?: boolean | null;
+  noCopy?: boolean | null;
 };
 
 export type TableData = {

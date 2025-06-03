@@ -36,7 +36,7 @@ const useFilterData = () => {
   useEffect(() => {
     const loadJson = async () => {
       const jsonVersion = await jsonMap[version as keyof typeof jsonMap];
-      setJsonData(jsonVersion.default);
+      setJsonData(jsonVersion.default as CategoryCollection[]);
     }
     loadJson();
   }, [version]);

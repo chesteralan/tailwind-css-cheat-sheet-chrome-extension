@@ -13,6 +13,7 @@ const Content = ({ data, isOpened, onClick }: ContentProps) => {
   const { isSearching, docsUrl } = useSearch();
   const isOpen = isSearching || isOpened;
   const hasClassNames = table2.some((t) => t.found);
+  const hasDocs = docsPathname !== null;
   return (
     <div className={found === true && hasClassNames ? "" : "hidden"}>
       <div
@@ -24,14 +25,15 @@ const Content = ({ data, isOpened, onClick }: ContentProps) => {
       >
         <h3 className="flex-1 font-mono text-sm">{title}</h3>
         <div className="flex items-center">
-          {isOpen && (
+          {isOpen && hasDocs && (
             <a
               className="font-mono text-xs text-blue-600 hover:underline"
               href={`${docsUrl}${docsPathname}`}
               target="_blank"
               rel="noopener noreferrer nofollow"
+              onClick={(e) => e.stopPropagation()}
             >
-              View docs
+              Docs
             </a>
           )}
           <Arrow open={isOpen} />
