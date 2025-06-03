@@ -25,3 +25,4 @@ dist-ssr
 
 src/__generated__/generatedTypes.ts
 extension.zip
+.vscode

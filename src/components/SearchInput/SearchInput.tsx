@@ -1,5 +1,5 @@
-import { useSearchContext } from "../../hooks/useSearchContext";
-import { SearchDataType } from "../../context/SearchContext";
+import { useSearchContext } from "@/hooks/useSearchContext";
+import { type SearchDataType } from "@/context/SearchContext";
 
 let timeout: NodeJS.Timeout;
 
@@ -16,7 +16,7 @@ const SearchInput = () => {
   };
 
   return (
-    <div className="w-full sm:flex">
+    <div className="flex w-full sm:flex">
       <div className="relative w-full">
         <div className="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3">
           <svg
