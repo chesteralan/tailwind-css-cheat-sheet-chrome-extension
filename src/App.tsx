@@ -1,14 +1,15 @@
-import Navigation from "./components/Navigation";
-import CheatsheetContainer from "./components/Container";
-import { SearchProvider } from "./context/SearchContext";
+import Navigation from "@/components/Navigation";
+import CheatsheetContainer from "@/components/Container";
+import { SearchProvider } from "@/context/SearchContext";
 import { useState } from "react";
-import useKeyPress from "./hooks/useKeyPress";
-import { isInPopup } from "./utils/helpers/isInPopup";
-import { initialSearchContextValue } from "./context/SearchContext/initialSearchContextValue";
+import useKeyPress from "@/hooks/useKeyPress";
+import { isInPopup } from "@/utils/helpers/isInPopup";
+import { initialSearchContextValue } from "@/context/SearchContext/initialSearchContextValue";
+import { DEFAULT_VERSION } from "@/utils/constants/versions";
 
 function App() {
   const [searchValue, setSearchValue] = useState<string>("");
-  const [version, setVersion] = useState<string>("3.4.3");
+  const [version, setVersion] = useState<string>(DEFAULT_VERSION);
 
   useKeyPress(initialSearchContextValue.inputRef);
 

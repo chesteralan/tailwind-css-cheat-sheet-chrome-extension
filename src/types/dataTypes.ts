@@ -1,7 +1,7 @@
 import {
   CategoryCollection,
   ContentEntity,
-} from "../__generated__/generatedTypes.ts";
+} from "@/__generated__/generatedTypes.ts";
 
 export type CategoryData = CategoryCollection & {
   found: boolean | undefined;
@@ -11,6 +11,8 @@ export type CategoryData = CategoryCollection & {
 export type ContentData = ContentEntity & {
   found: boolean | undefined;
   table2: TableData[];
+  noDot?: boolean | null;
+  noCopy?: boolean | null;
 };
 
 export type TableData = {

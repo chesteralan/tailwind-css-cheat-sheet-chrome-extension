@@ -1,15 +1,18 @@
 import { useState } from "react";
-import { TableData } from "../../types/dataTypes.ts";
+import { TableData } from "@/types/dataTypes.ts";
 
 type TableRowProps = {
   data: TableData;
+  noDot?: boolean | null;
+  noCopy?: boolean | null;
 };
-const TableRow = ({ data }: TableRowProps) => {
+const TableRow = ({ data, noDot = false, noCopy = false }: TableRowProps) => {
   const { table: row, found } = data;
   const [copied, setCopied] = useState(false);
 
   const hasClassName = (row?.at(0) as string)?.length > 0;
   const onClickHandler = () => {
+    if (noCopy) return;
     if (!hasClassName) return;
     if (!copied) navigator.clipboard.writeText(row?.at(0) as string);
     setCopied(true);
@@ -25,7 +28,7 @@ const TableRow = ({ data }: TableRowProps) => {
       onClick={onClickHandler}
     >
       <td className="whitespace-nowrap border-b border-gray-300 p-2 font-mono text-xs text-purple-700 ">
-        {row?.at(0) ? `.${row?.at(0)}` : ""}
+        {row?.at(0) ? `${noDot ? "" : "."}${row?.at(0)}` : ""}
       </td>
       <td className="border-b border-gray-300 p-2 font-mono text-xs text-blue-700">
         {row?.at(1) && (
@@ -54,7 +57,7 @@ const TableRow = ({ data }: TableRowProps) => {
         ) : null}
       </td>
       <td className="relative cursor-pointer border-b border-gray-300 p-2 font-mono text-xs text-blue-600 opacity-0 group-hover:opacity-100">
-        {hasClassName ? (
+        {hasClassName && !noCopy ? (
           <span
             className={`absolute right-0 top-1/3 -translate-y-1/2 ${copied && "text-red-600"}`}
           >
